@@ -53,6 +53,10 @@ export function RouteList() {
         {
             label: "Client Detail",
             route: "/clientDetails/:id"
+        },
+        {
+            label: "Upload",
+            route: "/supervisors/:id/upload"
         }
     ]);
 
