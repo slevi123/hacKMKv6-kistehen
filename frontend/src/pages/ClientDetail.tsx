@@ -43,7 +43,8 @@ export default function ClientDetail() {
   };
 
   return (
-    <div style={{ backgroundColor: "white", zIndex: 1 }}>
+    <Box sx={{margin: "2em"}}>
+    <div style={{ backgroundColor: "white", zIndex: 1, borderRadius: "0.2em" }}>
       <h1>Client Detail</h1>
       <Sidebar>
         <h1>Home Sidebar</h1>
@@ -182,5 +183,6 @@ export default function ClientDetail() {
         </Box>
       </Container>
     </div>
+    </Box>
   );
 }
