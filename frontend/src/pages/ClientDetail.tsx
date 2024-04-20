@@ -10,10 +10,13 @@ import {
   ListItem,
   ListItemText,
   Divider,
+  Grid,
+  Paper,
 } from "@mui/material";
 import { useState } from "react";
 import { RouteList } from "../layout/RoutesList";
 import { Sidebar } from "../layout/Sidebar";
+import CustomCard from "../components/CustomCards";
 
 export default function ClientDetail() {
   const [notes, setNotes] = useState<string[]>([]);
@@ -40,7 +43,7 @@ export default function ClientDetail() {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "white", zIndex: 1 }}>
       <h1>Client Detail</h1>
       <Sidebar>
         <h1>Home Sidebar</h1>
@@ -49,110 +52,133 @@ export default function ClientDetail() {
       </Sidebar>
       <Container maxWidth="lg">
         {/* Company Details */}
-        <Box my={4}>
-          <Typography variant="h4" gutterBottom>
-            Company Details
-          </Typography>
-          {/* Replace the dummy content with your actual company details */}
-          <Typography variant="body1">
-            Company Name: ABC Company <br />
-            Address: 123 Street, City <br />
-            Phone Number: 123-456-7890
-          </Typography>
-        </Box>
+        <CustomCard />
 
-        {/* Add Notes Section */}
-        <Box my={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5" gutterBottom>
-                Add Note
-              </Typography>
-              <TextField
-                label="Note"
-                fullWidth
-                value={noteInput}
-                onChange={(e) => setNoteInput(e.target.value)}
-                multiline
-                rows={4}
-                variant="outlined"
-              />
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={handleAddNote}
-                style={{ marginTop: "1rem" }}
+        {/* Add Note and Display Notes Section */}
+        <Box my={4} mx={2}>
+          <Grid container spacing={2}>
+            {/* Add Note Section */}
+            <Grid item xs={12} md={6}>
+              <Card
+                sx={{
+                  backgroundColor: "#F0F0F0",
+                  borderRadius: 5,
+                  maxWidth: 400,
+                }}
               >
-                Add Note
-              </Button>
-            </CardContent>
-          </Card>
-        </Box>
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>
+                    Add Note
+                  </Typography>
+                  <TextField
+                    label="Note"
+                    fullWidth
+                    value={noteInput}
+                    onChange={(e) => setNoteInput(e.target.value)}
+                    multiline
+                    rows={2}
+                    variant="outlined"
+                  />
+                  <Button
+                    variant="contained"
+                    onClick={handleAddNote}
+                    style={{ marginTop: "1rem" }}
+                  >
+                    Add Note
+                  </Button>
+                </CardContent>
+              </Card>
+            </Grid>
 
-        {/* Display Notes Section */}
-        <Box my={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5" gutterBottom>
-                Notes
-              </Typography>
-              <List>
-                {notes.map((note, index) => (
-                  <ListItem key={index}>
-                    <ListItemText primary={note} />
-                  </ListItem>
-                ))}
-              </List>
-            </CardContent>
-          </Card>
+            {/* Display Notes Section */}
+            <Grid item xs={12} md={6} padding={2}>
+              <Card sx={{ borderRadius: 5, backgroundColor: "#F0F0F0" }}>
+                <CardContent sx={{ backGroundColor: "#F0F0F0" }}>
+                  <Typography variant="h5" gutterBottom>
+                    Notes
+                  </Typography>
+                  <List>
+                    {notes.map((note, index) => (
+                      <Paper
+                        key={index}
+                        elevation={3}
+                        style={{
+                          margin: "0.5rem",
+                          padding: "0.5rem",
+                          backgroundColor: "inherit",
+                        }}
+                      >
+                        <Typography variant="body1">{note}</Typography>
+                      </Paper>
+                    ))}
+                  </List>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
         </Box>
 
         <Divider />
 
         {/* Add Feedback Section */}
-        <Box my={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5" gutterBottom>
-                Add Feedback
-              </Typography>
-              <TextField
-                label="Feedback"
-                fullWidth
-                value={feedbackInput}
-                onChange={(e) => setFeedbackInput(e.target.value)}
-                multiline
-                rows={4}
-                variant="outlined"
-              />
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={handleAddFeedback}
-                style={{ marginTop: "1rem" }}
-              >
-                Add Feedback
-              </Button>
-            </CardContent>
-          </Card>
-        </Box>
+        <Box my={4} mx={2}>
+          <Grid container spacing={3}>
+            {/* Add Feedback Section */}
+            <Grid item xs={12} md={6}>
+              <Card sx={{ backgroundColor: "#F0F0F0", borderRadius: 5, maxWidth: 400 }}>
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>
+                    Add Feedback
+                  </Typography>
+                  <TextField
+                    label="Feedback"
+                    fullWidth
+                    value={feedbackInput}
+                    onChange={(e) => setFeedbackInput(e.target.value)}
+                    multiline
+                    rows={4}
+                    variant="outlined"
+                  />
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    onClick={handleAddFeedback}
+                    style={{ marginTop: "1rem" }}
+                  >
+                    Add Feedback
+                  </Button>
+                </CardContent>
+              </Card>
+            </Grid>
 
-        {/* Display Feedback Section */}
-        <Box my={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5" gutterBottom>
-                Feedback
-              </Typography>
-              <List>
-                {feedbacks.map((feedback, index) => (
-                  <ListItem key={index}>
-                    <ListItemText primary={feedback} />
-                  </ListItem>
-                ))}
-              </List>
-            </CardContent>
-          </Card>
+            {/* Display Feedback Section */}
+            <Grid item xs={12} md={6}>
+              <Card sx={{ backgroundColor: "#F0F0F0", borderRadius: 5 }}>
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>
+                    Feedback
+                  </Typography>
+                  <List>
+                    {feedbacks.map((feedback, index) => (
+                      <Paper
+                        key={index}
+                        elevation={3}
+                        style={{
+                          margin: "0.5rem",
+                          padding: "0.5rem",
+                          borderRadius: "5px",
+                        }}
+                      >
+                        <ListItem>
+                          <ListItemText primary={feedback} />
+                        </ListItem>
+                      </Paper>
+                    ))}
+                  </List>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
         </Box>
       </Container>
     </div>
