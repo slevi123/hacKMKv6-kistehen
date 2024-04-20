@@ -13,6 +13,7 @@ const RouteItemStyle = {
     color: "white",
     background: "black",
     borderRadius: "0.2em",
+    width: "4em",
     textDecoration: "none"
 }
 

@@ -32,13 +32,14 @@ const sidebarStyle: CSSProperties = {
 
 const contentStyle: CSSProperties = {
     ...panelStyle,
+    // padding: "20px",
     marginLeft: "300px",
     marginRight: "300px",
     marginTop: "3em",
     height: "calc(100vh - 100px)",
     overflowY: "auto",
     overflowX: "hidden",
-    width: "calc(100% - 600px)",
+    width: "calc(100% - 620px)",
     background: "green",
     transition: 'all 0.5s ease', // Adjust time and easing function as needed
 };
@@ -51,6 +52,7 @@ const footterStyle: CSSProperties = {
 const leftPanelStyle: CSSProperties = {
     position: "fixed",
     top: "5em",
+    
 }
 
 
@@ -62,9 +64,10 @@ export function Layout() {
     const contentDynamicStyle = useMemo(() => {
         return {
             ...contentStyle,
-            marginLeft: leftSidebarOpen ? "300px" : "0px",
+            marginLeft: leftSidebarOpen ? "200px" : "0px",
             marginRight: rightSidebarOpen ? "300px" : "0px",
-            width: rightSidebarOpen && leftSidebarOpen ? "calc(100% - 600px)" : "100%",
+            // width: rightSidebarOpen && leftSidebarOpen ? "calc(100% - 600px)" : "100%",
+            width: leftSidebarOpen ? "calc(100% - 200px)" : "100%",
         }
     }, [leftSidebarOpen, rightSidebarOpen]);
 

@@ -11,7 +11,7 @@ const sidebarStyle: CSSProperties = {
     // color: "white",
     color: "black",
     height: "calc(100vh - 100px)",
-    minWidth: "300px",
+    minWidth: "150px",
     borderRadius: "0.2em",
     width: "100%",
     // add blur effect
