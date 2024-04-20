@@ -1,13 +1,11 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Zoom, Slide } from "@mui/material";
 import { CSSProperties, useMemo, useState } from "react";
-import { HashRouter, Link, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Navbar } from "./layout/Navbar";
 import { Footer } from "./layout/Footer";
-import { Sidebar } from './layout/Sidebar';
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
-import { SidebarAnimation } from "./layout/Animation";
 
 const panelStyle: CSSProperties = {
     // backgroundColor: "blue",
@@ -35,11 +33,11 @@ const sidebarStyle: CSSProperties = {
 const contentStyle: CSSProperties = {
     ...panelStyle,
     marginTop: "3em",
-    background:"green",
     height: "calc(100vh - 100px)",
     overflowY: "auto",
     overflowX: "hidden",
     width: "100%",
+    background: "green",
 
 };
 
@@ -47,6 +45,11 @@ const footterStyle: CSSProperties = {
     ...panelStyle,
     background:"yellow",
 };
+
+const leftPanelStyle: CSSProperties = {
+    position: "fixed",
+    top: "5em",
+}
 
 
 export function Layout() {
@@ -67,7 +70,6 @@ export function Layout() {
             <Grid item xs={12}>
                 <Box sx={navbarStyle}>
                     <Navbar/>
-                    {/* <div id="navbar"></div> */}
                 </Box>
             </Grid>
            
@@ -75,18 +77,9 @@ export function Layout() {
 
                 <Grid container display={'flex'} flexDirection={'row'}>
 
-                    {/* <Sidebar>
-                        <>
-                        asd
-                        <Box>
-                            box 
-                            <Link to="/about">About</Link>
-                            <Link to="/">Home</Link>
-                        </Box>
-                        </>
-                    </Sidebar> */}
-
-                    <div id="left-side-bar"></div>
+                    <Slide style={leftPanelStyle} in={leftSidebarOpen} direction={"right"} timeout={1000}> 
+                         <div id="left-side-bar"></div>
+                    </Slide>
                     
                     <Grid item xs={12}>
 

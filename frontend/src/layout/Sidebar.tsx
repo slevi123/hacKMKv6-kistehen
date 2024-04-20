@@ -1,24 +1,21 @@
-import { Box, Button } from "@mui/material";
-import React, { CSSProperties, useMemo, useState } from "react";
-import { SidebarAnimation } from "./Animation";
+import { Box } from "@mui/material";
+import { CSSProperties, useMemo } from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { Link, useNavigation } from "react-router-dom";
 import { createPortal } from "react-dom";
 
 const sidebarStyle: CSSProperties = {
-    // background:"white",
-    background: "rgba(255,255,255,0.9)",
+    display: 'flex',
+    flexDirection: "column",
+    // background: "rgba(0,0,0,0.6)",
+    background: "rgba(255,255,255,0.6)",
+    // color: "white",
     color: "black",
-    height: "100%",
-    // width: "100%",
-    minWidth: "200px",
-    display: "flex",
-    justifyContent: "center",
+    height: "calc(100vh - 100px)",
+    minWidth: "300px",
     borderRadius: "0.2em",
-    position: "fixed",
-    marginTop: "4em",
-    // padding: "0.5em",
-    // margin: "1em",
+    width: "100%",
+    // add blur effect
+    backdropFilter: "blur(10px)",
 }
 
 export interface SidebarProps {
@@ -47,13 +44,11 @@ export function Sidebar({ children }:SidebarProps) {
 
     const view = useMemo(()=> 
         (
-        <SidebarAnimation>
             <Box sx={sidebarDynamicStyle}>
                 <>
                 {children}
                 </>
             </Box>
-        </SidebarAnimation>
         ), [children, sidebarDynamicStyle]);
 
     if (!parent) {
