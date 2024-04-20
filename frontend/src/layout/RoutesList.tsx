@@ -48,7 +48,11 @@ export function RouteList() {
             route: "/about"
         },{
             label: "Agent Schedule planner",
-            route: "/agent/1/schedule-planner"
+            route: "/agent/1/schedulePlanner"
+        },
+        {
+            label: "Client Detail",
+            route: "clientDetails/:id"
         }
     ]);
 
