@@ -6,6 +6,7 @@ import { About } from "./pages/About";
 import { Navbar } from "./layout/Navbar";
 import { Footer } from "./layout/Footer";
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
+import { AgentSchedulePlanner } from "./pages/Agent.Schadule-Planner";
 
 const panelStyle: CSSProperties = {
     // backgroundColor: "blue",
@@ -40,9 +41,15 @@ const contentStyle: CSSProperties = {
     overflowY: "auto",
     overflowX: "hidden",
     width: "calc(100% - 620px)",
-    background: "green",
+    // background: "linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 100%)",
+    // background: "rgba(255,255,255,0.9)",
+    borderRadius: "0.2em",
     transition: 'all 0.5s ease', // Adjust time and easing function as needed
 };
+
+const bodyStyle: CSSProperties = {
+    background: "linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 100%)",
+}
 
 const footterStyle: CSSProperties = {
     ...panelStyle,
@@ -75,7 +82,7 @@ export function Layout() {
     return (
 
         <SideBarContext.Provider value={{ leftIsOpen: leftSidebarOpen, rightIsOpen: rightSidebarOpen, toggleLeft: setLeftSidebarOpen, toggleRight: setRightSidebarOpen }}>
-        <Grid container display={'flex'} flexDirection={'column'}>
+        <Grid sx={bodyStyle} container display={'flex'} flexDirection={'column'}>
 
             <Grid item xs={12}>
                 <Box sx={navbarStyle}>
@@ -98,6 +105,8 @@ export function Layout() {
                             <HashRouter>
                                 <Routes>
                                     <Route path="/" element={<Home />} />
+                                    {/* <Route path="/agent/:id/schadule-planner" element={<AgentSchedulePlanner />} /> */}
+                                    <Route path="/agent/:id/schedule-planner" element={<AgentSchedulePlanner />} />
                                     <Route path="/about" element={<About/>} />
                                 </Routes>
                             </HashRouter>
