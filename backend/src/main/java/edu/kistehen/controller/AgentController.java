@@ -32,7 +32,11 @@ public class AgentController {
         return agentMapper.modelsToShortDtos(agents);
     }
 
-    // TODO: get agent by id
+    @GetMapping("/{agentId}")
+    public AgentShortDto getAgent(@PathVariable("agentId") String agentId) {
+        Agent agentModel = agentRepository.findById(agentId);
+        return agentMapper.modelToShortDto(agentModel);
+    }
 
     @PostMapping
     public AgentShortDto registerAgent(@RequestBody AgentRegisterDto regDto) {
