@@ -3,6 +3,7 @@ import React, { CSSProperties, useMemo, useState } from "react";
 import { SidebarAnimation } from "./Animation";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { Link, useNavigation } from "react-router-dom";
+import { createPortal } from "react-dom";
 
 const sidebarStyle: CSSProperties = {
     // background:"white",
@@ -24,7 +25,6 @@ export interface SidebarProps {
     children: string | JSX.Element | JSX.Element[];
 }
 
-// { children }:SidebarProps
 export function Sidebar({ children }:SidebarProps) {
 
     const matches = useMediaQuery('(min-width:600px)');
@@ -43,15 +43,27 @@ export function Sidebar({ children }:SidebarProps) {
         }
     }, [matches])
 
-    return (
+    const parent = useMemo(() => document.getElementById('left-side-bar'), []);
+
+    const view = useMemo(()=> 
+        (
         <SidebarAnimation>
             <Box sx={sidebarDynamicStyle}>
                 <>
                 {children}
                 </>
-                
             </Box>
         </SidebarAnimation>
+        ), [children, sidebarDynamicStyle]);
+
+    if (!parent) {
+    return (
+        view
     );
+    }
+
+    return createPortal((
+        view
+    ), parent);
 }
 

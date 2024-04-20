@@ -49,7 +49,7 @@ const footterStyle: CSSProperties = {
 };
 
 
-export function Layout({children}) {
+export function Layout() {
 
     const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
     const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
@@ -67,6 +67,7 @@ export function Layout({children}) {
             <Grid item xs={12}>
                 <Box sx={navbarStyle}>
                     <Navbar/>
+                    {/* <div id="navbar"></div> */}
                 </Box>
             </Grid>
            
@@ -74,7 +75,7 @@ export function Layout({children}) {
 
                 <Grid container display={'flex'} flexDirection={'row'}>
 
-                    <Sidebar>
+                    {/* <Sidebar>
                         <>
                         asd
                         <Box>
@@ -83,15 +84,20 @@ export function Layout({children}) {
                             <Link to="/">Home</Link>
                         </Box>
                         </>
-                    </Sidebar>
+                    </Sidebar> */}
+
+                    <div id="left-side-bar"></div>
                     
                     <Grid item xs={12}>
 
                         <Box sx={contentStyle}>
                             <div id="content">
-                                {
-                                    children
-                                }
+                            <HashRouter>
+                                <Routes>
+                                    <Route path="/" element={<Home />} />
+                                    <Route path="/about" element={<About/>} />
+                                </Routes>
+                            </HashRouter>
                             </div>
                         </Box>
                         

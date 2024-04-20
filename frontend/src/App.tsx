@@ -1,7 +1,5 @@
 import './App.css'
-import { SideBarContext } from './context/context.sidebar'
 import { Layout } from './Layout'
-import { NavRoutes } from './NavRoutes'
 
 function App() {
 
@@ -9,10 +7,10 @@ function App() {
   return (
     <>
       {/* hello */}
-      <div id="layout">
+      {/* <div id="layout">
         <NavRoutes />
-      </div>
-        {/* <Layout/>s */}
+      </div> */}
+        <Layout/>
       {/* </SideBarContext.Provider> */}
     </>
   )
