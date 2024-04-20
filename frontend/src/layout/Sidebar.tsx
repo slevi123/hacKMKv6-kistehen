@@ -40,8 +40,10 @@ export function Sidebar({ children }:SidebarProps) {
         }
     }, [matches])
 
-    const parent = useMemo(() => document.getElementById('left-side-bar'), []);
-
+    const parent = useMemo(() => {
+        return document.getElementById('left-side-bar')
+    }, [document.getElementById('left-side-bar')]);
+        
     const view = useMemo(()=> 
         (
             <Box sx={sidebarDynamicStyle}>
@@ -52,8 +54,10 @@ export function Sidebar({ children }:SidebarProps) {
         ), [children, sidebarDynamicStyle]);
 
     if (!parent) {
+        console.log("Parent is null");
     return (
-        view
+        // view
+        null
     );
     }
 

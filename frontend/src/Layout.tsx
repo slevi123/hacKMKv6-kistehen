@@ -32,13 +32,15 @@ const sidebarStyle: CSSProperties = {
 
 const contentStyle: CSSProperties = {
     ...panelStyle,
+    marginLeft: "300px",
+    marginRight: "300px",
     marginTop: "3em",
     height: "calc(100vh - 100px)",
     overflowY: "auto",
     overflowX: "hidden",
-    width: "100%",
+    width: "calc(100% - 600px)",
     background: "green",
-
+    transition: 'all 0.5s ease', // Adjust time and easing function as needed
 };
 
 const footterStyle: CSSProperties = {
@@ -57,11 +59,16 @@ export function Layout() {
     const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
     const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
 
-    const parent = useMemo(() => document.getElementById('layout'), []);
+    const contentDynamicStyle = useMemo(() => {
+        return {
+            ...contentStyle,
+            marginLeft: leftSidebarOpen ? "300px" : "0px",
+            marginRight: rightSidebarOpen ? "300px" : "0px",
+            width: rightSidebarOpen && leftSidebarOpen ? "calc(100% - 600px)" : "100%",
+        }
+    }, [leftSidebarOpen, rightSidebarOpen]);
 
-    console.log('parent', parent);
-    
-    
+
     return (
 
         <SideBarContext.Provider value={{ leftIsOpen: leftSidebarOpen, rightIsOpen: rightSidebarOpen, toggleLeft: setLeftSidebarOpen, toggleRight: setRightSidebarOpen }}>
@@ -83,7 +90,7 @@ export function Layout() {
                     
                     <Grid item xs={12}>
 
-                        <Box sx={contentStyle}>
+                        <Box sx={contentDynamicStyle}>
                             <div id="content">
                             <HashRouter>
                                 <Routes>
