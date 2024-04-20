@@ -17,7 +17,7 @@ import java.util.Collection;
 public class Visit extends BaseEntity {
 
     @Column(nullable = false)
-    private LocalDateTime when;
+    private LocalDateTime when1;
     @Column
     private LocalDateTime when2;
 
