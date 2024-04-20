@@ -1,10 +1,11 @@
-import { Box, Grid, Zoom, Slide } from "@mui/material";
+import { Box, Grid, Slide } from "@mui/material";
 import { CSSProperties, useMemo, useState } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Navbar } from "./layout/Navbar";
 import { Footer } from "./layout/Footer";
+import ClientDetail  from "./pages/ClientDetail";
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
 import { AgentSchedulePlanner } from "./pages/Agent.Schadule-Planner";
 
@@ -45,6 +46,7 @@ const contentStyle: CSSProperties = {
     // background: "rgba(255,255,255,0.9)",
     borderRadius: "0.2em",
     transition: 'all 0.5s ease', // Adjust time and easing function as needed
+    zIndex: 1,
 };
 
 const bodyStyle: CSSProperties = {
@@ -59,7 +61,6 @@ const footterStyle: CSSProperties = {
 const leftPanelStyle: CSSProperties = {
     position: "fixed",
     top: "5em",
-    
 }
 
 
@@ -95,22 +96,23 @@ export function Layout() {
                 <Grid container display={'flex'} flexDirection={'row'}>
 
                     <Slide style={leftPanelStyle} in={leftSidebarOpen} direction={"right"} timeout={1000}> 
-                         <div id="left-side-bar"></div>
+                         <Box sx={{zIndex: "12"}} id="left-side-bar"></Box>
                     </Slide>
                     
                     <Grid item xs={12}>
 
                         <Box sx={contentDynamicStyle}>
-                            <div id="content">
+                            <Box sx={{zIndex: "2"}} id="content">
                             <HashRouter>
                                 <Routes>
                                     <Route path="/" element={<Home />} />
                                     {/* <Route path="/agent/:id/schadule-planner" element={<AgentSchedulePlanner />} /> */}
-                                    <Route path="/agent/:id/schedule-planner" element={<AgentSchedulePlanner />} />
+                                    <Route path="/agent/:id/schedulePlanner" element={<AgentSchedulePlanner />} />
                                     <Route path="/about" element={<About/>} />
+                                    <Route path="/clientDetails/:id" element={<ClientDetail/>}/>
                                 </Routes>
                             </HashRouter>
-                            </div>
+                            </Box>
                         </Box>
                         
                         <div id='left-panel'></div>

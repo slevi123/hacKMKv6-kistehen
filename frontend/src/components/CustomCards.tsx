@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 
 const CustomCard = () => {
   return (
-    <Card variant="outlined" sx={{margin: 2}}>
+    <Card sx={{margin: 2, backgroundColor: '#F0F0F0', borderRadius: 5}}>
       <CardContent>
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={4}>

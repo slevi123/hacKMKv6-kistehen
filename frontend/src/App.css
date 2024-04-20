@@ -1,6 +1,32 @@
+* {
+   /* make CoFo Sans */
+    font-family: 'CoFo Sans', sans-serif;
+}
+
 .sidebar-item {
     /* on hover */
     &:hover {
         background-color: #f4f4f4;
     }
+}
+
+.rbc-active {
+    background-color: blue;
+    /* make it prettier */
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    /* color: blueviolet; */
+}
+
+.rbc-month-view{
+    /* make it prettier */
+    border-radius: 5px;
+    padding: 5px;
+    /* color: blueviolet; */
+    /* turn off the shadow */
+    box-shadow: none;
+    /* border noe */
+    border: none;
+
 }

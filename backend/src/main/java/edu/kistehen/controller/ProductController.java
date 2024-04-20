@@ -1,8 +1,6 @@
 package edu.kistehen.controller;
 
 
-import edu.kistehen.dto.agent.AgentRegisterDto;
-import edu.kistehen.dto.client.ClientshortDto;
 import edu.kistehen.dto.product.ProductShortDto;
 import edu.kistehen.dto.product.ProductUploadDto;
 import io.swagger.v3.oas.annotations.tags.Tag;
