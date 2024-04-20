@@ -45,6 +45,7 @@ const contentStyle: CSSProperties = {
     // background: "rgba(255,255,255,0.9)",
     borderRadius: "0.2em",
     transition: 'all 0.5s ease', // Adjust time and easing function as needed
+    zIndex: 1,
 };
 
 const bodyStyle: CSSProperties = {
@@ -59,7 +60,6 @@ const footterStyle: CSSProperties = {
 const leftPanelStyle: CSSProperties = {
     position: "fixed",
     top: "5em",
-    
 }
 
 
@@ -95,13 +95,13 @@ export function Layout() {
                 <Grid container display={'flex'} flexDirection={'row'}>
 
                     <Slide style={leftPanelStyle} in={leftSidebarOpen} direction={"right"} timeout={1000}> 
-                         <div id="left-side-bar"></div>
+                         <Box sx={{zIndex: "12"}} id="left-side-bar"></Box>
                     </Slide>
                     
                     <Grid item xs={12}>
 
                         <Box sx={contentDynamicStyle}>
-                            <div id="content">
+                            <Box sx={{zIndex: "2"}} id="content">
                             <HashRouter>
                                 <Routes>
                                     <Route path="/" element={<Home />} />
@@ -110,7 +110,7 @@ export function Layout() {
                                     <Route path="/about" element={<About/>} />
                                 </Routes>
                             </HashRouter>
-                            </div>
+                            </Box>
                         </Box>
                         
                         <div id='left-panel'></div>

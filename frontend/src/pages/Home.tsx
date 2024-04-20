@@ -4,6 +4,8 @@ import { RouteList } from "../layout/RoutesList";
 import Map from "../components/Map";
 import { useEffect, useState } from "react";
 import { getCurrentCityName } from "../query/query";
+import zIndex from "@mui/material/styles/zIndex";
+import { Box } from "@mui/material";
 
 export function Home() {
 
@@ -21,7 +23,7 @@ export function Home() {
 
     return (
         
-        <div>
+        <Box sx={{zIndex: "3"}}>
             <Sidebar>
                
                 {/* <Link to="/about">About</Link> */}
@@ -31,7 +33,7 @@ export function Home() {
             <h1>Home</h1>
             <Map currentLocation={currentLocation}/>
             <Link to="/about">About</Link>
-        </div>
+        </Box>
        
     );
 }

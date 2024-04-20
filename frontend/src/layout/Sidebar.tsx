@@ -16,6 +16,7 @@ const sidebarStyle: CSSProperties = {
     width: "100%",
     // add blur effect
     backdropFilter: "blur(10px)",
+    zIndex: 6,
 }
 
 export interface SidebarProps {
@@ -24,9 +25,11 @@ export interface SidebarProps {
 
 export function Sidebar({ children }:SidebarProps) {
 
-    const matches = useMediaQuery('(min-width:150px)');
+    const matches = useMediaQuery('(min-width:600px)');
 
     const sidebarDynamicStyle = useMemo(() => {
+        console.log("matches", matches);
+        
         if (matches) {
             return {
                 ...sidebarStyle,
@@ -35,7 +38,7 @@ export function Sidebar({ children }:SidebarProps) {
         } else {
             return {
                 ...sidebarStyle,
-                width: "100%",
+                width: "100vw",
             }
         }
     }, [matches])

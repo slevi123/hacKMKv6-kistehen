@@ -1,7 +1,7 @@
-import { Grid } from "@mui/material";
+import { Grid, useMediaQuery } from "@mui/material";
 import { RouteList } from "../layout/RoutesList";
 import { Sidebar } from "../layout/Sidebar";
-import { CSSProperties } from "react";
+import { CSSProperties, useMemo } from "react";
 import { useCurrentLocation } from "../hooks/localton";
 import Map from "../components/Map";
 import { Scheduler } from "@aldabil/react-scheduler";
@@ -39,23 +39,32 @@ const bodyStyle:CSSProperties = {
 export function AgentSchedulePlanner() {
 
     const currentLocation = useCurrentLocation();
+    const matches = useMediaQuery('(min-width:800px)');
+
+    const mobileStyle = useMemo(() => {
+        if (matches) {
+            return 6;
+
+        }
+        else {
+            return 12;
+        }
+    }, [matches]);
 
     return (
         
         <div>
             <Sidebar>
-                
                 <RouteList />
             </Sidebar>
 
-            <Grid sx={bodyStyle} spacing={2} container display={"felx"} flexDirection={"row"}>
+            <Grid sx={{...bodyStyle,mobileStyle, zIndex:"3"}} spacing={2} container display={"felx"}>
 
                 <Grid item xs={12} sx={centerStyle}>
                     <h1>Agent Schedule Planner</h1>
                 </Grid>
 
-                <Grid item xs={6}>
-                    <div>
+                <Grid item xs={mobileStyle} sx={{...centerStyle, width: "100%"}}>
                         <Calendar
                         localizer={localizer}
                         events={
@@ -75,12 +84,11 @@ export function AgentSchedulePlanner() {
                         }
                         startAccessor="start"
                         endAccessor="end"
-                        style={{ height: 500 }}
+                        style={{ height: 500, width: "80%", zIndex: 3}}
                         />
-                    </div>
                 </Grid>
 
-                <Grid item xs={6}>
+                <Grid item xs={mobileStyle}>
                     <Map currentLocation={currentLocation}/>
                 </Grid>
 

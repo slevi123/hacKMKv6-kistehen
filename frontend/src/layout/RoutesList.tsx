@@ -1,6 +1,7 @@
-import { Grid } from '@mui/material';
-import { CSSProperties, useState } from 'react';
+import { Grid, useMediaQuery } from '@mui/material';
+import { CSSProperties, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { centerStyle } from './layout';
 
 interface RouteType {
     label: string;
@@ -21,6 +22,23 @@ const RouteItemStyle: CSSProperties = {
 }
 
 export function RouteList() {
+
+    const matches = useMediaQuery('(min-width:600px)');
+
+    const mobileStyle = useMemo(() => {
+        if (matches) {
+            return {
+              
+            }
+        } else {
+            return { 
+                justifyContent: "center",
+                 alignItems: "center",
+            }
+        }
+    }
+    , [matches]);
+
     const [routes] = useState<RouteType[]>([
         {
             label: "Home",
@@ -36,7 +54,8 @@ export function RouteList() {
     ]);
 
     return (
-        <Grid container display={"flex"} flexDirection={"column"}>
+        <Grid container display={"flex"} flexDirection={"column"} sx={mobileStyle}
+        >
             {routes.map((route) => (
                 <Link className='sidebar-item' style={RouteItemStyle} key={route.route} to={route.route}>{route.label}</Link>
             ))}
