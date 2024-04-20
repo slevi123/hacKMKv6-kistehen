@@ -2,3 +2,6 @@ spring:
   devtools:
     restart:
       enabled: true
+springdoc:
+  swagger-ui:
+    displayOperationId: true
