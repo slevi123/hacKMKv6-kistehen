@@ -19,7 +19,7 @@ public class Order extends BaseEntity {
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     private Collection<OrderItem> orderItems;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "clients_id")
     private Client client;
 }

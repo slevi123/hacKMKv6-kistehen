@@ -39,7 +39,7 @@ public class Client extends BaseEntity {
     @Column(nullable = false)
     private String size;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "visit_id")
     private Visit visit;
 
