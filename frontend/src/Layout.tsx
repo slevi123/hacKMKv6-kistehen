@@ -8,6 +8,7 @@ import { Footer } from "./layout/Footer";
 import ClientDetail  from "./pages/ClientDetail";
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
 import { AgentSchedulePlanner } from "./pages/Agent.Schadule-Planner";
+import { Upload } from './pages/Sipervisers.Upload';
 
 const panelStyle: CSSProperties = {
     // backgroundColor: "blue",
@@ -109,6 +110,7 @@ export function Layout() {
                                     {/* <Route path="/agent/:id/schadule-planner" element={<AgentSchedulePlanner />} /> */}
                                     <Route path="/agent/:id/schedulePlanner" element={<AgentSchedulePlanner />} />
                                     <Route path="/about" element={<About/>} />
+                                    <Route path="/supervisors/:id/upload" element={<Upload/>} />
                                     <Route path="/clientDetails/:id" element={<ClientDetail/>}/>
                                 </Routes>
                             </HashRouter>
