@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.time.LocalDate;
+
 @Data
 @Entity
 @EqualsAndHashCode(callSuper = true)
@@ -11,6 +13,9 @@ import lombok.EqualsAndHashCode;
 public class Note extends BaseEntity {
     @Column
     private String message;
+
+    @Column
+    private LocalDate date;
 
     @ManyToOne
     @JoinColumn(name = "clients_id")

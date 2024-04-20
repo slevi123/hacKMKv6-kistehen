@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 @Data
 public class ScheduleVisitDto {
-    private LocalDateTime when;
+    private LocalDateTime when1;
     private LocalDateTime when2;
     private String clientId;
 
