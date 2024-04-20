@@ -52,7 +52,7 @@ export function RouteList() {
         },
         {
             label: "Client Detail",
-            route: "clientDetails/:id"
+            route: "/clientDetails/:id"
         }
     ]);
 
