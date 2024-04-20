@@ -33,14 +33,6 @@ export default function Map({ currentLocation }: Props ) {
       zoom={150}
       scrollWheelZoom={true}
       style={{ width: "30vw", height: "60vh", borderRadius: "0.2em", zIndex: 1}}
-      // move to current location
-      // when the current location is updated
-      // whenReady={() => {
-      //   // move to current location
-      //   // when the current location is updated
-      //   map.flyTo([currentLocation.latitude, currentLocation.longitude], 10);
-      // }}
-    
     >
       <MapComponent />
       <TileLayer

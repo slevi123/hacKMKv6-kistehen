@@ -1,7 +1,6 @@
 import { Grid, useMediaQuery } from '@mui/material';
 import { CSSProperties, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { centerStyle } from './layout';
 
 interface RouteType {
     label: string;
