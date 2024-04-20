@@ -8,7 +8,7 @@ import { centerStyle } from '../layout/layout';
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
-
+import { Animation } from "../layout/Animation";
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
 //  -----------------------
@@ -37,6 +37,7 @@ const bodyStyle:CSSProperties = {
     // alignItems: "center",
     padding: "1em",
     zIndex: 1,
+    // make it pop
 }
 
 export function AgentSchedulePlanner() {
@@ -88,12 +89,13 @@ export function AgentSchedulePlanner() {
     ];
 
     return (
-        
+       
+        <>
         <div>
             <Sidebar>
                 <RouteList />
             </Sidebar>
-
+            <Animation dir={"up"}>
             <Box sx={{margin: "2em"}}>
             <Grid sx={{...bodyStyle,mobileStyle, centerStyle, zIndex:"3"}} spacing={2} container display={"felx"}>
 
@@ -153,7 +155,9 @@ export function AgentSchedulePlanner() {
             </Box>
            
             {/* <Link to="/">Home</Link> */}
+        </Animation>
+
         </div>
-       
+        </>
     );
 }

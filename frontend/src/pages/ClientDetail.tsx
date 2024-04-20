@@ -17,6 +17,7 @@ import { useState } from "react";
 import { RouteList } from "../layout/RoutesList";
 import { Sidebar } from "../layout/Sidebar";
 import CustomCard from "../components/CustomCards";
+import { Animation } from "../layout/Animation";
 
 export default function ClientDetail() {
   const [notes, setNotes] = useState<string[]>([]);
@@ -43,14 +44,17 @@ export default function ClientDetail() {
   };
 
   return (
-    <Box sx={{margin: "2em"}}>
-    <div style={{ backgroundColor: "white", zIndex: 1, borderRadius: "0.2em" }}>
-      <h1>Client Detail</h1>
+    <Box sx={{margin: "1em"}}>
       <Sidebar>
-        <h1>Home Sidebar</h1>
         {/* <Link to="/about">About</Link> */}
         <RouteList />
       </Sidebar>
+      <Animation dir={"up"}>
+    <div style={{ backgroundColor: "white", zIndex: 1, borderRadius: "0.2em" }}>
+      <h1>Client Detail</h1>
+      
+
+      
       <Container maxWidth="lg">
         {/* Company Details */}
         <CustomCard />
@@ -183,6 +187,8 @@ export default function ClientDetail() {
         </Box>
       </Container>
     </div>
+    </Animation>
+
     </Box>
   );
 }

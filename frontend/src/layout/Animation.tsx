@@ -1,32 +1,23 @@
-// import { Slide } from "@mui/material";
-// import { useState, useEffect, useContext } from "react";
+import { Slide } from "@mui/material";
+import { useState, useEffect } from "react";
 // import {  SideBarContext } from '../context/context.sidebar';
 
-// export function SidebarAnimation({ children }) {
+export function Animation({ dir, children }) {
 
-//     const sideBarContext = useContext(SideBarContext)
-//     const [open, setOpen] = useState(sideBarContext?.leftIsOpen || false);
+    
+    const [open, setOpen] = useState(false);
 
-//     useEffect(()=>{
-//         if (!sideBarContext) return;
-//         setOpen(sideBarContext.leftIsOpen);
-//     },[sideBarContext, sideBarContext?.leftIsOpen])
+    useEffect(() => {
+        setTimeout(() => {
+            setOpen(true);
+        }, 100);
+    }, []);
 
-//     useEffect(() => {
-//         if (!sideBarContext?.leftIsOpen) {
-//             return
-//         }
-//         const timer = setTimeout(() => {
-//             setOpen(true);
-//         }, 100);
-//         return () => clearTimeout(timer);
-//     }
-//     , [sideBarContext?.leftIsOpen]);
 
-//     return (
-//         <Slide in={open} appear={true} direction={"right"} timeout={500} easing={"ease-in-out"}>
-//             {children}
-//         </Slide>
-//     );
-// }
+    return (
+        <Slide in={open}  direction={dir} timeout={500}>
+            {children}
+        </Slide>
+    );
+}
 
