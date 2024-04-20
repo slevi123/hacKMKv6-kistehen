@@ -2,6 +2,8 @@ import { TileLayer , MapContainer, Marker, Popup, useMap, Polyline  } from "reac
 import "leaflet/dist/leaflet.css";
 import { useCallback, useEffect, useRef, useState } from "react";
 import L from "leaflet";
+import "leaflet-routing-machine"
+// import "lrm-graphhopper"
 
 type currentLocation = {
     latitude: number;
@@ -64,6 +66,16 @@ export default function Map({ currentLocation }: Props ) {
     );
 
     console.log(map.latLngToLayerPoint([46.771210, 23.623634]))
+
+    let control = L.Routing.control({
+      waypoints: [
+          L.latLng(57.74, 11.94),
+          L.latLng(57.6792, 11.949)
+      ],
+      show: false
+  }).addTo(map);
+
+    control.options.instructionsControl = false;
 
     return null; // Render nothing within the MapComponent
   }
