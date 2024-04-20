@@ -36,7 +36,7 @@ const contentStyle: CSSProperties = {
     // padding: "20px",
     marginLeft: "300px",
     marginRight: "300px",
-    marginTop: "3em",
+    marginTop: "5em",
     height: "calc(100vh - 100px)",
     overflowY: "auto",
     overflowX: "hidden",
@@ -48,6 +48,11 @@ const contentStyle: CSSProperties = {
 };
 
 const bodyStyle: CSSProperties = {
+    position: "absolute",
+    height: "100vh",
+    width: "100%",
+    top: "0",
+    left: "0",
     background: "linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 100%)",
 }
 
