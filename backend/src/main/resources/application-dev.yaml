@@ -1,0 +1,14 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: "jdbc:h2:mem:testdb"
+    driverClassName: "org.h2.Driver"
+springdoc:
+  swagger-ui:
+    displayOperationId: true

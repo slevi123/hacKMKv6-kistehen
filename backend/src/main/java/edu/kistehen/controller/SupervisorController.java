@@ -2,7 +2,11 @@ package edu.kistehen.controller;
 
 import edu.kistehen.dto.supervisor.SupervisorAddDto;
 import edu.kistehen.dto.supervisor.SupervisorOutDto;
+import edu.kistehen.mapper.SupervisorMapper;
+import edu.kistehen.model.Supervisor;
+import edu.kistehen.repository.SupervisorRepository;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -11,9 +15,19 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/supervisors")
 public class SupervisorController {
 
+    @Autowired
+    SupervisorMapper supervisorMapper;
+
+    @Autowired
+    SupervisorRepository supervisorRepository;
+
+
     @PostMapping
     public SupervisorOutDto addSupervisor(@RequestBody SupervisorAddDto supervisor) {
-        return new SupervisorOutDto();
+        Supervisor supervisorModel = supervisorMapper.addDtoToModel(supervisor);
+        supervisorRepository.saveAndFlush(supervisorModel);
+
+        return supervisorMapper.modelToShortDto(supervisorModel);
     }
 
     @PatchMapping("/{supervisorId}/deactivate")

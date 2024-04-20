@@ -19,9 +19,6 @@ dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation'
 
-    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
-    annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
-
     runtimeOnly group: 'com.mysql', name: 'mysql-connector-j', version: '8.2.0'
     runtimeOnly group: 'com.h2database', name: 'h2', version: '2.2.224'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
@@ -35,4 +32,7 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '3.2.5'
+
+    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
+    annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
 }

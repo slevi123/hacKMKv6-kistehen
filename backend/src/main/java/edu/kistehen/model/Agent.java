@@ -19,7 +19,7 @@ public class Agent extends BaseEntity {
     @Column(nullable = false)
     private String email;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "supervisors_id")
     private Supervisor supervisor;
 
