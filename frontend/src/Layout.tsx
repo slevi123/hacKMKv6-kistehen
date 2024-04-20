@@ -1,20 +1,29 @@
 import { Box, Grid } from "@mui/material";
-import { CSSProperties, useState } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { CSSProperties, useMemo, useState } from "react";
+import { HashRouter, Link, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
+import { Navbar } from "./layout/Navbar";
+import { Footer } from "./layout/Footer";
+import { Sidebar } from './layout/Sidebar';
+import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
+import { SidebarAnimation } from "./layout/Animation";
 
 const panelStyle: CSSProperties = {
-    backgroundColor: "blue",
+    // backgroundColor: "blue",
     color: "white",
     height: "50px",
+    margin: "0.3em",
     // width: "100%",
 };
 
 const navbarStyle: CSSProperties = {
     ...panelStyle,
     width: "100%",
-
+    height: "auto",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
 };
 
 const sidebarStyle: CSSProperties = {
@@ -25,6 +34,7 @@ const sidebarStyle: CSSProperties = {
 
 const contentStyle: CSSProperties = {
     ...panelStyle,
+    marginTop: "3em",
     background:"green",
     height: "calc(100vh - 100px)",
     overflowY: "auto",
@@ -33,66 +43,73 @@ const contentStyle: CSSProperties = {
 
 };
 
-const footbarStyle: CSSProperties = {
+const footterStyle: CSSProperties = {
     ...panelStyle,
     background:"yellow",
 };
 
 
-export function Layout() {
+export function Layout({children}) {
 
-    const [count, setCount] = useState(0);
+    const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
+    const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
 
+    const parent = useMemo(() => document.getElementById('layout'), []);
+
+    console.log('parent', parent);
+    
+    
     return (
+
+        <SideBarContext.Provider value={{ leftIsOpen: leftSidebarOpen, rightIsOpen: rightSidebarOpen, toggleLeft: setLeftSidebarOpen, toggleRight: setRightSidebarOpen }}>
         <Grid container display={'flex'} flexDirection={'column'}>
 
             <Grid item xs={12}>
                 <Box sx={navbarStyle}>
-                    <div>navbar</div>
+                    <Navbar/>
                 </Box>
             </Grid>
            
-
            <Grid item xs={12}>
 
                 <Grid container display={'flex'} flexDirection={'row'}>
 
-                    <Grid item xs={3}>
-                        <Box sx={sidebarStyle}>
-                            <div id="sidebar">sidebar
-                                {count}
-                                <button onClick={() => setCount(count + 1)}>+</button>
-                            </div>
+                    <Sidebar>
+                        <>
+                        asd
+                        <Box>
+                            box 
+                            <Link to="/about">About</Link>
+                            <Link to="/">Home</Link>
                         </Box>
-                    </Grid>
-
-                    <Grid item xs={9}>
+                        </>
+                    </Sidebar>
+                    
+                    <Grid item xs={12}>
 
                         <Box sx={contentStyle}>
                             <div id="content">
-                                <HashRouter>
-                                    <Routes>
-                                        <Route path="/" element={<Home />} />
-                                        <Route path="/about" element={<About/>} />
-                                    </Routes>
-                                </HashRouter>
+                                {
+                                    children
+                                }
                             </div>
                         </Box>
                         
-                    <div id='left-panel'></div>
+                        <div id='left-panel'></div>
 
                     </Grid>
                     
-                    <Box sx={footbarStyle}>
-                    <div>footbar</div>
-                    </Box>
                 </Grid>
             </Grid>
 
             <Grid item xs={12}>
-                also footbar
+                <Box sx={footterStyle}>
+                    <Footer/>
+                </Box>
             </Grid>
 
         </Grid>
+        </SideBarContext.Provider>
     );
 }
+

@@ -1,12 +1,19 @@
 import './App.css'
+import { SideBarContext } from './context/context.sidebar'
 import { Layout } from './Layout'
+import { NavRoutes } from './NavRoutes'
 
 function App() {
+
 
   return (
     <>
       {/* hello */}
-      <Layout/>
+      <div id="layout">
+        <NavRoutes />
+      </div>
+        {/* <Layout/>s */}
+      {/* </SideBarContext.Provider> */}
     </>
   )
 }
