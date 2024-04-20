@@ -26,6 +26,10 @@ export function RouteList() {
         {
             label: "About",
             route: "/about"
+        },
+        {
+            label: "Client Detail",
+            route: "clientDetails/:id"
         }
     ]);
 

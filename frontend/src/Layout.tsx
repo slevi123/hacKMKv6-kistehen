@@ -1,10 +1,11 @@
-import { Box, Grid, Zoom, Slide } from "@mui/material";
+import { Box, Grid, Slide } from "@mui/material";
 import { CSSProperties, useMemo, useState } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Navbar } from "./layout/Navbar";
 import { Footer } from "./layout/Footer";
+import ClientDetail  from "./pages/ClientDetail";
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
 
 const panelStyle: CSSProperties = {
@@ -99,6 +100,7 @@ export function Layout() {
                                 <Routes>
                                     <Route path="/" element={<Home />} />
                                     <Route path="/about" element={<About/>} />
+                                    <Route path="/clientDetails/:id" element={<ClientDetail/>}/>
                                 </Routes>
                             </HashRouter>
                             </div>
