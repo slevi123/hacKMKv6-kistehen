@@ -24,7 +24,7 @@ export interface SidebarProps {
 
 export function Sidebar({ children }:SidebarProps) {
 
-    const matches = useMediaQuery('(min-width:600px)');
+    const matches = useMediaQuery('(min-width:150px)');
 
     const sidebarDynamicStyle = useMemo(() => {
         if (matches) {

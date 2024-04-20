@@ -23,7 +23,7 @@ export function Home() {
         
         <div>
             <Sidebar>
-                <h1>Home Sidebar</h1>
+               
                 {/* <Link to="/about">About</Link> */}
                 <RouteList />
             </Sidebar>

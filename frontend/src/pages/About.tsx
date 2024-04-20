@@ -7,13 +7,13 @@ export function About() {
         
         <div>
             <Sidebar>
-                <h1>About Sidebar</h1>
+              
 
                 {/* <Link to="/">Home</Link> */}
                 <RouteList />
             </Sidebar>
             
-            <h1>About</h1>
+
             <Link to="/">Home</Link>
         </div>
        

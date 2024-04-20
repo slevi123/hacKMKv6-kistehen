@@ -14,6 +14,7 @@ const navbarStyle = {
     width: "100%",
     height: "5em",
     boxShadow: "0 0 0.5em rgba(0,0,0,0.5)",
+    zIndex: 100,
 };
 
 const navbarItemStyle: CSSProperties = {
