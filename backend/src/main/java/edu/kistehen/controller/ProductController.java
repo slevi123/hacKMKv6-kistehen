@@ -21,7 +21,7 @@ public class ProductController {
     }
 
     @GetMapping("/{productId}")
-    public ProductShortDto getProduct(@PathVariable("productId") Long productId) {
+    public ProductShortDto getProduct(@PathVariable("productId") String productId) {
         return new ProductShortDto();
     }
 
@@ -31,12 +31,12 @@ public class ProductController {
     }
 
     @DeleteMapping("/{productId}")
-    public boolean deleteAgent(@PathVariable("productId") Long id) {
+    public boolean deleteAgent(@PathVariable("productId") String id) {
         return true;
     }
 
     @PutMapping("/{productId}")
-    public ProductShortDto updateAgent(@PathVariable("productId") Long id, @RequestBody ProductUploadDto agent) {
+    public ProductShortDto updateAgent(@PathVariable("productId") String id, @RequestBody ProductUploadDto agent) {
         return new ProductShortDto();
     }
 }

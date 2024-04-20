@@ -2,6 +2,8 @@ package edu.kistehen.controller;
 
 import edu.kistehen.dto.agent.AgentRegisterDto;
 import edu.kistehen.dto.agent.AgentShortDto;
+import edu.kistehen.dto.note.NoteAddDto;
+import edu.kistehen.dto.note.NoteOutDto;
 import edu.kistehen.dto.user.UserOutDto;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
@@ -24,13 +26,13 @@ public class AgentController {
         return new AgentShortDto();
     }
 
-    @DeleteMapping("/{id}")
-    public boolean deleteAgent(@PathVariable("id") Long id) {
+    @DeleteMapping("/{agentId}")
+    public boolean deleteAgent(@PathVariable("agentId") String agentId) {
         return true;
     }
 
-    @PutMapping("/{id}")
-    public AgentShortDto updateAgent(@PathVariable("id") Long id, @RequestBody AgentRegisterDto regDto) {
+    @PutMapping("/{agentId}")
+    public AgentShortDto updateAgent(@PathVariable("agentId") String agentId, @RequestBody AgentRegisterDto regDto) {
         return new AgentShortDto();
     }
 }

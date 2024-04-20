@@ -12,7 +12,7 @@ import java.util.Collection;
 @RequestMapping("/api/agents/{agentId}/schedules")
 public class AgentScheduleController {
     @GetMapping
-    public Collection<VisitOutDto> listSchedule(@PathVariable("agentId") Long agentId) {
+    public Collection<VisitOutDto> listSchedule(@PathVariable("agentId") String agentId) {
         return new ArrayList<>();
     }
 }

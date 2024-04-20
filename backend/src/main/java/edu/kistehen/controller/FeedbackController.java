@@ -14,24 +14,24 @@ import java.util.Collection;
 @RequestMapping("/api/clients/{clientId}/feedback")
 public class FeedbackController {
     @PostMapping
-    public FeedbackOutDto addFeedback(@PathVariable("clientId") Long clientId, @RequestBody FeedbackAddDto addDto) {
+    public FeedbackOutDto addFeedback(@PathVariable("clientId") String clientId, @RequestBody FeedbackAddDto addDto) {
         FeedbackOutDto outDto = new FeedbackOutDto();
         return outDto;
     }
 
     @GetMapping
-    public Collection<FeedbackOutDto> listFeedbacks(@PathVariable("clientId") Long clientId) {
+    public Collection<FeedbackOutDto> listFeedbacks(@PathVariable("clientId") String clientId) {
         return new ArrayList<>();
     }
 
     @GetMapping("/{feedbackId}")
-    public FeedbackOutDto getFeedback(@PathVariable("clientId") Long clientId,
-                                      @PathVariable("feedbackId") Long feedbackid) {
+    public FeedbackOutDto getFeedback(@PathVariable("clientId") String clientId,
+                                      @PathVariable("feedbackId") String feedbackId) {
         return new FeedbackOutDto();
     }
 
     @DeleteMapping("/feedbackId")
-    public boolean addFeedback(@PathVariable("clientId") Long clientId, @RequestBody Long feedbackId) {
+    public boolean addFeedback(@PathVariable("clientId") String clientId, @RequestBody String feedbackId) {
         return true;
     }
 }

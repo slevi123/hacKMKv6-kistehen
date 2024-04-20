@@ -17,22 +17,22 @@ public class SupervisorController {
     }
 
     @PatchMapping("/{supervisorId}/deactivate")
-    public boolean deactivateSupervisor(@PathVariable("supervisorId") Long supervisorId) {
+    public boolean deactivateSupervisor(@PathVariable("supervisorId") String supervisorId) {
         return true;
     }
 
     @PatchMapping("/{supervisorId}/reactivate")
-    public boolean reactivateSupervisor(@PathVariable("supervisorId") Long supervisorId) {
+    public boolean reactivateSupervisor(@PathVariable("supervisorId") String supervisorId) {
         return true;
     }
 
     @DeleteMapping("/{supervisorId}")
-    public boolean deleteSupervisor(@PathVariable("supervisorId") Long supervisorId) {
+    public boolean deleteSupervisor(@PathVariable("supervisorId") String supervisorId) {
         return true;
     }
 
     @PutMapping("/{supervisorId}")
-    public SupervisorOutDto updateSupervisor(@PathVariable("supervisorId") Long supervisorId) {
+    public SupervisorOutDto updateSupervisor(@PathVariable("supervisorId") String supervisorId) {
         return new SupervisorOutDto();
     }
 }
