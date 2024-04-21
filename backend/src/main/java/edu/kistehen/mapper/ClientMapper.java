@@ -15,7 +15,7 @@ public abstract class ClientMapper {
     public abstract ClientLongDto modelToDto(Client client);
 
     @IterableMapping(elementTargetType = ClientShortDto.class)
-    public abstract Collection<ClientShortDto> modelsToDtos(Collection<Client> clients);
+    public abstract Collection<ClientLongDto> modelsToDtos(Collection<Client> clients);
 
     @Mapping(target = "id", ignore = true)
     public abstract Client dtoToModel(ClientRegisterDto dto);

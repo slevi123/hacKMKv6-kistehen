@@ -1,29 +1,27 @@
 import { Chip, Grid, Typography } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import { Clients } from '../api/clients.api';
 
-const CustomCard = () => {
+export default function CustomCard(client: Clients) {
   return (
     <Card sx={{margin: 2, backgroundColor: '#F0F0F0', borderRadius: 5}}>
       <CardContent>
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={4}>
             <Typography variant="h6" component="div">
-              Company Name
+              {client.name}
             </Typography>
             <Typography variant="body1" component="div">
-              Address
-            </Typography>
-            <Typography variant="body1" component="div">
-              Phone Number
+              {client.email}
             </Typography>
           </Grid>
           <Grid item xs={4}>
             <Typography variant="h6" component="div">
-              Time(1pm-2pm)
+              {client.city}
             </Typography>
             <Typography variant="body1" component="div">
-              Date(12/12/2021)
+              {client.county}
             </Typography>
           </Grid>
           <Grid item xs={4}>
@@ -35,6 +33,6 @@ const CustomCard = () => {
       </CardContent>
     </Card>
   );
-};
+}
 
-export default CustomCard;
+

@@ -72,36 +72,79 @@ export function AgentSchedulePlanner() {
     },
   ];
 
-  const rows = [
-    { id: 1, lastName: "Snow", firstName: "Jon", age: 35 },
-    { id: 2, lastName: "Lannister", firstName: "Cersei", age: 42 },
-    { id: 3, lastName: "Lannister", firstName: "Jaime", age: 45 },
-    { id: 4, lastName: "Stark", firstName: "Arya", age: 16 },
-    { id: 5, lastName: "Targaryen", firstName: "Daenerys", age: null },
-    { id: 6, lastName: "Melisandre", firstName: null, age: 150 },
-    { id: 7, lastName: "Clifford", firstName: "Ferrara", age: 44 },
-    { id: 8, lastName: "Frances", firstName: "Rossini", age: 36 },
-    { id: 9, lastName: "Roxie", firstName: "Harvey", age: 65 },
-  ];
+ 
+const rows = [
+{ id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
+{ id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
+{ id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
+{ id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
+{ id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
+{ id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
+{ id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
+{ id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
+{ id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
+];
 
-  return (
-    <>
-      <div>
-        <Sidebar>
-          <RouteList />
-        </Sidebar>
-        <Animation dir={"up"}>
-          <Box sx={{ margin: "2em" }}>
-            <Grid
-              sx={{ ...bodyStyle, mobileStyle, centerStyle, zIndex: "3" }}
-              spacing={2}
-              container
-              display={"felx"}
-            >
-              <Grid item xs={12} sx={centerStyle}>
-                <h1>Agent Schedule Planner</h1>
-              </Grid>
 
+    return (
+       
+        <>
+        <div>
+            <Sidebar>
+                <RouteList />
+            </Sidebar>
+            <Animation dir={"up"}>
+            <Box sx={{margin: "2em"}}>
+            
+            <Grid sx={{...bodyStyle,mobileStyle, centerStyle, zIndex:"3"}} spacing={2} container display={"felx"}>
+
+                <Grid item xs={12} sx={centerStyle}>
+                    <h1>Agent Schedule Planner</h1>
+                </Grid>
+
+                <Grid item xs={mobileStyle} sx={{...centerStyle, width: "100%"}}>
+                        <Calendar
+                        localizer={localizer}
+                        events={
+                            [
+                                {
+                                    title: 'All Day Event very long title',
+                                    allDay: true,
+                                    start: new Date(2024, 4, 21),
+                                    end: new Date(2021, 4, 22),
+                                },
+                                {
+                                    title: 'Long Event',
+                                    start: new Date(2024, 4, 7),
+                                    end: new Date(2021, 4, 10),
+                                }
+                            ]
+                        }
+                        startAccessor="start"
+                        endAccessor="end"
+                        style={{ height: 500, width: "80%", zIndex: 3}}
+                        />
+                </Grid>
+
+                <Grid item xs={mobileStyle}>
+                    <Map currentLocation={currentLocation}/>
+                </Grid>
+
+
+                <Grid item xs={12} style={{...centerStyle,width: "80%"}}>
+
+                <DataGrid
+               
+                rows={
+                    rows
+                }
+                columns={columns}
+                initialState={{
+                    pagination: {
+                    paginationModel: { page: 0, pageSize: 5 },
+                    }}}
+                pageSizeOptions={[5, 10]}
+                ></DataGrid>
               <Grid
                 item
                 xs={mobileStyle}
@@ -145,6 +188,7 @@ export function AgentSchedulePlanner() {
                   checkboxSelection
                 />
               </Grid>
+            </Grid>
             </Grid>
           </Box>
 
