@@ -55,7 +55,9 @@ export function AgentSchedulePlanner() {
 
     const currentLocation = useCurrentLocation();
     const matches = useMediaQuery('(min-width:800px)');
-    const [selectedLocations, setSelectedLocations] = useState<MarkerType[]>([]);
+    const [selectedLocations, setSelectedLocations] = useState<MarkerType[]>([
+        currentLocation
+    ]);
 
     const [savedDates, setSavedDates] = useState<DatePickerModalType[]>([]);
     
