@@ -10,6 +10,7 @@ import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
 import { AgentSchedulePlanner } from "./pages/Agent.Schadule-Planner";
 import AllClients from "./pages/AllClients";
 import { Upload } from './pages/Sipervisers.Upload';
+import { Intro } from "./pages/Intro";
 
 const panelStyle: CSSProperties = {
     // backgroundColor: "blue",
@@ -107,13 +108,14 @@ export function Layout() {
                             <Box sx={{zIndex: "2"}} id="content">
                             <HashRouter>
                                 <Routes>
-                                    <Route path="/" element={<Home />} />
+                                    <Route path="/home" element={<Home />} />
                                     {/* <Route path="/agent/:id/schadule-planner" element={<AgentSchedulePlanner />} /> */}
                                     <Route path="/agent/:id/schedulePlanner" element={<AgentSchedulePlanner />} />
                                     <Route path="/about" element={<About/>} />
                                     <Route path="/supervisors/:id/upload" element={<Upload/>} />
                                     <Route path="/clientDetails/:id" element={<ClientDetail/>}/>
                                     <Route path="/clients" element={<AllClients />}/>
+                                    <Route path="/" element={<Intro />}/>
                                 </Routes>
                             </HashRouter>
                             </Box>

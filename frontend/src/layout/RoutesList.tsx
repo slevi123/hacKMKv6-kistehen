@@ -36,7 +36,7 @@ export function RouteList() {
   const [routes] = useState<RouteType[]>([
     {
       label: "Home",
-      route: "/",
+      route: "/home",
     },
     {
       label: "Agent Schedule planner",

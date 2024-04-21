@@ -34,3 +34,18 @@
 .leaflet-routing-alt {
     display: none;
 }
+
+.intro-back {
+    animation: backgroundColorChange 2s ease-in-out forwards;
+}
+
+@keyframes backgroundColorChange {
+    from {
+        background-color: black;
+        color: linear-gradient(to right, #ffffff, #39adff);
+    }
+    to {
+        background-color: white;
+        color: linear-gradient(to right, #2b2b2b, black);
+    }
+}
