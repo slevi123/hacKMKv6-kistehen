@@ -145,49 +145,7 @@ const rows = [
                     }}}
                 pageSizeOptions={[5, 10]}
                 ></DataGrid>
-              <Grid
-                item
-                xs={mobileStyle}
-                sx={{ ...centerStyle, width: "100%" }}
-              >
-                <Calendar
-                  localizer={localizer}
-                  events={[
-                    {
-                      title: "All Day Event very long title",
-                      allDay: true,
-                      start: new Date(2024, 4, 21),
-                      end: new Date(2021, 4, 22),
-                    },
-                    {
-                      title: "Long Event",
-                      start: new Date(2024, 4, 7),
-                      end: new Date(2021, 4, 10),
-                    },
-                  ]}
-                  startAccessor="start"
-                  endAccessor="end"
-                  style={{ height: 500, width: "80%", zIndex: 3 }}
-                />
-              </Grid>
-
-              <Grid item xs={mobileStyle}>
-                <Map currentLocation={currentLocation} />
-              </Grid>
-
-              <Grid item xs={12} style={{ ...centerStyle, width: "80%" }}>
-                <DataGrid
-                  rows={rows}
-                  columns={columns}
-                  initialState={{
-                    pagination: {
-                      paginationModel: { page: 0, pageSize: 5 },
-                    },
-                  }}
-                  pageSizeOptions={[5, 10]}
-                  checkboxSelection
-                />
-              </Grid>
+             
             </Grid>
             </Grid>
           </Box>

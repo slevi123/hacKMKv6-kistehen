@@ -42,12 +42,22 @@ export function Upload() {
   const { data: products, isLoading, isError, error } = useProducts();
 
   if (isLoading) {
-    return <CircularProgress />;
+    return<>
+     <Sidebar>
+        <RouteList />
+      </Sidebar>
+      <CircularProgress />;
+
+    </> 
   }
 
   if (isError) {
     return (
       <>
+       <Sidebar>
+        <RouteList />
+      </Sidebar>
+
         <Alert variant="outlined" severity="error">
           {error && error.message}
         </Alert>
