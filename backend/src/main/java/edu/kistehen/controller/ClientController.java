@@ -30,7 +30,7 @@ public class ClientController {
     private ClientMapper clientMapper;
 
     @GetMapping
-    public Collection<ClientShortDto> listClients() {
+    public Collection<ClientLongDto> listClients() {
         return clientMapper.modelsToDtos(clientService.getAll());
     }
 

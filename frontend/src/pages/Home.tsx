@@ -4,7 +4,6 @@ import { RouteList } from "../layout/RoutesList";
 import Map from "../components/Map";
 import { useEffect, useState } from "react";
 import { getCurrentCityName } from "../query/query";
-import zIndex from "@mui/material/styles/zIndex";
 import { Box } from "@mui/material";
 
 export function Home() {

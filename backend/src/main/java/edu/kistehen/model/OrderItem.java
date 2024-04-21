@@ -17,11 +17,11 @@ public class OrderItem extends BaseEntity {
     @Column(nullable = false)
     private Double price;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "orders_id")
     private Order order;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "products_id")
     private Product product;
 }

@@ -18,30 +18,48 @@ import { RouteList } from "../layout/RoutesList";
 import { Sidebar } from "../layout/Sidebar";
 import CustomCard from "../components/CustomCards";
 import { Animation } from "../layout/Animation";
+import { useParams } from "react-router-dom";
+import { useClient } from "../query/clients.query";
+import { addNotes } from "../api/notes.api";
+import { useNotes } from "../query/note.query";
 
 export default function ClientDetail() {
-  const [notes, setNotes] = useState<string[]>([]);
+
   const [feedbacks, setFeedbacks] = useState<string[]>([]);
 
   // State for input values in add note and add feedback forms
   const [noteInput, setNoteInput] = useState("");
   const [feedbackInput, setFeedbackInput] = useState("");
 
+  const id = useParams<{ id: string }>().id ?? '';
+
   // Function to handle adding a note
   const handleAddNote = () => {
-    if (noteInput.trim() !== "") {
-      setNotes([...notes, noteInput]);
-      setNoteInput("");
-    }
+    // if (noteInput.trim() !== "") {
+    //   setNotes([...notes, noteInput]);
+    //   setNoteInput("");
+    // }
+    const note = {
+      message: noteInput,
+      agentId: "0"
+    };
+    addNotes(id, note);
+    window.location.reload();
   };
 
-  // Function to handle adding a feedback
   const handleAddFeedback = () => {
     if (feedbackInput.trim() !== "") {
       setFeedbacks([...feedbacks]);
       setFeedbackInput("");
     }
   };
+
+  const { data: notes } = useNotes(id);
+
+  // Function to handle adding a feedback
+  // const id = useParams<{ id: string }>().id ?? '';
+
+  const { data: client } = useClient(id);
 
   return (
     <Box sx={{margin: "1em"}}>
@@ -57,7 +75,7 @@ export default function ClientDetail() {
       
       <Container maxWidth="lg">
         {/* Company Details */}
-        <CustomCard />
+        <CustomCard id={client?.id} name={client?.name} email={client?.email} city={client?.city} county={client?.county} sold={client?.sold} size={client?.size}/>
 
         {/* Add Note and Display Notes Section */}
         <Box my={4} mx={2}>
@@ -103,7 +121,7 @@ export default function ClientDetail() {
                     Notes
                   </Typography>
                   <List>
-                    {notes.map((note, index) => (
+                    {notes?.map((note, index) => (
                       <Paper
                         key={index}
                         elevation={3}
@@ -113,7 +131,7 @@ export default function ClientDetail() {
                           backgroundColor: "inherit",
                         }}
                       >
-                        <Typography variant="body1">{note}</Typography>
+                        <Typography variant="body1">{note.message}</Typography>
                       </Paper>
                     ))}
                   </List>
