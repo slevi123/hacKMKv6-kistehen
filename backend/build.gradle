@@ -12,12 +12,12 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.5.0'
+
+
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation'
-
-    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
-    annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
 
     runtimeOnly group: 'com.mysql', name: 'mysql-connector-j', version: '8.2.0'
     runtimeOnly group: 'com.h2database', name: 'h2', version: '2.2.224'
@@ -30,4 +30,18 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
     testCompileOnly 'org.projectlombok:lombok:1.18.30'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
+    annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '3.2.5'
+
+    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
+    annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
+
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.9'
+
+    // https://mvnrepository.com/artifact/org.kohsuke/wordnet-random-name
+    implementation group: 'org.kohsuke', name: 'wordnet-random-name', version: '1.5'
+
 }

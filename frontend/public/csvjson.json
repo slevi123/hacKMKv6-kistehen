@@ -1,0 +1,4002 @@
+[
+  {
+     "City": "Nasaud",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.2921849,
+    "Longitude": 24.3973258,
+    "Sold": 1349829,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+     "City": "Alba Iulia",
+    "County": "Alba",
+    "Latitude": 46.0732725,
+    "Longitude": 23.5804886,
+    "Sold": 1127631,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+     "City": "Zimnicea",
+    "County": "Teleorman",
+    "Latitude": 43.6578297,
+    "Longitude": 25.360575,
+    "Sold": 1120065,
+    "Group": "LARGE",
+    "Agent": 9,
+    "Visits": "twice-a-week"
+  },
+  {
+     "City": "Panet",
+    "County": "Mures",
+    "Latitude": 46.5599133,
+    "Longitude": 24.435195,
+    "Sold": 8478,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "twice-a-week"
+  },
+  {
+     "City": "Caracal",
+    "County": "Olt",
+    "Latitude": 44.1157446,
+    "Longitude": 24.3424754,
+    "Sold": 787836,
+    "Group": "MEDIUM",
+    "Agent": 17,
+    "Visits": "twice-a-week"
+  },
+  {
+     "City": "Voitinel",
+    "County": "Suceava",
+    "Latitude": 47.8804611,
+    "Longitude": 25.7493649,
+    "Sold": 430984,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+     "City": "Cheresig",
+    "County": "Bihor",
+    "Latitude": 47.0326903,
+    "Longitude": 21.6750289,
+    "Sold": 939962,
+    "Group": "MEDIUM",
+    "Agent": 11,
+    "Visits": "bi-weekly"
+  },
+  {
+     "City": "Rogoz",
+    "County": "Maramures",
+    "Latitude": 47.4688357,
+    "Longitude": 23.9322483,
+    "Sold": 750924,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+     "City": "Lunca de Jos",
+    "County": "Harghita",
+    "Latitude": 46.6445544,
+    "Longitude": 25.9561808,
+    "Sold": 1255089,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+     "City": "Tasnad",
+    "County": "Satu Mare",
+    "Latitude": 47.4783904,
+    "Longitude": 22.5817433,
+    "Sold": 958609,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Valea Ursului",
+    "County": "Iasi",
+    "Latitude": 47.1351816,
+    "Longitude": 27.4860171,
+    "Sold": 1193163,
+    "Group": "LARGE",
+    "Agent": 19,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Iasi",
+    "County": "Iasi",
+    "Latitude": 47.1584549,
+    "Longitude": 27.6014418,
+    "Sold": 566790,
+    "Group": "MEDIUM",
+    "Agent": 19,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Poiana Marului",
+    "County": "Brasov",
+    "Latitude": 45.6049511,
+    "Longitude": 25.3075907,
+    "Sold": 327776,
+    "Group": "SMALL",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Brazii de Jos",
+    "County": "Prahova",
+    "Latitude": 44.8507992,
+    "Longitude": 26.0333732,
+    "Sold": 594975,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Chitesti",
+    "County": "Arges",
+    "Latitude": 44.8599742,
+    "Longitude": 25.137839,
+    "Sold": 791489,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Buzau",
+    "County": "Buzau",
+    "Latitude": 45.1371109,
+    "Longitude": 26.8171122,
+    "Sold": 989575,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Targu Jiu",
+    "County": "Gorj",
+    "Latitude": 45.0314279,
+    "Longitude": 23.2689393,
+    "Sold": 1929654,
+    "Group": "LARGE",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Almasu",
+    "County": "Salaj",
+    "Latitude": 46.966232,
+    "Longitude": 23.0986992,
+    "Sold": 778871,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Paclisa",
+    "County": "Hunedoara",
+    "Latitude": 45.5630744,
+    "Longitude": 22.8801602,
+    "Sold": 322027,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Brazii de Jos",
+    "County": "Prahova",
+    "Latitude": 44.8507992,
+    "Longitude": 26.0333732,
+    "Sold": 627009,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Poiana Ilvei",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.3558143,
+    "Longitude": 24.7451705,
+    "Sold": 568202,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Buzau",
+    "County": "Buzau",
+    "Latitude": 45.1371109,
+    "Longitude": 26.8171122,
+    "Sold": 1040740,
+    "Group": "LARGE",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Slatioara",
+    "County": "Olt",
+    "Latitude": 44.3992805,
+    "Longitude": 24.3248738,
+    "Sold": 29601,
+    "Group": "SMALL",
+    "Agent": 17,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Fantanele",
+    "County": "Mures",
+    "Latitude": 46.421745,
+    "Longitude": 24.7657281,
+    "Sold": 831630,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Praid",
+    "County": "Harghita",
+    "Latitude": 46.5553429,
+    "Longitude": 25.1272723,
+    "Sold": 878253,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Polovragi",
+    "County": "Gorj",
+    "Latitude": 45.1779928,
+    "Longitude": 23.7972575,
+    "Sold": 916090,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Curtea de Arges",
+    "County": "Arges",
+    "Latitude": 45.1405966,
+    "Longitude": 24.6685182,
+    "Sold": 501341,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Vulturu",
+    "County": "Vrancea",
+    "Latitude": 45.6179023,
+    "Longitude": 27.4194359,
+    "Sold": 681039,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Rosiori de Vede",
+    "County": "Teleorman",
+    "Latitude": 44.1085569,
+    "Longitude": 24.9949784,
+    "Sold": 87969,
+    "Group": "SMALL",
+    "Agent": 9,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Malini",
+    "County": "Suceava",
+    "Latitude": 47.4536485,
+    "Longitude": 26.0872309,
+    "Sold": 553340,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Huedin",
+    "County": "Cluj",
+    "Latitude": 46.8623427,
+    "Longitude": 23.0218215,
+    "Sold": 528569,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Ramnicu Valcea",
+    "County": "Valcea",
+    "Latitude": 45.0996753,
+    "Longitude": 24.3693179,
+    "Sold": 1008025,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Vadastrita",
+    "County": "Olt",
+    "Latitude": 43.8476733,
+    "Longitude": 24.3422102,
+    "Sold": 221908,
+    "Group": "SMALL",
+    "Agent": 17,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Moreni",
+    "County": "Dambovita",
+    "Latitude": 44.9820431,
+    "Longitude": 25.6402111,
+    "Sold": 1190599,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Rodna",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.420026,
+    "Longitude": 24.8169632,
+    "Sold": 1547242,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Malini",
+    "County": "Suceava",
+    "Latitude": 47.4536485,
+    "Longitude": 26.0872309,
+    "Sold": 234992,
+    "Group": "SMALL",
+    "Agent": 5,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Brasov",
+    "County": "Brasov",
+    "Latitude": 45.6579755,
+    "Longitude": 25.6011977,
+    "Sold": 1013129,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Simian",
+    "County": "Mehedinti",
+    "Latitude": 44.6323199,
+    "Longitude": 22.7515121,
+    "Sold": 1138454,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Simian",
+    "County": "Mehedinti",
+    "Latitude": 44.6323199,
+    "Longitude": 22.7515121,
+    "Sold": 481281,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Busteni",
+    "County": "Prahova",
+    "Latitude": 45.4097148,
+    "Longitude": 25.5342236,
+    "Sold": 601364,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Vulturu",
+    "County": "Vrancea",
+    "Latitude": 45.6179023,
+    "Longitude": 27.4194359,
+    "Sold": 733559,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Teaca",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 46.9114516,
+    "Longitude": 24.5031976,
+    "Sold": 651104,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Voluntari",
+    "County": "Ilfov",
+    "Latitude": 44.5050832,
+    "Longitude": 26.1555435,
+    "Sold": 645493,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Deva",
+    "County": "Hunedoara",
+    "Latitude": 45.8662574,
+    "Longitude": 22.9143737,
+    "Sold": 38001,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Comana de Jos",
+    "County": "Brasov",
+    "Latitude": 45.9135796,
+    "Longitude": 25.2329858,
+    "Sold": 1376165,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Zalau",
+    "County": "Salaj",
+    "Latitude": 47.1854562,
+    "Longitude": 23.0573324,
+    "Sold": 1339809,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Oniceni",
+    "County": "Suceava",
+    "Latitude": 47.3293628,
+    "Longitude": 26.4591162,
+    "Sold": 393317,
+    "Group": "SMALL",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Mosnita Noua",
+    "County": "Timis",
+    "Latitude": 45.7206388,
+    "Longitude": 21.3156456,
+    "Sold": 66787,
+    "Group": "SMALL",
+    "Agent": 2,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Campia Turzii",
+    "County": "Cluj",
+    "Latitude": 46.5586485,
+    "Longitude": 23.8706676,
+    "Sold": 1060532,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Vadu Izei",
+    "County": "Maramures",
+    "Latitude": 47.8833463,
+    "Longitude": 23.9562547,
+    "Sold": 512106,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Targu Mures",
+    "County": "Mures",
+    "Latitude": 46.5385862,
+    "Longitude": 24.5514392,
+    "Sold": 870976,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Sighisoara",
+    "County": "Mures",
+    "Latitude": 46.2197025,
+    "Longitude": 24.7963878,
+    "Sold": 640335,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Cotenesti",
+    "County": "Arges",
+    "Latitude": 45.23358,
+    "Longitude": 25.1844379,
+    "Sold": 1145769,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Constanta",
+    "County": "Constanta",
+    "Latitude": 44.1598013,
+    "Longitude": 28.6348138,
+    "Sold": 1147374,
+    "Group": "LARGE",
+    "Agent": 14,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Constanta",
+    "County": "Constanta",
+    "Latitude": 44.1598013,
+    "Longitude": 28.6348138,
+    "Sold": 437201,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Daia Romana",
+    "County": "Alba",
+    "Latitude": 46.006639,
+    "Longitude": 23.6675773,
+    "Sold": 108318,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Orastie",
+    "County": "Hunedoara",
+    "Latitude": 45.8451246,
+    "Longitude": 23.2019265,
+    "Sold": 8530,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Oniceni",
+    "County": "Suceava",
+    "Latitude": 47.3293628,
+    "Longitude": 26.4591162,
+    "Sold": 1105189,
+    "Group": "LARGE",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Pipirig",
+    "County": "Neamt",
+    "Latitude": 47.2396133,
+    "Longitude": 26.0678092,
+    "Sold": 205570,
+    "Group": "SMALL",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Ramnicu Valcea",
+    "County": "Valcea",
+    "Latitude": 45.0996753,
+    "Longitude": 24.3693179,
+    "Sold": 546591,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Sarata-Monteoru",
+    "County": "Buzau",
+    "Latitude": 45.1475653,
+    "Longitude": 26.6409383,
+    "Sold": 501842,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Rupea",
+    "County": "Brasov",
+    "Latitude": 46.0377858,
+    "Longitude": 25.2225074,
+    "Sold": 773716,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Comana de Jos",
+    "County": "Brasov",
+    "Latitude": 45.9135796,
+    "Longitude": 25.2329858,
+    "Sold": 168139,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Floresti",
+    "County": "Cluj",
+    "Latitude": 46.7312657,
+    "Longitude": 23.4783294,
+    "Sold": 894389,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Moinesti",
+    "County": "Bacau",
+    "Latitude": 46.4697857,
+    "Longitude": 26.4884629,
+    "Sold": 1061945,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Berbesti",
+    "County": "Valcea",
+    "Latitude": 45.0090342,
+    "Longitude": 23.8797585,
+    "Sold": 844211,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Saliste",
+    "County": "Sibiu",
+    "Latitude": 45.7941029,
+    "Longitude": 23.8851034,
+    "Sold": 644556,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Intorsura Buzaului",
+    "County": "Covasna",
+    "Latitude": 45.6640966,
+    "Longitude": 26.0149491,
+    "Sold": 848700,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Racsa",
+    "County": "Satu Mare",
+    "Latitude": 47.8207297,
+    "Longitude": 23.3321834,
+    "Sold": 999523,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Calarasi",
+    "County": "Calarasi",
+    "Latitude": 44.2085144,
+    "Longitude": 27.3137439,
+    "Sold": 586296,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Golaiesti",
+    "County": "Iasi",
+    "Latitude": 47.2648157,
+    "Longitude": 27.6787658,
+    "Sold": 1777956,
+    "Group": "LARGE",
+    "Agent": 19,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Tartasesti",
+    "County": "Dambovita",
+    "Latitude": 44.5713235,
+    "Longitude": 25.8281028,
+    "Sold": 995046,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Dragodana",
+    "County": "Dambovita",
+    "Latitude": 44.7482909,
+    "Longitude": 25.3936632,
+    "Sold": 473795,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Moreni",
+    "County": "Dambovita",
+    "Latitude": 44.9820431,
+    "Longitude": 25.6402111,
+    "Sold": 604523,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Daia Romana",
+    "County": "Alba",
+    "Latitude": 46.006639,
+    "Longitude": 23.6675773,
+    "Sold": 1046870,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Crevedia",
+    "County": "Dambovita",
+    "Latitude": 44.6019735,
+    "Longitude": 25.9104359,
+    "Sold": 741948,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Urechesti",
+    "County": "Arges",
+    "Latitude": 45.2624404,
+    "Longitude": 24.6151016,
+    "Sold": 215342,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Beius",
+    "County": "Bihor",
+    "Latitude": 46.6674534,
+    "Longitude": 22.3575717,
+    "Sold": 1832246,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Catetu",
+    "County": "Valcea",
+    "Latitude": 44.8365671,
+    "Longitude": 23.9550864,
+    "Sold": 744729,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Trotusanu",
+    "County": "Vrancea",
+    "Latitude": 45.9790189,
+    "Longitude": 27.0961172,
+    "Sold": 1310086,
+    "Group": "LARGE",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Alba Iulia",
+    "County": "Alba",
+    "Latitude": 46.0732725,
+    "Longitude": 23.5804886,
+    "Sold": 453975,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Voluntari",
+    "County": "Ilfov",
+    "Latitude": 44.5050832,
+    "Longitude": 26.1555435,
+    "Sold": 1568188,
+    "Group": "LARGE",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Murfatlar",
+    "County": "Constanta",
+    "Latitude": 44.1735518,
+    "Longitude": 28.4105479,
+    "Sold": 943171,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Ocna Sugatag",
+    "County": "Maramures",
+    "Latitude": 47.7373872,
+    "Longitude": 23.8832678,
+    "Sold": 1104421,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Sant",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.4406116,
+    "Longitude": 24.891578,
+    "Sold": 277373,
+    "Group": "SMALL",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Prundeni",
+    "County": "Valcea",
+    "Latitude": 44.7372601,
+    "Longitude": 24.2480032,
+    "Sold": 1405572,
+    "Group": "LARGE",
+    "Agent": 17,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Moldova Noua",
+    "County": "Caras-Severin",
+    "Latitude": 44.735184,
+    "Longitude": 21.6642348,
+    "Sold": 1144909,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Teregova",
+    "County": "Caras-Severin",
+    "Latitude": 45.1504322,
+    "Longitude": 22.2864464,
+    "Sold": 1450923,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Sascut",
+    "County": "Bacau",
+    "Latitude": 46.1960057,
+    "Longitude": 27.093757,
+    "Sold": 485956,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Acris",
+    "County": "Brasov",
+    "Latitude": 45.6353308,
+    "Longitude": 25.9928947,
+    "Sold": 559486,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Marghita",
+    "County": "Bihor",
+    "Latitude": 47.3479194,
+    "Longitude": 22.3397566,
+    "Sold": 1951958,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Beclean",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.1800681,
+    "Longitude": 24.1704031,
+    "Sold": 269992,
+    "Group": "SMALL",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Baia Mare",
+    "County": "Maramures",
+    "Latitude": 47.6567387,
+    "Longitude": 23.5849881,
+    "Sold": 732025,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Avrig",
+    "County": "Sibiu",
+    "Latitude": 45.7288293,
+    "Longitude": 24.3784376,
+    "Sold": 1368445,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Craiova",
+    "County": "Dolj",
+    "Latitude": 44.3301785,
+    "Longitude": 23.7948807,
+    "Sold": 848862,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Bucuresti",
+    "County": "Bucuresti",
+    "Latitude": 44.4267674,
+    "Longitude": 26.1025384,
+    "Sold": 1091476,
+    "Group": "LARGE",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+      "City": "Ludus",
+    "County": "Mures",
+    "Latitude": 46.476045,
+    "Longitude": 24.0933922,
+    "Sold": 600275,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+      "City": "Campia Turzii",
+    "County": "Cluj",
+    "Latitude": 46.5586485,
+    "Longitude": 23.8706676,
+    "Sold": 985027,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Filipestii de Targ",
+    "County": "Prahova",
+    "Latitude": 44.9686362,
+    "Longitude": 25.7940462,
+    "Sold": 146736,
+    "Group": "SMALL",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+      "City": "Huedin",
+    "County": "Cluj",
+    "Latitude": 46.8623427,
+    "Longitude": 23.0218215,
+    "Sold": 1629065,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Fieni",
+    "County": "Dambovita",
+    "Latitude": 45.1279095,
+    "Longitude": 25.4152063,
+    "Sold": 740917,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Husi",
+    "County": "Vaslui",
+    "Latitude": 46.6758644,
+    "Longitude": 28.05899,
+    "Sold": 459910,
+    "Group": "MEDIUM",
+    "Agent": 19,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Trip",
+    "County": "Satu Mare",
+    "Latitude": 47.9233727,
+    "Longitude": 23.3767769,
+    "Sold": 1133191,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Sangeorgiu de Padure",
+    "County": "Mures",
+    "Latitude": 46.4291872,
+    "Longitude": 24.8386374,
+    "Sold": 569640,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Poiana Marului",
+    "County": "Brasov",
+    "Latitude": 45.6049511,
+    "Longitude": 25.3075907,
+    "Sold": 132870,
+    "Group": "SMALL",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Calaparu",
+    "County": "Gorj",
+    "Latitude": 44.6828706,
+    "Longitude": 23.324964,
+    "Sold": 126641,
+    "Group": "SMALL",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Cavnic",
+    "County": "Maramures",
+    "Latitude": 47.656596,
+    "Longitude": 23.8297783,
+    "Sold": 1146886,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Maneciu-Pamanteni",
+    "County": "Prahova",
+    "Latitude": 45.2907906,
+    "Longitude": 26.0061295,
+    "Sold": 720213,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Rupea",
+    "County": "Brasov",
+    "Latitude": 46.0377858,
+    "Longitude": 25.2225074,
+    "Sold": 733149,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Tautii-Magheraus",
+    "County": "Maramures",
+    "Latitude": 47.6656888,
+    "Longitude": 23.4596529,
+    "Sold": 1338871,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Simleu Silvaniei",
+    "County": "Salaj",
+    "Latitude": 47.2260727,
+    "Longitude": 22.8037864,
+    "Sold": 236587,
+    "Group": "SMALL",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Aita Mare",
+    "County": "Covasna",
+    "Latitude": 45.9670572,
+    "Longitude": 25.5635224,
+    "Sold": 434661,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Vadu Izei",
+    "County": "Maramures",
+    "Latitude": 47.8833463,
+    "Longitude": 23.9562547,
+    "Sold": 607560,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Simeria",
+    "County": "Hunedoara",
+    "Latitude": 45.8555725,
+    "Longitude": 23.0120864,
+    "Sold": 847175,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Matrici",
+    "County": "Mures",
+    "Latitude": 46.6521518,
+    "Longitude": 24.8989782,
+    "Sold": 778914,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Tiha Bargaului",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.2278833,
+    "Longitude": 24.7759816,
+    "Sold": 656556,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Mineri",
+    "County": "Tulcea",
+    "Latitude": 45.1666405,
+    "Longitude": 28.7113039,
+    "Sold": 769186,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Gherla",
+    "County": "Cluj",
+    "Latitude": 47.0317645,
+    "Longitude": 23.909253,
+    "Sold": 746347,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Maneciu-Pamanteni",
+    "County": "Prahova",
+    "Latitude": 45.2907906,
+    "Longitude": 26.0061295,
+    "Sold": 440197,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Tiur",
+    "County": "Alba",
+    "Latitude": 46.1604567,
+    "Longitude": 23.8638923,
+    "Sold": 393503,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Matca",
+    "County": "Galati",
+    "Latitude": 45.8599216,
+    "Longitude": 27.5597746,
+    "Sold": 937258,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Oltenita",
+    "County": "Calarasi",
+    "Latitude": 44.0854664,
+    "Longitude": 26.637483,
+    "Sold": 354542,
+    "Group": "SMALL",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Tartasesti",
+    "County": "Dambovita",
+    "Latitude": 44.5713235,
+    "Longitude": 25.8281028,
+    "Sold": 221322,
+    "Group": "SMALL",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sascut",
+    "County": "Bacau",
+    "Latitude": 46.1960057,
+    "Longitude": 27.093757,
+    "Sold": 643853,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Teregova",
+    "County": "Caras-Severin",
+    "Latitude": 45.1504322,
+    "Longitude": 22.2864464,
+    "Sold": 721166,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Rabagani",
+    "County": "Bihor",
+    "Latitude": 46.74629,
+    "Longitude": 22.2452338,
+    "Sold": 1928361,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Campeni",
+    "County": "Alba",
+    "Latitude": 46.3628153,
+    "Longitude": 23.0459729,
+    "Sold": 447649,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Mastacan (Borlesti)",
+    "County": "Neamt",
+    "Latitude": 46.7968134,
+    "Longitude": 26.4954639,
+    "Sold": 1271630,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Petrosani",
+    "County": "Hunedoara",
+    "Latitude": 45.4088946,
+    "Longitude": 23.3754021,
+    "Sold": 1173594,
+    "Group": "LARGE",
+    "Agent": 4,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Seica Mare",
+    "County": "Sibiu",
+    "Latitude": 46.0239949,
+    "Longitude": 24.1582482,
+    "Sold": 205527,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Almasu",
+    "County": "Salaj",
+    "Latitude": 46.966232,
+    "Longitude": 23.0986992,
+    "Sold": 1186626,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Lupeni",
+    "County": "Hunedoara",
+    "Latitude": 45.3569989,
+    "Longitude": 23.2132218,
+    "Sold": 208059,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Borca",
+    "County": "Neamt",
+    "Latitude": 47.1789433,
+    "Longitude": 25.7794842,
+    "Sold": 529586,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Batrani",
+    "County": "Prahova",
+    "Latitude": 45.3377853,
+    "Longitude": 26.1118275,
+    "Sold": 1103159,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Simeria",
+    "County": "Hunedoara",
+    "Latitude": 45.8555725,
+    "Longitude": 23.0120864,
+    "Sold": 77945,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Rozavlea",
+    "County": "Maramures",
+    "Latitude": 47.7466016,
+    "Longitude": 24.2181216,
+    "Sold": 1025467,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Racosul de Sus",
+    "County": "Covasna",
+    "Latitude": 46.0802755,
+    "Longitude": 25.547364,
+    "Sold": 457994,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Oituz",
+    "County": "Bacau",
+    "Latitude": 46.1713004,
+    "Longitude": 26.5404114,
+    "Sold": 1629775,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Filiasi",
+    "County": "Dolj",
+    "Latitude": 44.554523,
+    "Longitude": 23.5200088,
+    "Sold": 1334254,
+    "Group": "LARGE",
+    "Agent": 18,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Priboieni",
+    "County": "Arges",
+    "Latitude": 44.8747392,
+    "Longitude": 25.0801048,
+    "Sold": 573307,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Deva",
+    "County": "Hunedoara",
+    "Latitude": 45.8662574,
+    "Longitude": 22.9143737,
+    "Sold": 456081,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Suplac",
+    "County": "Mures",
+    "Latitude": 46.3972736,
+    "Longitude": 24.5189235,
+    "Sold": 192961,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Constanta",
+    "County": "Constanta",
+    "Latitude": 44.1598013,
+    "Longitude": 28.6348138,
+    "Sold": 579538,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sacele",
+    "County": "Brasov",
+    "Latitude": 45.6179752,
+    "Longitude": 25.6942533,
+    "Sold": 659822,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Targu Frumos",
+    "County": "Iasi",
+    "Latitude": 47.2085397,
+    "Longitude": 27.0083561,
+    "Sold": 617653,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Poiana Ilvei",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.3558143,
+    "Longitude": 24.7451705,
+    "Sold": 878351,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Rupea",
+    "County": "Brasov",
+    "Latitude": 46.0377858,
+    "Longitude": 25.2225074,
+    "Sold": 1089260,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Viseu de Jos",
+    "County": "Maramures",
+    "Latitude": 47.7395133,
+    "Longitude": 24.3428814,
+    "Sold": 974827,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Tarnaveni",
+    "County": "Mures",
+    "Latitude": 46.3293137,
+    "Longitude": 24.2935777,
+    "Sold": 417928,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Pitesti",
+    "County": "Arges",
+    "Latitude": 44.8564798,
+    "Longitude": 24.8691824,
+    "Sold": 81104,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Breaza",
+    "County": "Prahova",
+    "Latitude": 45.187222,
+    "Longitude": 25.662222,
+    "Sold": 1482265,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Apata",
+    "County": "Brasov",
+    "Latitude": 45.9495023,
+    "Longitude": 25.5306954,
+    "Sold": 455275,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Satu Mare",
+    "County": "Satu Mare",
+    "Latitude": 47.8016702,
+    "Longitude": 22.8575926,
+    "Sold": 473853,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Oituz",
+    "County": "Bacau",
+    "Latitude": 46.1713004,
+    "Longitude": 26.5404114,
+    "Sold": 539405,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bretcu",
+    "County": "Covasna",
+    "Latitude": 46.0529902,
+    "Longitude": 26.3571364,
+    "Sold": 121534,
+    "Group": "SMALL",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Fieni",
+    "County": "Dambovita",
+    "Latitude": 45.1279095,
+    "Longitude": 25.4152063,
+    "Sold": 561012,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Rediu",
+    "County": "Galati",
+    "Latitude": 45.6473638,
+    "Longitude": 27.9011408,
+    "Sold": 560172,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Salistea de Sus",
+    "County": "Maramures",
+    "Latitude": 47.6576229,
+    "Longitude": 24.3524831,
+    "Sold": 1110179,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Horia",
+    "County": "Neamt",
+    "Latitude": 46.90631,
+    "Longitude": 26.9200561,
+    "Sold": 1149228,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Tautii-Magheraus",
+    "County": "Maramures",
+    "Latitude": 47.6656888,
+    "Longitude": 23.4596529,
+    "Sold": 801885,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Stanesti",
+    "County": "Arges",
+    "Latitude": 45.2391935,
+    "Longitude": 24.8262465,
+    "Sold": 1265924,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Horezu",
+    "County": "Valcea",
+    "Latitude": 45.1495389,
+    "Longitude": 23.9816333,
+    "Sold": 969982,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Varghis",
+    "County": "Covasna",
+    "Latitude": 46.1437575,
+    "Longitude": 25.5215551,
+    "Sold": 792158,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Filipestii de Targ",
+    "County": "Prahova",
+    "Latitude": 44.9686362,
+    "Longitude": 25.7940462,
+    "Sold": 880464,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Horezu",
+    "County": "Valcea",
+    "Latitude": 45.1495389,
+    "Longitude": 23.9816333,
+    "Sold": 704673,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Stroiesti",
+    "County": "Suceava",
+    "Latitude": 47.6155605,
+    "Longitude": 26.1242892,
+    "Sold": 602575,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sant",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.4406116,
+    "Longitude": 24.891578,
+    "Sold": 666133,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Caracal",
+    "County": "Olt",
+    "Latitude": 44.1157446,
+    "Longitude": 24.3424754,
+    "Sold": 235994,
+    "Group": "SMALL",
+    "Agent": 17,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Turceni",
+    "County": "Gorj",
+    "Latitude": 44.674076,
+    "Longitude": 23.374199,
+    "Sold": 940220,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Mastacan (Borlesti)",
+    "County": "Neamt",
+    "Latitude": 46.7968134,
+    "Longitude": 26.4954639,
+    "Sold": 303438,
+    "Group": "SMALL",
+    "Agent": 8,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Giulesti",
+    "County": "Maramures",
+    "Latitude": 47.8190608,
+    "Longitude": 23.9274849,
+    "Sold": 1220815,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Racaciuni",
+    "County": "Bacau",
+    "Latitude": 46.3375805,
+    "Longitude": 26.9933688,
+    "Sold": 675270,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Darmanesti",
+    "County": "Suceava",
+    "Latitude": 47.7382535,
+    "Longitude": 26.1457427,
+    "Sold": 824747,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Drobeta-Turnu Severin",
+    "County": "Mehedinti",
+    "Latitude": 44.6369227,
+    "Longitude": 22.6597342,
+    "Sold": 1046918,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Batrani",
+    "County": "Prahova",
+    "Latitude": 45.3377853,
+    "Longitude": 26.1118275,
+    "Sold": 1121657,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Gherla",
+    "County": "Cluj",
+    "Latitude": 47.0317645,
+    "Longitude": 23.909253,
+    "Sold": 14688,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Valenii de Munte",
+    "County": "Prahova",
+    "Latitude": 45.1912847,
+    "Longitude": 26.0440169,
+    "Sold": 696548,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Milostea",
+    "County": "Valcea",
+    "Latitude": 45.1266508,
+    "Longitude": 23.8337262,
+    "Sold": 1240089,
+    "Group": "LARGE",
+    "Agent": 18,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Tarnaveni",
+    "County": "Mures",
+    "Latitude": 46.3293137,
+    "Longitude": 24.2935777,
+    "Sold": 49052,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Toplita",
+    "County": "Harghita",
+    "Latitude": 46.9260303,
+    "Longitude": 25.3534041,
+    "Sold": 993640,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Periam",
+    "County": "Timis",
+    "Latitude": 46.0443663,
+    "Longitude": 20.8723729,
+    "Sold": 327782,
+    "Group": "SMALL",
+    "Agent": 2,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Deta",
+    "County": "Timis",
+    "Latitude": 45.3977401,
+    "Longitude": 21.2255847,
+    "Sold": 288746,
+    "Group": "SMALL",
+    "Agent": 2,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Alexandria",
+    "County": "Teleorman",
+    "Latitude": 43.9750572,
+    "Longitude": 25.3282579,
+    "Sold": 819315,
+    "Group": "MEDIUM",
+    "Agent": 9,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Praid",
+    "County": "Harghita",
+    "Latitude": 46.5553429,
+    "Longitude": 25.1272723,
+    "Sold": 28357,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Gherla",
+    "County": "Cluj",
+    "Latitude": 47.0317645,
+    "Longitude": 23.909253,
+    "Sold": 307244,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Cluj-Napoca",
+    "County": "Cluj",
+    "Latitude": 46.7712101,
+    "Longitude": 23.6236353,
+    "Sold": 64082,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Zimnicea",
+    "County": "Teleorman",
+    "Latitude": 43.6578297,
+    "Longitude": 25.360575,
+    "Sold": 1624067,
+    "Group": "LARGE",
+    "Agent": 9,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Topoloveni",
+    "County": "Arges",
+    "Latitude": 44.8105516,
+    "Longitude": 25.0770243,
+    "Sold": 882113,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Balauseri",
+    "County": "Mures",
+    "Latitude": 46.4078416,
+    "Longitude": 24.6929815,
+    "Sold": 1083645,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Rozavlea",
+    "County": "Maramures",
+    "Latitude": 47.7466016,
+    "Longitude": 24.2181216,
+    "Sold": 688662,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Tecuci",
+    "County": "Galati",
+    "Latitude": 45.8490923,
+    "Longitude": 27.4241268,
+    "Sold": 623284,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Voitinel",
+    "County": "Suceava",
+    "Latitude": 47.8804611,
+    "Longitude": 25.7493649,
+    "Sold": 8237,
+    "Group": "SMALL",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Crevedia",
+    "County": "Dambovita",
+    "Latitude": 44.6019735,
+    "Longitude": 25.9104359,
+    "Sold": 654081,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Doanca",
+    "County": "Olt",
+    "Latitude": 43.8465727,
+    "Longitude": 24.6487677,
+    "Sold": 419253,
+    "Group": "MEDIUM",
+    "Agent": 17,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Brebu",
+    "County": "Prahova",
+    "Latitude": 45.183333,
+    "Longitude": 25.766667,
+    "Sold": 1228961,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sfantu Gheorghe",
+    "County": "Covasna",
+    "Latitude": 45.8609375,
+    "Longitude": 25.7885796,
+    "Sold": 1370550,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dragasani",
+    "County": "Valcea",
+    "Latitude": 44.6631799,
+    "Longitude": 24.2608711,
+    "Sold": 1533289,
+    "Group": "LARGE",
+    "Agent": 17,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Tarnaveni",
+    "County": "Mures",
+    "Latitude": 46.3293137,
+    "Longitude": 24.2935777,
+    "Sold": 1226275,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Periam",
+    "County": "Timis",
+    "Latitude": 46.0443663,
+    "Longitude": 20.8723729,
+    "Sold": 500673,
+    "Group": "MEDIUM",
+    "Agent": 2,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Poienita",
+    "County": "Arges",
+    "Latitude": 45.1127612,
+    "Longitude": 24.9234846,
+    "Sold": 242051,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Petrosani",
+    "County": "Hunedoara",
+    "Latitude": 45.4088946,
+    "Longitude": 23.3754021,
+    "Sold": 1183331,
+    "Group": "LARGE",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Roman",
+    "County": "Neamt",
+    "Latitude": 46.9333781,
+    "Longitude": 26.9265451,
+    "Sold": 978146,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Petrila",
+    "County": "Hunedoara",
+    "Latitude": 45.4437689,
+    "Longitude": 23.4093784,
+    "Sold": 84269,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Marghita",
+    "County": "Bihor",
+    "Latitude": 47.3479194,
+    "Longitude": 22.3397566,
+    "Sold": 977740,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Golaiesti",
+    "County": "Iasi",
+    "Latitude": 47.2648157,
+    "Longitude": 27.6787658,
+    "Sold": 1207259,
+    "Group": "LARGE",
+    "Agent": 19,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Ganesti",
+    "County": "Mures",
+    "Latitude": 46.3336531,
+    "Longitude": 24.3588403,
+    "Sold": 829462,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dobreni",
+    "County": "Giurgiu",
+    "Latitude": 44.253387,
+    "Longitude": 26.2082339,
+    "Sold": 707473,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Cavnic",
+    "County": "Maramures",
+    "Latitude": 47.656596,
+    "Longitude": 23.8297783,
+    "Sold": 396175,
+    "Group": "SMALL",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Mangalia",
+    "County": "Constanta",
+    "Latitude": 43.8152436,
+    "Longitude": 28.5741496,
+    "Sold": 76732,
+    "Group": "SMALL",
+    "Agent": 14,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Pechea",
+    "County": "Galati",
+    "Latitude": 45.6473849,
+    "Longitude": 27.7849169,
+    "Sold": 1200148,
+    "Group": "LARGE",
+    "Agent": 3,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Cluj-Napoca",
+    "County": "Cluj",
+    "Latitude": 46.7712101,
+    "Longitude": 23.6236353,
+    "Sold": 645442,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bibesti",
+    "County": "Gorj",
+    "Latitude": 44.7815366,
+    "Longitude": 23.4907078,
+    "Sold": 683266,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Braila",
+    "County": "Braila",
+    "Latitude": 45.2652463,
+    "Longitude": 27.9594714,
+    "Sold": 1666360,
+    "Group": "LARGE",
+    "Agent": 3,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Odorheiu Secuiesc",
+    "County": "Harghita",
+    "Latitude": 46.3049996,
+    "Longitude": 25.2926479,
+    "Sold": 1142250,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Bascov",
+    "County": "Arges",
+    "Latitude": 44.8906952,
+    "Longitude": 24.7853667,
+    "Sold": 985412,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Onesti",
+    "County": "Bacau",
+    "Latitude": 46.2647012,
+    "Longitude": 26.782587,
+    "Sold": 871030,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Cajvana",
+    "County": "Suceava",
+    "Latitude": 47.7019688,
+    "Longitude": 25.9641186,
+    "Sold": 1559997,
+    "Group": "LARGE",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Berveni",
+    "County": "Satu Mare",
+    "Latitude": 47.7546831,
+    "Longitude": 22.4714395,
+    "Sold": 1659794,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Intorsura Buzaului",
+    "County": "Covasna",
+    "Latitude": 45.6640966,
+    "Longitude": 26.0149491,
+    "Sold": 1264752,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Valea lui Mihai",
+    "County": "Bihor",
+    "Latitude": 47.5226462,
+    "Longitude": 22.1264628,
+    "Sold": 1091112,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Turda",
+    "County": "Cluj",
+    "Latitude": 46.564676,
+    "Longitude": 23.7971063,
+    "Sold": 247301,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Huedin",
+    "County": "Cluj",
+    "Latitude": 46.8623427,
+    "Longitude": 23.0218215,
+    "Sold": 861860,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Voivozi (Popesti)",
+    "County": "Bihor",
+    "Latitude": 47.2194325,
+    "Longitude": 22.3902124,
+    "Sold": 734946,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Simeria",
+    "County": "Hunedoara",
+    "Latitude": 45.8555725,
+    "Longitude": 23.0120864,
+    "Sold": 846976,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Deva",
+    "County": "Hunedoara",
+    "Latitude": 45.8662574,
+    "Longitude": 22.9143737,
+    "Sold": 1271523,
+    "Group": "LARGE",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Racosul de Sus",
+    "County": "Covasna",
+    "Latitude": 46.0802755,
+    "Longitude": 25.547364,
+    "Sold": 569838,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Rancaciov",
+    "County": "Dambovita",
+    "Latitude": 44.8855684,
+    "Longitude": 25.3627472,
+    "Sold": 515343,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Topa de Jos",
+    "County": "Bihor",
+    "Latitude": 46.8434194,
+    "Longitude": 22.2332655,
+    "Sold": 934952,
+    "Group": "MEDIUM",
+    "Agent": 11,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Caransebes",
+    "County": "Caras-Severin",
+    "Latitude": 45.413619,
+    "Longitude": 22.2218641,
+    "Sold": 566577,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Suplac",
+    "County": "Mures",
+    "Latitude": 46.3972736,
+    "Longitude": 24.5189235,
+    "Sold": 91546,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Satu Mare",
+    "County": "Satu Mare",
+    "Latitude": 47.8016702,
+    "Longitude": 22.8575926,
+    "Sold": 1234481,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Arad",
+    "County": "Arad",
+    "Latitude": 46.1865606,
+    "Longitude": 21.3122677,
+    "Sold": 938435,
+    "Group": "MEDIUM",
+    "Agent": 2,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Dobreni",
+    "County": "Giurgiu",
+    "Latitude": 44.253387,
+    "Longitude": 26.2082339,
+    "Sold": 314447,
+    "Group": "SMALL",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Oituz",
+    "County": "Bacau",
+    "Latitude": 46.1713004,
+    "Longitude": 26.5404114,
+    "Sold": 957408,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Satu Nou (Ocland)",
+    "County": "Harghita",
+    "Latitude": 46.1454108,
+    "Longitude": 25.4155428,
+    "Sold": 1210792,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Corod",
+    "County": "Galati",
+    "Latitude": 45.8991197,
+    "Longitude": 27.6257026,
+    "Sold": 802646,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Mosnita Noua",
+    "County": "Timis",
+    "Latitude": 45.7206388,
+    "Longitude": 21.3156456,
+    "Sold": 1200282,
+    "Group": "LARGE",
+    "Agent": 2,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Novaci",
+    "County": "Gorj",
+    "Latitude": 45.1782926,
+    "Longitude": 23.6720859,
+    "Sold": 839130,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Filiasi",
+    "County": "Dolj",
+    "Latitude": 44.554523,
+    "Longitude": 23.5200088,
+    "Sold": 602385,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Poiana Ilvei",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.3558143,
+    "Longitude": 24.7451705,
+    "Sold": 220289,
+    "Group": "SMALL",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Teregova",
+    "County": "Caras-Severin",
+    "Latitude": 45.1504322,
+    "Longitude": 22.2864464,
+    "Sold": 757034,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sovata",
+    "County": "Mures",
+    "Latitude": 46.5990794,
+    "Longitude": 25.0774363,
+    "Sold": 897146,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Bascov",
+    "County": "Arges",
+    "Latitude": 44.8906952,
+    "Longitude": 24.7853667,
+    "Sold": 1237916,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Hunedoara",
+    "County": "Hunedoara",
+    "Latitude": 45.7678128,
+    "Longitude": 22.9072331,
+    "Sold": 742446,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sinaia",
+    "County": "Prahova",
+    "Latitude": 45.3310429,
+    "Longitude": 25.5623504,
+    "Sold": 1028707,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Domnesti",
+    "County": "Arges",
+    "Latitude": 45.203321,
+    "Longitude": 24.8386752,
+    "Sold": 317693,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Vulcan",
+    "County": "Brasov",
+    "Latitude": 45.6348088,
+    "Longitude": 25.4181031,
+    "Sold": 408685,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Bumbesti-Jiu",
+    "County": "Gorj",
+    "Latitude": 45.1776245,
+    "Longitude": 23.3856157,
+    "Sold": 744805,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Falciu",
+    "County": "Vaslui",
+    "Latitude": 46.2930548,
+    "Longitude": 28.1415999,
+    "Sold": 272685,
+    "Group": "SMALL",
+    "Agent": 19,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Seini",
+    "County": "Maramures",
+    "Latitude": 47.7475078,
+    "Longitude": 23.2849196,
+    "Sold": 1210123,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Onesti",
+    "County": "Bacau",
+    "Latitude": 46.2647012,
+    "Longitude": 26.782587,
+    "Sold": 1031565,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Brebu",
+    "County": "Prahova",
+    "Latitude": 45.183333,
+    "Longitude": 25.766667,
+    "Sold": 939547,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Vulturu",
+    "County": "Vrancea",
+    "Latitude": 45.6179023,
+    "Longitude": 27.4194359,
+    "Sold": 969452,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Satu Nou (Ocland)",
+    "County": "Harghita",
+    "Latitude": 46.1454108,
+    "Longitude": 25.4155428,
+    "Sold": 1810521,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Pericei",
+    "County": "Salaj",
+    "Latitude": 47.2279331,
+    "Longitude": 22.8684111,
+    "Sold": 565567,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sona",
+    "County": "Alba",
+    "Latitude": 46.2172769,
+    "Longitude": 24.0147622,
+    "Sold": 300720,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Baia Mare",
+    "County": "Maramures",
+    "Latitude": 47.6567387,
+    "Longitude": 23.5849881,
+    "Sold": 899650,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Ieud",
+    "County": "Maramures",
+    "Latitude": 47.6632407,
+    "Longitude": 24.2286926,
+    "Sold": 774698,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Victoria",
+    "County": "Brasov",
+    "Latitude": 45.7306587,
+    "Longitude": 24.7009227,
+    "Sold": 541240,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Cotenesti",
+    "County": "Arges",
+    "Latitude": 45.23358,
+    "Longitude": 25.1844379,
+    "Sold": 310585,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Buzau",
+    "County": "Buzau",
+    "Latitude": 45.1371109,
+    "Longitude": 26.8171122,
+    "Sold": 580405,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Fagaras",
+    "County": "Brasov",
+    "Latitude": 45.8416403,
+    "Longitude": 24.9730954,
+    "Sold": 890669,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Ovidiu",
+    "County": "Constanta",
+    "Latitude": 44.2576259,
+    "Longitude": 28.558611,
+    "Sold": 548591,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Bacau",
+    "County": "Bacau",
+    "Latitude": 46.5670437,
+    "Longitude": 26.9145748,
+    "Sold": 2006226,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Homocea",
+    "County": "Vrancea",
+    "Latitude": 46.1346892,
+    "Longitude": 27.2425619,
+    "Sold": 319747,
+    "Group": "SMALL",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Lupeni",
+    "County": "Hunedoara",
+    "Latitude": 45.3569989,
+    "Longitude": 23.2132218,
+    "Sold": 403441,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Husi",
+    "County": "Vaslui",
+    "Latitude": 46.6758644,
+    "Longitude": 28.05899,
+    "Sold": 344310,
+    "Group": "SMALL",
+    "Agent": 19,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Cotenesti",
+    "County": "Arges",
+    "Latitude": 45.23358,
+    "Longitude": 25.1844379,
+    "Sold": 925742,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Huedin",
+    "County": "Cluj",
+    "Latitude": 46.8623427,
+    "Longitude": 23.0218215,
+    "Sold": 208203,
+    "Group": "SMALL",
+    "Agent": 7,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Gugesti",
+    "County": "Vrancea",
+    "Latitude": 45.5698771,
+    "Longitude": 27.1319694,
+    "Sold": 530272,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Priboieni",
+    "County": "Arges",
+    "Latitude": 44.8747392,
+    "Longitude": 25.0801048,
+    "Sold": 662164,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bozovici",
+    "County": "Caras-Severin",
+    "Latitude": 45.0012349,
+    "Longitude": 21.9535783,
+    "Sold": 445136,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Turda",
+    "County": "Cluj",
+    "Latitude": 46.564676,
+    "Longitude": 23.7971063,
+    "Sold": 1669436,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Mangalia",
+    "County": "Constanta",
+    "Latitude": 43.8152436,
+    "Longitude": 28.5741496,
+    "Sold": 1297197,
+    "Group": "LARGE",
+    "Agent": 14,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Rabagani",
+    "County": "Bihor",
+    "Latitude": 46.74629,
+    "Longitude": 22.2452338,
+    "Sold": 1459568,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Tautii-Magheraus",
+    "County": "Maramures",
+    "Latitude": 47.6656888,
+    "Longitude": 23.4596529,
+    "Sold": 358790,
+    "Group": "SMALL",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Intorsura Buzaului",
+    "County": "Covasna",
+    "Latitude": 45.6640966,
+    "Longitude": 26.0149491,
+    "Sold": 1364297,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Floresti",
+    "County": "Cluj",
+    "Latitude": 46.7312657,
+    "Longitude": 23.4783294,
+    "Sold": 1048000,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Busag",
+    "County": "Maramures",
+    "Latitude": 47.659141,
+    "Longitude": 23.4237293,
+    "Sold": 1185702,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Iernut",
+    "County": "Mures",
+    "Latitude": 46.4507604,
+    "Longitude": 24.2290151,
+    "Sold": 1314719,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Viseu de Sus",
+    "County": "Maramures",
+    "Latitude": 47.7150521,
+    "Longitude": 24.4396734,
+    "Sold": 345618,
+    "Group": "SMALL",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Poiana Marului",
+    "County": "Brasov",
+    "Latitude": 45.6049511,
+    "Longitude": 25.3075907,
+    "Sold": 587841,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Reghin",
+    "County": "Mures",
+    "Latitude": 46.7710931,
+    "Longitude": 24.700762,
+    "Sold": 1231298,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Praid",
+    "County": "Harghita",
+    "Latitude": 46.5553429,
+    "Longitude": 25.1272723,
+    "Sold": 527809,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Caracal",
+    "County": "Olt",
+    "Latitude": 44.1157446,
+    "Longitude": 24.3424754,
+    "Sold": 1556664,
+    "Group": "LARGE",
+    "Agent": 17,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Rogoz",
+    "County": "Maramures",
+    "Latitude": 47.4688357,
+    "Longitude": 23.9322483,
+    "Sold": 1076566,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Intorsura Buzaului",
+    "County": "Covasna",
+    "Latitude": 45.6640966,
+    "Longitude": 26.0149491,
+    "Sold": 777148,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Peretu",
+    "County": "Teleorman",
+    "Latitude": 44.0441616,
+    "Longitude": 25.0860775,
+    "Sold": 910253,
+    "Group": "MEDIUM",
+    "Agent": 9,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Breaza",
+    "County": "Prahova",
+    "Latitude": 45.187222,
+    "Longitude": 25.662222,
+    "Sold": 285032,
+    "Group": "SMALL",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Sovata",
+    "County": "Mures",
+    "Latitude": 46.5990794,
+    "Longitude": 25.0774363,
+    "Sold": 625028,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Horodnic de Sus",
+    "County": "Suceava",
+    "Latitude": 47.8475154,
+    "Longitude": 25.7765467,
+    "Sold": 1350142,
+    "Group": "LARGE",
+    "Agent": 5,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Campulung",
+    "County": "Arges",
+    "Latitude": 45.270605,
+    "Longitude": 25.0531038,
+    "Sold": 1449010,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Resita",
+    "County": "Caras-Severin",
+    "Latitude": 45.3049703,
+    "Longitude": 21.8821033,
+    "Sold": 2148112,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Pipirig",
+    "County": "Neamt",
+    "Latitude": 47.2396133,
+    "Longitude": 26.0678092,
+    "Sold": 763037,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Ivesti",
+    "County": "Galati",
+    "Latitude": 45.6897612,
+    "Longitude": 27.5354375,
+    "Sold": 470723,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Arinis",
+    "County": "Maramures",
+    "Latitude": 47.5022794,
+    "Longitude": 23.2237172,
+    "Sold": 542883,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Batanii Mari",
+    "County": "Covasna",
+    "Latitude": 46.0900927,
+    "Longitude": 25.6977467,
+    "Sold": 290979,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bucuresti",
+    "County": "Bucuresti",
+    "Latitude": 44.4267674,
+    "Longitude": 26.1025384,
+    "Sold": 761072,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Petrova",
+    "County": "Maramures",
+    "Latitude": 47.8278652,
+    "Longitude": 24.2116255,
+    "Sold": 991366,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Victoria",
+    "County": "Brasov",
+    "Latitude": 45.7306587,
+    "Longitude": 24.7009227,
+    "Sold": 782878,
+    "Group": "MEDIUM",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Beclean",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.1800681,
+    "Longitude": 24.1704031,
+    "Sold": 1348173,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Focsani",
+    "County": "Vrancea",
+    "Latitude": 45.6964745,
+    "Longitude": 27.184043,
+    "Sold": 682892,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Calimanesti",
+    "County": "Valcea",
+    "Latitude": 45.239101,
+    "Longitude": 24.3398608,
+    "Sold": 626274,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dobreni",
+    "County": "Giurgiu",
+    "Latitude": 44.253387,
+    "Longitude": 26.2082339,
+    "Sold": 509365,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dragodana",
+    "County": "Dambovita",
+    "Latitude": 44.7482909,
+    "Longitude": 25.3936632,
+    "Sold": 16317,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Baia Mare",
+    "County": "Maramures",
+    "Latitude": 47.6567387,
+    "Longitude": 23.5849881,
+    "Sold": 16116,
+    "Group": "SMALL",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Paclisa",
+    "County": "Hunedoara",
+    "Latitude": 45.5630744,
+    "Longitude": 22.8801602,
+    "Sold": 210421,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Giroc",
+    "County": "Timis",
+    "Latitude": 45.701755,
+    "Longitude": 21.2346449,
+    "Sold": 1450714,
+    "Group": "LARGE",
+    "Agent": 2,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Recas",
+    "County": "Timis",
+    "Latitude": 45.8011607,
+    "Longitude": 21.5119138,
+    "Sold": 1247630,
+    "Group": "LARGE",
+    "Agent": 2,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Oradea",
+    "County": "Bihor",
+    "Latitude": 47.0465005,
+    "Longitude": 21.9189438,
+    "Sold": 1487482,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Roman",
+    "County": "Neamt",
+    "Latitude": 46.9333781,
+    "Longitude": 26.9265451,
+    "Sold": 133894,
+    "Group": "SMALL",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Calinesti",
+    "County": "Maramures",
+    "Latitude": 47.7836678,
+    "Longitude": 23.9693546,
+    "Sold": 184312,
+    "Group": "SMALL",
+    "Agent": 12,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Simeria",
+    "County": "Hunedoara",
+    "Latitude": 45.8555725,
+    "Longitude": 23.0120864,
+    "Sold": 469971,
+    "Group": "MEDIUM",
+    "Agent": 4,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Topoloveni",
+    "County": "Arges",
+    "Latitude": 44.8105516,
+    "Longitude": 25.0770243,
+    "Sold": 887909,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Vulcan",
+    "County": "Brasov",
+    "Latitude": 45.6348088,
+    "Longitude": 25.4181031,
+    "Sold": 1049345,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Dridu",
+    "County": "Ialomita",
+    "Latitude": 44.6869604,
+    "Longitude": 26.4611572,
+    "Sold": 1323986,
+    "Group": "LARGE",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Poiana Ilvei",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.3558143,
+    "Longitude": 24.7451705,
+    "Sold": 942139,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Simleu Silvaniei",
+    "County": "Salaj",
+    "Latitude": 47.2260727,
+    "Longitude": 22.8037864,
+    "Sold": 1671334,
+    "Group": "LARGE",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Borsa",
+    "County": "Maramures",
+    "Latitude": 47.6537683,
+    "Longitude": 24.6631517,
+    "Sold": 688697,
+    "Group": "MEDIUM",
+    "Agent": 15,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Izbiceni",
+    "County": "Olt",
+    "Latitude": 43.8229185,
+    "Longitude": 24.6625464,
+    "Sold": 343460,
+    "Group": "SMALL",
+    "Agent": 17,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sighisoara",
+    "County": "Mures",
+    "Latitude": 46.2197025,
+    "Longitude": 24.7963878,
+    "Sold": 40609,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Rabagani",
+    "County": "Bihor",
+    "Latitude": 46.74629,
+    "Longitude": 22.2452338,
+    "Sold": 355514,
+    "Group": "SMALL",
+    "Agent": 11,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Sarata-Monteoru",
+    "County": "Buzau",
+    "Latitude": 45.1475653,
+    "Longitude": 26.6409383,
+    "Sold": 921058,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Vintu de Jos",
+    "County": "Alba",
+    "Latitude": 45.9920306,
+    "Longitude": 23.4864679,
+    "Sold": 355639,
+    "Group": "SMALL",
+    "Agent": 4,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Toplita",
+    "County": "Harghita",
+    "Latitude": 46.9260303,
+    "Longitude": 25.3534041,
+    "Sold": 1268371,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Targoviste",
+    "County": "Dambovita",
+    "Latitude": 44.9118218,
+    "Longitude": 25.4558274,
+    "Sold": 1506163,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dumbravioara",
+    "County": "Mures",
+    "Latitude": 46.6381523,
+    "Longitude": 24.6367203,
+    "Sold": 384793,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Fieni",
+    "County": "Dambovita",
+    "Latitude": 45.1279095,
+    "Longitude": 25.4152063,
+    "Sold": 1232026,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Odorheiu Secuiesc",
+    "County": "Harghita",
+    "Latitude": 46.3049996,
+    "Longitude": 25.2926479,
+    "Sold": 319802,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Turnu Magurele",
+    "County": "Teleorman",
+    "Latitude": 43.7517061,
+    "Longitude": 24.8773935,
+    "Sold": 1000749,
+    "Group": "LARGE",
+    "Agent": 9,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Sarmasu",
+    "County": "Mures",
+    "Latitude": 46.7512385,
+    "Longitude": 24.165584,
+    "Sold": 1412435,
+    "Group": "LARGE",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Cheresig",
+    "County": "Bihor",
+    "Latitude": 47.0326903,
+    "Longitude": 21.6750289,
+    "Sold": 832428,
+    "Group": "MEDIUM",
+    "Agent": 11,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Filiasi",
+    "County": "Dolj",
+    "Latitude": 44.554523,
+    "Longitude": 23.5200088,
+    "Sold": 160155,
+    "Group": "SMALL",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bozovici",
+    "County": "Caras-Severin",
+    "Latitude": 45.0012349,
+    "Longitude": 21.9535783,
+    "Sold": 507284,
+    "Group": "MEDIUM",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Busag",
+    "County": "Maramures",
+    "Latitude": 47.659141,
+    "Longitude": 23.4237293,
+    "Sold": 669177,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Dridu",
+    "County": "Ialomita",
+    "Latitude": 44.6869604,
+    "Longitude": 26.4611572,
+    "Sold": 708877,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Dorohoi",
+    "County": "Botosani",
+    "Latitude": 47.9549207,
+    "Longitude": 26.4012087,
+    "Sold": 698551,
+    "Group": "MEDIUM",
+    "Agent": 5,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Brazii de Jos",
+    "County": "Prahova",
+    "Latitude": 44.8507992,
+    "Longitude": 26.0333732,
+    "Sold": 745058,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Alesd",
+    "County": "Bihor",
+    "Latitude": 47.0590191,
+    "Longitude": 22.3980649,
+    "Sold": 906740,
+    "Group": "MEDIUM",
+    "Agent": 11,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Simian",
+    "County": "Mehedinti",
+    "Latitude": 44.6323199,
+    "Longitude": 22.7515121,
+    "Sold": 195713,
+    "Group": "SMALL",
+    "Agent": 16,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Curtea de Arges",
+    "County": "Arges",
+    "Latitude": 45.1405966,
+    "Longitude": 24.6685182,
+    "Sold": 678990,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Brazii de Jos",
+    "County": "Prahova",
+    "Latitude": 44.8507992,
+    "Longitude": 26.0333732,
+    "Sold": 1559130,
+    "Group": "LARGE",
+    "Agent": 13,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sfantu Gheorghe",
+    "County": "Covasna",
+    "Latitude": 45.8609375,
+    "Longitude": 25.7885796,
+    "Sold": 607677,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Targu Jiu",
+    "County": "Gorj",
+    "Latitude": 45.0314279,
+    "Longitude": 23.2689393,
+    "Sold": 578081,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Stefanesti",
+    "County": "Arges",
+    "Latitude": 44.733333,
+    "Longitude": 24.6500001,
+    "Sold": 1339098,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Ciolpani",
+    "County": "Ilfov",
+    "Latitude": 44.72724,
+    "Longitude": 26.10957,
+    "Sold": 479592,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Viseu de Sus",
+    "County": "Maramures",
+    "Latitude": 47.7150521,
+    "Longitude": 24.4396734,
+    "Sold": 1390689,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Bals",
+    "County": "Olt",
+    "Latitude": 44.3533537,
+    "Longitude": 24.0956725,
+    "Sold": 484048,
+    "Group": "MEDIUM",
+    "Agent": 17,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Beius",
+    "County": "Bihor",
+    "Latitude": 46.6674534,
+    "Longitude": 22.3575717,
+    "Sold": 881964,
+    "Group": "MEDIUM",
+    "Agent": 11,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Hanu Conachi",
+    "County": "Galati",
+    "Latitude": 45.5803451,
+    "Longitude": 27.6028377,
+    "Sold": 848160,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Azuga",
+    "County": "Prahova",
+    "Latitude": 45.4450965,
+    "Longitude": 25.5700368,
+    "Sold": 1271234,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Busteni",
+    "County": "Prahova",
+    "Latitude": 45.4097148,
+    "Longitude": 25.5342236,
+    "Sold": 666202,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Mastacan (Borlesti)",
+    "County": "Neamt",
+    "Latitude": 46.7968134,
+    "Longitude": 26.4954639,
+    "Sold": 460987,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Bradet",
+    "County": "Covasna",
+    "Latitude": 45.6546838,
+    "Longitude": 25.9887106,
+    "Sold": 1448922,
+    "Group": "LARGE",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Targu Neamt",
+    "County": "Neamt",
+    "Latitude": 47.2097877,
+    "Longitude": 26.3757306,
+    "Sold": 382086,
+    "Group": "SMALL",
+    "Agent": 5,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Catetu",
+    "County": "Valcea",
+    "Latitude": 44.8365671,
+    "Longitude": 23.9550864,
+    "Sold": 810167,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Martinis",
+    "County": "Harghita",
+    "Latitude": 46.2821667,
+    "Longitude": 25.4117826,
+    "Sold": 126037,
+    "Group": "SMALL",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sascut",
+    "County": "Bacau",
+    "Latitude": 46.1960057,
+    "Longitude": 27.093757,
+    "Sold": 419213,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Unguras",
+    "County": "Cluj",
+    "Latitude": 47.1081,
+    "Longitude": 24.0571,
+    "Sold": 1805628,
+    "Group": "LARGE",
+    "Agent": 15,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Topoloveni",
+    "County": "Arges",
+    "Latitude": 44.8105516,
+    "Longitude": 25.0770243,
+    "Sold": 777702,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Tulcea",
+    "County": "Tulcea",
+    "Latitude": 45.1716165,
+    "Longitude": 28.7914439,
+    "Sold": 897534,
+    "Group": "MEDIUM",
+    "Agent": 14,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Sona",
+    "County": "Alba",
+    "Latitude": 46.2172769,
+    "Longitude": 24.0147622,
+    "Sold": 90781,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Gataia",
+    "County": "Timis",
+    "Latitude": 45.4265209,
+    "Longitude": 21.4309592,
+    "Sold": 435477,
+    "Group": "MEDIUM",
+    "Agent": 2,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Cernat",
+    "County": "Covasna",
+    "Latitude": 45.9570931,
+    "Longitude": 26.0311933,
+    "Sold": 898278,
+    "Group": "MEDIUM",
+    "Agent": 1,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Husi",
+    "County": "Vaslui",
+    "Latitude": 46.6758644,
+    "Longitude": 28.05899,
+    "Sold": 977378,
+    "Group": "MEDIUM",
+    "Agent": 19,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Bozovici",
+    "County": "Caras-Severin",
+    "Latitude": 45.0012349,
+    "Longitude": 21.9535783,
+    "Sold": 1108443,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Marghita",
+    "County": "Bihor",
+    "Latitude": 47.3479194,
+    "Longitude": 22.3397566,
+    "Sold": 804313,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Drobeta-Turnu Severin",
+    "County": "Mehedinti",
+    "Latitude": 44.6369227,
+    "Longitude": 22.6597342,
+    "Sold": 1063502,
+    "Group": "LARGE",
+    "Agent": 16,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Carta",
+    "County": "Harghita",
+    "Latitude": 46.5305691,
+    "Longitude": 25.7615353,
+    "Sold": 1026890,
+    "Group": "LARGE",
+    "Agent": 6,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Calinesti",
+    "County": "Maramures",
+    "Latitude": 47.7836678,
+    "Longitude": 23.9693546,
+    "Sold": 114870,
+    "Group": "SMALL",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Berevoesti",
+    "County": "Arges",
+    "Latitude": 45.2267717,
+    "Longitude": 24.9362258,
+    "Sold": 818502,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Geamana",
+    "County": "Arges",
+    "Latitude": 44.828632,
+    "Longitude": 24.8934015,
+    "Sold": 1183951,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Motru",
+    "County": "Gorj",
+    "Latitude": 44.8027376,
+    "Longitude": 22.9728558,
+    "Sold": 1094939,
+    "Group": "LARGE",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Galati",
+    "County": "Galati",
+    "Latitude": 45.4353208,
+    "Longitude": 28.0079945,
+    "Sold": 618070,
+    "Group": "MEDIUM",
+    "Agent": 3,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Filiasi",
+    "County": "Dolj",
+    "Latitude": 44.554523,
+    "Longitude": 23.5200088,
+    "Sold": 397186,
+    "Group": "SMALL",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Sascut",
+    "County": "Bacau",
+    "Latitude": 46.1960057,
+    "Longitude": 27.093757,
+    "Sold": 240844,
+    "Group": "SMALL",
+    "Agent": 8,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Rus",
+    "County": "Maramures",
+    "Latitude": 47.6127272,
+    "Longitude": 23.673581,
+    "Sold": 734472,
+    "Group": "MEDIUM",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Roman",
+    "County": "Neamt",
+    "Latitude": 46.9333781,
+    "Longitude": 26.9265451,
+    "Sold": 1366539,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Beclean",
+    "County": "Bistrita-Nasaud",
+    "Latitude": 47.1800681,
+    "Longitude": 24.1704031,
+    "Sold": 175902,
+    "Group": "SMALL",
+    "Agent": 15,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Cotenesti",
+    "County": "Arges",
+    "Latitude": 45.23358,
+    "Longitude": 25.1844379,
+    "Sold": 470054,
+    "Group": "MEDIUM",
+    "Agent": 10,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Cisnadie",
+    "County": "Sibiu",
+    "Latitude": 45.7139464,
+    "Longitude": 24.1548523,
+    "Sold": 230098,
+    "Group": "SMALL",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Ineu",
+    "County": "Arad",
+    "Latitude": 46.4310262,
+    "Longitude": 21.840539,
+    "Sold": 1192478,
+    "Group": "LARGE",
+    "Agent": 11,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Targu Jiu",
+    "County": "Gorj",
+    "Latitude": 45.0314279,
+    "Longitude": 23.2689393,
+    "Sold": 522845,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Rovinari",
+    "County": "Gorj",
+    "Latitude": 44.9000027,
+    "Longitude": 23.1543463,
+    "Sold": 564681,
+    "Group": "MEDIUM",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Roman",
+    "County": "Neamt",
+    "Latitude": 46.9333781,
+    "Longitude": 26.9265451,
+    "Sold": 691525,
+    "Group": "MEDIUM",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Bixad",
+    "County": "Satu Mare",
+    "Latitude": 47.9497957,
+    "Longitude": 23.3875848,
+    "Sold": 1022696,
+    "Group": "LARGE",
+    "Agent": 12,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Doanca",
+    "County": "Olt",
+    "Latitude": 43.8465727,
+    "Longitude": 24.6487677,
+    "Sold": 603805,
+    "Group": "MEDIUM",
+    "Agent": 17,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Daia Romana",
+    "County": "Alba",
+    "Latitude": 46.006639,
+    "Longitude": 23.6675773,
+    "Sold": 723071,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Calaparu",
+    "County": "Gorj",
+    "Latitude": 44.6828706,
+    "Longitude": 23.324964,
+    "Sold": 1071655,
+    "Group": "LARGE",
+    "Agent": 18,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Fieni",
+    "County": "Dambovita",
+    "Latitude": 45.1279095,
+    "Longitude": 25.4152063,
+    "Sold": 1019521,
+    "Group": "LARGE",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Selimbar",
+    "County": "Sibiu",
+    "Latitude": 45.7684434,
+    "Longitude": 24.1804581,
+    "Sold": 690229,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Slatina",
+    "County": "Olt",
+    "Latitude": 44.4301677,
+    "Longitude": 24.3716904,
+    "Sold": 257981,
+    "Group": "SMALL",
+    "Agent": 17,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Sannicolau Mare",
+    "County": "Timis",
+    "Latitude": 46.0593374,
+    "Longitude": 20.622454,
+    "Sold": 975890,
+    "Group": "MEDIUM",
+    "Agent": 2,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Racari",
+    "County": "Dambovita",
+    "Latitude": 44.6240121,
+    "Longitude": 25.7428095,
+    "Sold": 989617,
+    "Group": "MEDIUM",
+    "Agent": 13,
+    "Visits": "weekly"
+  },
+  {
+       "City": "Campia Turzii",
+    "County": "Cluj",
+    "Latitude": 46.5586485,
+    "Longitude": 23.8706676,
+    "Sold": 564983,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Seica Mare",
+    "County": "Sibiu",
+    "Latitude": 46.0239949,
+    "Longitude": 24.1582482,
+    "Sold": 691634,
+    "Group": "MEDIUM",
+    "Agent": 0,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Targoviste",
+    "County": "Dambovita",
+    "Latitude": 44.9118218,
+    "Longitude": 25.4558274,
+    "Sold": 334921,
+    "Group": "SMALL",
+    "Agent": 10,
+    "Visits": "twice-a-week"
+  },
+  {
+       "City": "Simleu Silvaniei",
+    "County": "Salaj",
+    "Latitude": 47.2260727,
+    "Longitude": 22.8037864,
+    "Sold": 710705,
+    "Group": "MEDIUM",
+    "Agent": 7,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Bibesti",
+    "County": "Gorj",
+    "Latitude": 44.7815366,
+    "Longitude": 23.4907078,
+    "Sold": 24785,
+    "Group": "SMALL",
+    "Agent": 18,
+    "Visits": "bi-weekly"
+  },
+  {
+       "City": "Horia",
+    "County": "Neamt",
+    "Latitude": 46.90631,
+    "Longitude": 26.9200561,
+    "Sold": 1008659,
+    "Group": "LARGE",
+    "Agent": 8,
+    "Visits": "twice-a-week"
+  }
+]
