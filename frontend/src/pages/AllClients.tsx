@@ -6,6 +6,7 @@ import { useClients } from "../query/clients.query";
 import { Box, Button, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
 import { addClient } from "../api/clients.api";
+import { Animation } from "../layout/Animation";
 
 export default function AllClients() {
   const { data } = useClients();
@@ -46,6 +47,8 @@ export default function AllClients() {
         {/* <Link to="/">Home</Link> */}
         <RouteList />
       </Sidebar>
+      <Animation dir={"up"}>
+
       <Box sx={{ width: "80%", margin: "auto" }}>
         <Box display="flex" justifyContent="space-between" alignItems="center">
           <Typography variant="h4">Clients</Typography>
@@ -190,6 +193,8 @@ export default function AllClients() {
       </Box>
         }
       </Box>
+
+      </Animation>
     </div>
   );
 }

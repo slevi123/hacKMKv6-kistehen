@@ -5,6 +5,7 @@ import Map from "../components/Map";
 import { useEffect, useState } from "react";
 import { getCurrentCityName } from "../query/query";
 import { Box } from "@mui/material";
+import { Animation } from "../layout/Animation";
 
 export function Home() {
 
@@ -32,6 +33,7 @@ export function Home() {
             {/* <h1>Home</h1>
             <Map currentLocation={currentLocation}/>
             <Link to="/about">About</Link> */}
+      <Animation dir={"up"}>
 
             <Box sx={{
                 width: '100%',
@@ -40,6 +42,7 @@ export function Home() {
                 }} component={'img'} src='/hero.jpeg'>
 
             </Box>
+    </Animation>
 
         </Box>
        

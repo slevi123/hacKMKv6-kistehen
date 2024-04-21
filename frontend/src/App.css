@@ -6,7 +6,8 @@
 .sidebar-item {
     /* on hover */
     &:hover {
-        background-color: #f4f4f4;
+        background-color: #c3c3c3;
+        
     }
 }
 
