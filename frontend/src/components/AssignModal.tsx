@@ -3,7 +3,6 @@ import { CSSProperties, useCallback, useState } from "react";
 import { centerStyle } from '../layout/layout';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 import dayjs from 'dayjs';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 
 const floatingStyle:CSSProperties = {
@@ -43,13 +42,22 @@ export function AssignModal({setFinalDate}:AssignModalProps) {
         // setDate(selectedDate.toDate(), startTime.toDate(), endTime.toDate());
         console.log("Save and exit", selectedDate.toDate(), startTime.toDate(), endTime.toDate());
         
-        const newSelectedDate = selectedDate;
-        newSelectedDate.hour(startTime.hour());
-        newSelectedDate.minute(startTime.minute());
+        let newSelectedDate = selectedDate;
+        newSelectedDate = newSelectedDate.hour(startTime.hour());
+        newSelectedDate = newSelectedDate.minute(startTime.minute());
 
-        const newEndTime = selectedDate;
-        newEndTime.hour(endTime.hour());
-        newEndTime.minute(endTime.minute());
+        let newEndTime = selectedDate;
+        newEndTime = newEndTime.hour(endTime.hour());
+        
+        newEndTime = newEndTime.minute(endTime.minute());
+
+
+        newEndTime = newEndTime.set('minute', endTime.minute());
+        newEndTime = newEndTime.set('hour', endTime.hour());
+
+        newSelectedDate = newSelectedDate.set('minute', startTime.minute());
+        newSelectedDate = newSelectedDate.set('hour', startTime.hour());
+
         setFinalDate(newSelectedDate.toDate(), newEndTime.toDate());
         setOpen(false);
         
@@ -74,12 +82,12 @@ export function AssignModal({setFinalDate}:AssignModalProps) {
                     label="Uncontrolled picker"
                     defaultValue={dayjs('2022-04-17T15:30')}
                     value={startTime}
-                    onChange={(newValue) => setStartTime(newValue)}
+                    onChange={(newValue) => setStartTime(dayjs(newValue))}
                     />
                     <TimePicker
                     label="Controlled picker"
                     value={endTime}
-                    onChange={(newValue) => setEndTime(newValue)}
+                    onChange={(newValue) => setEndTime(dayjs(newValue))}
                     />
 
                 </Grid>

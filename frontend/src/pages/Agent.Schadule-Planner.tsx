@@ -10,10 +10,11 @@ import moment from 'moment'
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { Animation } from "../layout/Animation";
 import 'react-big-calendar/lib/css/react-big-calendar.css'
-import { getClients } from "../api/clients.api";
+import { Client, getClients } from "../api/clients.api";
 import { shortestPathWithOrder } from "../components/path.algorithm";
 import { AssignModal } from "../components/AssignModal";
 import { time } from "console";
+import { findShortestPath } from "../components/algorithm";
 
 //  -----------------------
 
@@ -101,8 +102,27 @@ export function AgentSchedulePlanner() {
     //     },
     //   ]
 
-    const rows = clienst.map((client, index) => { return {...client, id: index + 1}});
+    // const rows = clienst.map((client, index) => { return {...client, id: index + 1}});
+    const rows = useMemo(()=>{
 
+        const plusYourLocation = {
+            id: 0,
+
+            City: "Your Location",
+            County: "Your County",
+            Latitude: currentLocation.latitude,
+            Longitude: currentLocation.longitude,
+            Sold: 0,
+            Group: "LARGE",
+            Agent: 0,
+            Visits: "twice-a-week"
+        } as unknown as Client
+        const newClienst = [...clienst];
+        newClienst.push(plusYourLocation);
+
+        return findShortestPath(clienst).map((client, index) => { return {...client, id: index + 1}})
+    },[clienst]
+    ) 
 
     // const rows = [
     // { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
@@ -152,7 +172,7 @@ export function AgentSchedulePlanner() {
                         events={
                             savedDates.map((date, index) => {
                                 return {
-                                    title: `Visit ${index + 1}`,
+                                    title: `Visit ${selectedLocations.map((location) => location.display_name).join(",")}`,
                                     start: date.startTime,
                                     end: date.endTime,
                                     AllDay: false

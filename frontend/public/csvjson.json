@@ -1,7 +1,6 @@
 [
   {
-    "": 0,
-    "City": "Nasaud",
+     "City": "Nasaud",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.2921849,
     "Longitude": 24.3973258,
@@ -11,8 +10,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 1,
-    "City": "Alba Iulia",
+     "City": "Alba Iulia",
     "County": "Alba",
     "Latitude": 46.0732725,
     "Longitude": 23.5804886,
@@ -22,8 +20,7 @@
     "Visits": "weekly"
   },
   {
-    "": 2,
-    "City": "Zimnicea",
+     "City": "Zimnicea",
     "County": "Teleorman",
     "Latitude": 43.6578297,
     "Longitude": 25.360575,
@@ -33,8 +30,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 3,
-    "City": "Panet",
+     "City": "Panet",
     "County": "Mures",
     "Latitude": 46.5599133,
     "Longitude": 24.435195,
@@ -44,8 +40,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 4,
-    "City": "Caracal",
+     "City": "Caracal",
     "County": "Olt",
     "Latitude": 44.1157446,
     "Longitude": 24.3424754,
@@ -55,8 +50,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 5,
-    "City": "Voitinel",
+     "City": "Voitinel",
     "County": "Suceava",
     "Latitude": 47.8804611,
     "Longitude": 25.7493649,
@@ -66,8 +60,7 @@
     "Visits": "weekly"
   },
   {
-    "": 6,
-    "City": "Cheresig",
+     "City": "Cheresig",
     "County": "Bihor",
     "Latitude": 47.0326903,
     "Longitude": 21.6750289,
@@ -77,8 +70,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 7,
-    "City": "Rogoz",
+     "City": "Rogoz",
     "County": "Maramures",
     "Latitude": 47.4688357,
     "Longitude": 23.9322483,
@@ -88,8 +80,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 8,
-    "City": "Lunca de Jos",
+     "City": "Lunca de Jos",
     "County": "Harghita",
     "Latitude": 46.6445544,
     "Longitude": 25.9561808,
@@ -99,8 +90,7 @@
     "Visits": "weekly"
   },
   {
-    "": 9,
-    "City": "Tasnad",
+     "City": "Tasnad",
     "County": "Satu Mare",
     "Latitude": 47.4783904,
     "Longitude": 22.5817433,
@@ -110,8 +100,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 10,
-    "City": "Valea Ursului",
+      "City": "Valea Ursului",
     "County": "Iasi",
     "Latitude": 47.1351816,
     "Longitude": 27.4860171,
@@ -121,8 +110,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 11,
-    "City": "Iasi",
+      "City": "Iasi",
     "County": "Iasi",
     "Latitude": 47.1584549,
     "Longitude": 27.6014418,
@@ -132,8 +120,7 @@
     "Visits": "weekly"
   },
   {
-    "": 12,
-    "City": "Poiana Marului",
+      "City": "Poiana Marului",
     "County": "Brasov",
     "Latitude": 45.6049511,
     "Longitude": 25.3075907,
@@ -143,8 +130,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 13,
-    "City": "Brazii de Jos",
+      "City": "Brazii de Jos",
     "County": "Prahova",
     "Latitude": 44.8507992,
     "Longitude": 26.0333732,
@@ -154,8 +140,7 @@
     "Visits": "weekly"
   },
   {
-    "": 14,
-    "City": "Chitesti",
+      "City": "Chitesti",
     "County": "Arges",
     "Latitude": 44.8599742,
     "Longitude": 25.137839,
@@ -165,8 +150,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 15,
-    "City": "Buzau",
+      "City": "Buzau",
     "County": "Buzau",
     "Latitude": 45.1371109,
     "Longitude": 26.8171122,
@@ -176,8 +160,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 16,
-    "City": "Targu Jiu",
+      "City": "Targu Jiu",
     "County": "Gorj",
     "Latitude": 45.0314279,
     "Longitude": 23.2689393,
@@ -187,8 +170,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 17,
-    "City": "Almasu",
+      "City": "Almasu",
     "County": "Salaj",
     "Latitude": 46.966232,
     "Longitude": 23.0986992,
@@ -198,8 +180,7 @@
     "Visits": "weekly"
   },
   {
-    "": 18,
-    "City": "Paclisa",
+      "City": "Paclisa",
     "County": "Hunedoara",
     "Latitude": 45.5630744,
     "Longitude": 22.8801602,
@@ -209,8 +190,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 19,
-    "City": "Brazii de Jos",
+      "City": "Brazii de Jos",
     "County": "Prahova",
     "Latitude": 44.8507992,
     "Longitude": 26.0333732,
@@ -220,8 +200,7 @@
     "Visits": "weekly"
   },
   {
-    "": 20,
-    "City": "Poiana Ilvei",
+      "City": "Poiana Ilvei",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.3558143,
     "Longitude": 24.7451705,
@@ -231,8 +210,7 @@
     "Visits": "weekly"
   },
   {
-    "": 21,
-    "City": "Buzau",
+      "City": "Buzau",
     "County": "Buzau",
     "Latitude": 45.1371109,
     "Longitude": 26.8171122,
@@ -242,8 +220,7 @@
     "Visits": "weekly"
   },
   {
-    "": 22,
-    "City": "Slatioara",
+      "City": "Slatioara",
     "County": "Olt",
     "Latitude": 44.3992805,
     "Longitude": 24.3248738,
@@ -253,8 +230,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 23,
-    "City": "Fantanele",
+      "City": "Fantanele",
     "County": "Mures",
     "Latitude": 46.421745,
     "Longitude": 24.7657281,
@@ -264,8 +240,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 24,
-    "City": "Praid",
+      "City": "Praid",
     "County": "Harghita",
     "Latitude": 46.5553429,
     "Longitude": 25.1272723,
@@ -275,8 +250,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 25,
-    "City": "Polovragi",
+      "City": "Polovragi",
     "County": "Gorj",
     "Latitude": 45.1779928,
     "Longitude": 23.7972575,
@@ -286,8 +260,7 @@
     "Visits": "weekly"
   },
   {
-    "": 26,
-    "City": "Curtea de Arges",
+      "City": "Curtea de Arges",
     "County": "Arges",
     "Latitude": 45.1405966,
     "Longitude": 24.6685182,
@@ -297,8 +270,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 27,
-    "City": "Vulturu",
+      "City": "Vulturu",
     "County": "Vrancea",
     "Latitude": 45.6179023,
     "Longitude": 27.4194359,
@@ -308,8 +280,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 28,
-    "City": "Rosiori de Vede",
+      "City": "Rosiori de Vede",
     "County": "Teleorman",
     "Latitude": 44.1085569,
     "Longitude": 24.9949784,
@@ -319,8 +290,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 29,
-    "City": "Malini",
+      "City": "Malini",
     "County": "Suceava",
     "Latitude": 47.4536485,
     "Longitude": 26.0872309,
@@ -330,8 +300,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 30,
-    "City": "Huedin",
+      "City": "Huedin",
     "County": "Cluj",
     "Latitude": 46.8623427,
     "Longitude": 23.0218215,
@@ -341,8 +310,7 @@
     "Visits": "weekly"
   },
   {
-    "": 31,
-    "City": "Ramnicu Valcea",
+      "City": "Ramnicu Valcea",
     "County": "Valcea",
     "Latitude": 45.0996753,
     "Longitude": 24.3693179,
@@ -352,8 +320,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 32,
-    "City": "Vadastrita",
+      "City": "Vadastrita",
     "County": "Olt",
     "Latitude": 43.8476733,
     "Longitude": 24.3422102,
@@ -363,8 +330,7 @@
     "Visits": "weekly"
   },
   {
-    "": 33,
-    "City": "Moreni",
+      "City": "Moreni",
     "County": "Dambovita",
     "Latitude": 44.9820431,
     "Longitude": 25.6402111,
@@ -374,8 +340,7 @@
     "Visits": "weekly"
   },
   {
-    "": 34,
-    "City": "Rodna",
+      "City": "Rodna",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.420026,
     "Longitude": 24.8169632,
@@ -385,8 +350,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 35,
-    "City": "Malini",
+      "City": "Malini",
     "County": "Suceava",
     "Latitude": 47.4536485,
     "Longitude": 26.0872309,
@@ -396,8 +360,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 36,
-    "City": "Brasov",
+      "City": "Brasov",
     "County": "Brasov",
     "Latitude": 45.6579755,
     "Longitude": 25.6011977,
@@ -407,8 +370,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 37,
-    "City": "Simian",
+      "City": "Simian",
     "County": "Mehedinti",
     "Latitude": 44.6323199,
     "Longitude": 22.7515121,
@@ -418,8 +380,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 38,
-    "City": "Simian",
+      "City": "Simian",
     "County": "Mehedinti",
     "Latitude": 44.6323199,
     "Longitude": 22.7515121,
@@ -429,8 +390,7 @@
     "Visits": "weekly"
   },
   {
-    "": 39,
-    "City": "Busteni",
+      "City": "Busteni",
     "County": "Prahova",
     "Latitude": 45.4097148,
     "Longitude": 25.5342236,
@@ -440,8 +400,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 40,
-    "City": "Vulturu",
+      "City": "Vulturu",
     "County": "Vrancea",
     "Latitude": 45.6179023,
     "Longitude": 27.4194359,
@@ -451,8 +410,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 41,
-    "City": "Teaca",
+      "City": "Teaca",
     "County": "Bistrita-Nasaud",
     "Latitude": 46.9114516,
     "Longitude": 24.5031976,
@@ -462,8 +420,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 42,
-    "City": "Voluntari",
+      "City": "Voluntari",
     "County": "Ilfov",
     "Latitude": 44.5050832,
     "Longitude": 26.1555435,
@@ -473,8 +430,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 43,
-    "City": "Deva",
+      "City": "Deva",
     "County": "Hunedoara",
     "Latitude": 45.8662574,
     "Longitude": 22.9143737,
@@ -484,8 +440,7 @@
     "Visits": "weekly"
   },
   {
-    "": 44,
-    "City": "Comana de Jos",
+      "City": "Comana de Jos",
     "County": "Brasov",
     "Latitude": 45.9135796,
     "Longitude": 25.2329858,
@@ -495,8 +450,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 45,
-    "City": "Zalau",
+      "City": "Zalau",
     "County": "Salaj",
     "Latitude": 47.1854562,
     "Longitude": 23.0573324,
@@ -506,8 +460,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 46,
-    "City": "Oniceni",
+      "City": "Oniceni",
     "County": "Suceava",
     "Latitude": 47.3293628,
     "Longitude": 26.4591162,
@@ -517,8 +470,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 47,
-    "City": "Mosnita Noua",
+      "City": "Mosnita Noua",
     "County": "Timis",
     "Latitude": 45.7206388,
     "Longitude": 21.3156456,
@@ -528,8 +480,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 48,
-    "City": "Campia Turzii",
+      "City": "Campia Turzii",
     "County": "Cluj",
     "Latitude": 46.5586485,
     "Longitude": 23.8706676,
@@ -539,8 +490,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 49,
-    "City": "Vadu Izei",
+      "City": "Vadu Izei",
     "County": "Maramures",
     "Latitude": 47.8833463,
     "Longitude": 23.9562547,
@@ -550,8 +500,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 50,
-    "City": "Targu Mures",
+      "City": "Targu Mures",
     "County": "Mures",
     "Latitude": 46.5385862,
     "Longitude": 24.5514392,
@@ -561,8 +510,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 51,
-    "City": "Sighisoara",
+      "City": "Sighisoara",
     "County": "Mures",
     "Latitude": 46.2197025,
     "Longitude": 24.7963878,
@@ -572,8 +520,7 @@
     "Visits": "weekly"
   },
   {
-    "": 52,
-    "City": "Cotenesti",
+      "City": "Cotenesti",
     "County": "Arges",
     "Latitude": 45.23358,
     "Longitude": 25.1844379,
@@ -583,8 +530,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 53,
-    "City": "Constanta",
+      "City": "Constanta",
     "County": "Constanta",
     "Latitude": 44.1598013,
     "Longitude": 28.6348138,
@@ -594,8 +540,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 54,
-    "City": "Constanta",
+      "City": "Constanta",
     "County": "Constanta",
     "Latitude": 44.1598013,
     "Longitude": 28.6348138,
@@ -605,8 +550,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 55,
-    "City": "Daia Romana",
+      "City": "Daia Romana",
     "County": "Alba",
     "Latitude": 46.006639,
     "Longitude": 23.6675773,
@@ -616,8 +560,7 @@
     "Visits": "weekly"
   },
   {
-    "": 56,
-    "City": "Orastie",
+      "City": "Orastie",
     "County": "Hunedoara",
     "Latitude": 45.8451246,
     "Longitude": 23.2019265,
@@ -627,8 +570,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 57,
-    "City": "Oniceni",
+      "City": "Oniceni",
     "County": "Suceava",
     "Latitude": 47.3293628,
     "Longitude": 26.4591162,
@@ -638,8 +580,7 @@
     "Visits": "weekly"
   },
   {
-    "": 58,
-    "City": "Pipirig",
+      "City": "Pipirig",
     "County": "Neamt",
     "Latitude": 47.2396133,
     "Longitude": 26.0678092,
@@ -649,8 +590,7 @@
     "Visits": "weekly"
   },
   {
-    "": 59,
-    "City": "Ramnicu Valcea",
+      "City": "Ramnicu Valcea",
     "County": "Valcea",
     "Latitude": 45.0996753,
     "Longitude": 24.3693179,
@@ -660,8 +600,7 @@
     "Visits": "weekly"
   },
   {
-    "": 60,
-    "City": "Sarata-Monteoru",
+      "City": "Sarata-Monteoru",
     "County": "Buzau",
     "Latitude": 45.1475653,
     "Longitude": 26.6409383,
@@ -671,8 +610,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 61,
-    "City": "Rupea",
+      "City": "Rupea",
     "County": "Brasov",
     "Latitude": 46.0377858,
     "Longitude": 25.2225074,
@@ -682,8 +620,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 62,
-    "City": "Comana de Jos",
+      "City": "Comana de Jos",
     "County": "Brasov",
     "Latitude": 45.9135796,
     "Longitude": 25.2329858,
@@ -693,8 +630,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 63,
-    "City": "Floresti",
+      "City": "Floresti",
     "County": "Cluj",
     "Latitude": 46.7312657,
     "Longitude": 23.4783294,
@@ -704,8 +640,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 64,
-    "City": "Moinesti",
+      "City": "Moinesti",
     "County": "Bacau",
     "Latitude": 46.4697857,
     "Longitude": 26.4884629,
@@ -715,8 +650,7 @@
     "Visits": "weekly"
   },
   {
-    "": 65,
-    "City": "Berbesti",
+      "City": "Berbesti",
     "County": "Valcea",
     "Latitude": 45.0090342,
     "Longitude": 23.8797585,
@@ -726,8 +660,7 @@
     "Visits": "weekly"
   },
   {
-    "": 66,
-    "City": "Saliste",
+      "City": "Saliste",
     "County": "Sibiu",
     "Latitude": 45.7941029,
     "Longitude": 23.8851034,
@@ -737,8 +670,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 67,
-    "City": "Intorsura Buzaului",
+      "City": "Intorsura Buzaului",
     "County": "Covasna",
     "Latitude": 45.6640966,
     "Longitude": 26.0149491,
@@ -748,8 +680,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 68,
-    "City": "Racsa",
+      "City": "Racsa",
     "County": "Satu Mare",
     "Latitude": 47.8207297,
     "Longitude": 23.3321834,
@@ -759,8 +690,7 @@
     "Visits": "weekly"
   },
   {
-    "": 69,
-    "City": "Calarasi",
+      "City": "Calarasi",
     "County": "Calarasi",
     "Latitude": 44.2085144,
     "Longitude": 27.3137439,
@@ -770,8 +700,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 70,
-    "City": "Golaiesti",
+      "City": "Golaiesti",
     "County": "Iasi",
     "Latitude": 47.2648157,
     "Longitude": 27.6787658,
@@ -781,8 +710,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 71,
-    "City": "Tartasesti",
+      "City": "Tartasesti",
     "County": "Dambovita",
     "Latitude": 44.5713235,
     "Longitude": 25.8281028,
@@ -792,8 +720,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 72,
-    "City": "Dragodana",
+      "City": "Dragodana",
     "County": "Dambovita",
     "Latitude": 44.7482909,
     "Longitude": 25.3936632,
@@ -803,8 +730,7 @@
     "Visits": "weekly"
   },
   {
-    "": 73,
-    "City": "Moreni",
+      "City": "Moreni",
     "County": "Dambovita",
     "Latitude": 44.9820431,
     "Longitude": 25.6402111,
@@ -814,8 +740,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 74,
-    "City": "Daia Romana",
+      "City": "Daia Romana",
     "County": "Alba",
     "Latitude": 46.006639,
     "Longitude": 23.6675773,
@@ -825,8 +750,7 @@
     "Visits": "weekly"
   },
   {
-    "": 75,
-    "City": "Crevedia",
+      "City": "Crevedia",
     "County": "Dambovita",
     "Latitude": 44.6019735,
     "Longitude": 25.9104359,
@@ -836,8 +760,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 76,
-    "City": "Urechesti",
+      "City": "Urechesti",
     "County": "Arges",
     "Latitude": 45.2624404,
     "Longitude": 24.6151016,
@@ -847,8 +770,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 77,
-    "City": "Beius",
+      "City": "Beius",
     "County": "Bihor",
     "Latitude": 46.6674534,
     "Longitude": 22.3575717,
@@ -858,8 +780,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 78,
-    "City": "Catetu",
+      "City": "Catetu",
     "County": "Valcea",
     "Latitude": 44.8365671,
     "Longitude": 23.9550864,
@@ -869,8 +790,7 @@
     "Visits": "weekly"
   },
   {
-    "": 79,
-    "City": "Trotusanu",
+      "City": "Trotusanu",
     "County": "Vrancea",
     "Latitude": 45.9790189,
     "Longitude": 27.0961172,
@@ -880,8 +800,7 @@
     "Visits": "weekly"
   },
   {
-    "": 80,
-    "City": "Alba Iulia",
+      "City": "Alba Iulia",
     "County": "Alba",
     "Latitude": 46.0732725,
     "Longitude": 23.5804886,
@@ -891,8 +810,7 @@
     "Visits": "weekly"
   },
   {
-    "": 81,
-    "City": "Voluntari",
+      "City": "Voluntari",
     "County": "Ilfov",
     "Latitude": 44.5050832,
     "Longitude": 26.1555435,
@@ -902,8 +820,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 82,
-    "City": "Murfatlar",
+      "City": "Murfatlar",
     "County": "Constanta",
     "Latitude": 44.1735518,
     "Longitude": 28.4105479,
@@ -913,8 +830,7 @@
     "Visits": "weekly"
   },
   {
-    "": 83,
-    "City": "Ocna Sugatag",
+      "City": "Ocna Sugatag",
     "County": "Maramures",
     "Latitude": 47.7373872,
     "Longitude": 23.8832678,
@@ -924,8 +840,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 84,
-    "City": "Sant",
+      "City": "Sant",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.4406116,
     "Longitude": 24.891578,
@@ -935,8 +850,7 @@
     "Visits": "weekly"
   },
   {
-    "": 85,
-    "City": "Prundeni",
+      "City": "Prundeni",
     "County": "Valcea",
     "Latitude": 44.7372601,
     "Longitude": 24.2480032,
@@ -946,8 +860,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 86,
-    "City": "Moldova Noua",
+      "City": "Moldova Noua",
     "County": "Caras-Severin",
     "Latitude": 44.735184,
     "Longitude": 21.6642348,
@@ -957,8 +870,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 87,
-    "City": "Teregova",
+      "City": "Teregova",
     "County": "Caras-Severin",
     "Latitude": 45.1504322,
     "Longitude": 22.2864464,
@@ -968,8 +880,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 88,
-    "City": "Sascut",
+      "City": "Sascut",
     "County": "Bacau",
     "Latitude": 46.1960057,
     "Longitude": 27.093757,
@@ -979,8 +890,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 89,
-    "City": "Acris",
+      "City": "Acris",
     "County": "Brasov",
     "Latitude": 45.6353308,
     "Longitude": 25.9928947,
@@ -990,8 +900,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 90,
-    "City": "Marghita",
+      "City": "Marghita",
     "County": "Bihor",
     "Latitude": 47.3479194,
     "Longitude": 22.3397566,
@@ -1001,8 +910,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 91,
-    "City": "Beclean",
+      "City": "Beclean",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.1800681,
     "Longitude": 24.1704031,
@@ -1012,8 +920,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 92,
-    "City": "Baia Mare",
+      "City": "Baia Mare",
     "County": "Maramures",
     "Latitude": 47.6567387,
     "Longitude": 23.5849881,
@@ -1023,8 +930,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 93,
-    "City": "Avrig",
+      "City": "Avrig",
     "County": "Sibiu",
     "Latitude": 45.7288293,
     "Longitude": 24.3784376,
@@ -1034,8 +940,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 94,
-    "City": "Craiova",
+      "City": "Craiova",
     "County": "Dolj",
     "Latitude": 44.3301785,
     "Longitude": 23.7948807,
@@ -1045,8 +950,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 95,
-    "City": "Bucuresti",
+      "City": "Bucuresti",
     "County": "Bucuresti",
     "Latitude": 44.4267674,
     "Longitude": 26.1025384,
@@ -1056,8 +960,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 96,
-    "City": "Ludus",
+      "City": "Ludus",
     "County": "Mures",
     "Latitude": 46.476045,
     "Longitude": 24.0933922,
@@ -1067,8 +970,7 @@
     "Visits": "weekly"
   },
   {
-    "": 97,
-    "City": "Campia Turzii",
+      "City": "Campia Turzii",
     "County": "Cluj",
     "Latitude": 46.5586485,
     "Longitude": 23.8706676,
@@ -1078,8 +980,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 98,
-    "City": "Filipestii de Targ",
+      "City": "Filipestii de Targ",
     "County": "Prahova",
     "Latitude": 44.9686362,
     "Longitude": 25.7940462,
@@ -1089,8 +990,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 99,
-    "City": "Huedin",
+      "City": "Huedin",
     "County": "Cluj",
     "Latitude": 46.8623427,
     "Longitude": 23.0218215,
@@ -1100,8 +1000,7 @@
     "Visits": "weekly"
   },
   {
-    "": 100,
-    "City": "Fieni",
+       "City": "Fieni",
     "County": "Dambovita",
     "Latitude": 45.1279095,
     "Longitude": 25.4152063,
@@ -1111,8 +1010,7 @@
     "Visits": "weekly"
   },
   {
-    "": 101,
-    "City": "Husi",
+       "City": "Husi",
     "County": "Vaslui",
     "Latitude": 46.6758644,
     "Longitude": 28.05899,
@@ -1122,8 +1020,7 @@
     "Visits": "weekly"
   },
   {
-    "": 102,
-    "City": "Trip",
+       "City": "Trip",
     "County": "Satu Mare",
     "Latitude": 47.9233727,
     "Longitude": 23.3767769,
@@ -1133,8 +1030,7 @@
     "Visits": "weekly"
   },
   {
-    "": 103,
-    "City": "Sangeorgiu de Padure",
+       "City": "Sangeorgiu de Padure",
     "County": "Mures",
     "Latitude": 46.4291872,
     "Longitude": 24.8386374,
@@ -1144,8 +1040,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 104,
-    "City": "Poiana Marului",
+       "City": "Poiana Marului",
     "County": "Brasov",
     "Latitude": 45.6049511,
     "Longitude": 25.3075907,
@@ -1155,8 +1050,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 105,
-    "City": "Calaparu",
+       "City": "Calaparu",
     "County": "Gorj",
     "Latitude": 44.6828706,
     "Longitude": 23.324964,
@@ -1166,8 +1060,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 106,
-    "City": "Cavnic",
+       "City": "Cavnic",
     "County": "Maramures",
     "Latitude": 47.656596,
     "Longitude": 23.8297783,
@@ -1177,8 +1070,7 @@
     "Visits": "weekly"
   },
   {
-    "": 107,
-    "City": "Maneciu-Pamanteni",
+       "City": "Maneciu-Pamanteni",
     "County": "Prahova",
     "Latitude": 45.2907906,
     "Longitude": 26.0061295,
@@ -1188,8 +1080,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 108,
-    "City": "Rupea",
+       "City": "Rupea",
     "County": "Brasov",
     "Latitude": 46.0377858,
     "Longitude": 25.2225074,
@@ -1199,8 +1090,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 109,
-    "City": "Tautii-Magheraus",
+       "City": "Tautii-Magheraus",
     "County": "Maramures",
     "Latitude": 47.6656888,
     "Longitude": 23.4596529,
@@ -1210,8 +1100,7 @@
     "Visits": "weekly"
   },
   {
-    "": 110,
-    "City": "Simleu Silvaniei",
+       "City": "Simleu Silvaniei",
     "County": "Salaj",
     "Latitude": 47.2260727,
     "Longitude": 22.8037864,
@@ -1221,8 +1110,7 @@
     "Visits": "weekly"
   },
   {
-    "": 111,
-    "City": "Aita Mare",
+       "City": "Aita Mare",
     "County": "Covasna",
     "Latitude": 45.9670572,
     "Longitude": 25.5635224,
@@ -1232,8 +1120,7 @@
     "Visits": "weekly"
   },
   {
-    "": 112,
-    "City": "Vadu Izei",
+       "City": "Vadu Izei",
     "County": "Maramures",
     "Latitude": 47.8833463,
     "Longitude": 23.9562547,
@@ -1243,8 +1130,7 @@
     "Visits": "weekly"
   },
   {
-    "": 113,
-    "City": "Simeria",
+       "City": "Simeria",
     "County": "Hunedoara",
     "Latitude": 45.8555725,
     "Longitude": 23.0120864,
@@ -1254,8 +1140,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 114,
-    "City": "Matrici",
+       "City": "Matrici",
     "County": "Mures",
     "Latitude": 46.6521518,
     "Longitude": 24.8989782,
@@ -1265,8 +1150,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 115,
-    "City": "Tiha Bargaului",
+       "City": "Tiha Bargaului",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.2278833,
     "Longitude": 24.7759816,
@@ -1276,8 +1160,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 116,
-    "City": "Mineri",
+       "City": "Mineri",
     "County": "Tulcea",
     "Latitude": 45.1666405,
     "Longitude": 28.7113039,
@@ -1287,8 +1170,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 117,
-    "City": "Gherla",
+       "City": "Gherla",
     "County": "Cluj",
     "Latitude": 47.0317645,
     "Longitude": 23.909253,
@@ -1298,8 +1180,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 118,
-    "City": "Maneciu-Pamanteni",
+       "City": "Maneciu-Pamanteni",
     "County": "Prahova",
     "Latitude": 45.2907906,
     "Longitude": 26.0061295,
@@ -1309,8 +1190,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 119,
-    "City": "Tiur",
+       "City": "Tiur",
     "County": "Alba",
     "Latitude": 46.1604567,
     "Longitude": 23.8638923,
@@ -1320,8 +1200,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 120,
-    "City": "Matca",
+       "City": "Matca",
     "County": "Galati",
     "Latitude": 45.8599216,
     "Longitude": 27.5597746,
@@ -1331,8 +1210,7 @@
     "Visits": "weekly"
   },
   {
-    "": 121,
-    "City": "Oltenita",
+       "City": "Oltenita",
     "County": "Calarasi",
     "Latitude": 44.0854664,
     "Longitude": 26.637483,
@@ -1342,8 +1220,7 @@
     "Visits": "weekly"
   },
   {
-    "": 122,
-    "City": "Tartasesti",
+       "City": "Tartasesti",
     "County": "Dambovita",
     "Latitude": 44.5713235,
     "Longitude": 25.8281028,
@@ -1353,8 +1230,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 123,
-    "City": "Sascut",
+       "City": "Sascut",
     "County": "Bacau",
     "Latitude": 46.1960057,
     "Longitude": 27.093757,
@@ -1364,8 +1240,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 124,
-    "City": "Teregova",
+       "City": "Teregova",
     "County": "Caras-Severin",
     "Latitude": 45.1504322,
     "Longitude": 22.2864464,
@@ -1375,8 +1250,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 125,
-    "City": "Rabagani",
+       "City": "Rabagani",
     "County": "Bihor",
     "Latitude": 46.74629,
     "Longitude": 22.2452338,
@@ -1386,8 +1260,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 126,
-    "City": "Campeni",
+       "City": "Campeni",
     "County": "Alba",
     "Latitude": 46.3628153,
     "Longitude": 23.0459729,
@@ -1397,8 +1270,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 127,
-    "City": "Mastacan (Borlesti)",
+       "City": "Mastacan (Borlesti)",
     "County": "Neamt",
     "Latitude": 46.7968134,
     "Longitude": 26.4954639,
@@ -1408,8 +1280,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 128,
-    "City": "Petrosani",
+       "City": "Petrosani",
     "County": "Hunedoara",
     "Latitude": 45.4088946,
     "Longitude": 23.3754021,
@@ -1419,8 +1290,7 @@
     "Visits": "weekly"
   },
   {
-    "": 129,
-    "City": "Seica Mare",
+       "City": "Seica Mare",
     "County": "Sibiu",
     "Latitude": 46.0239949,
     "Longitude": 24.1582482,
@@ -1430,8 +1300,7 @@
     "Visits": "weekly"
   },
   {
-    "": 130,
-    "City": "Almasu",
+       "City": "Almasu",
     "County": "Salaj",
     "Latitude": 46.966232,
     "Longitude": 23.0986992,
@@ -1441,8 +1310,7 @@
     "Visits": "weekly"
   },
   {
-    "": 131,
-    "City": "Lupeni",
+       "City": "Lupeni",
     "County": "Hunedoara",
     "Latitude": 45.3569989,
     "Longitude": 23.2132218,
@@ -1452,8 +1320,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 132,
-    "City": "Borca",
+       "City": "Borca",
     "County": "Neamt",
     "Latitude": 47.1789433,
     "Longitude": 25.7794842,
@@ -1463,8 +1330,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 133,
-    "City": "Batrani",
+       "City": "Batrani",
     "County": "Prahova",
     "Latitude": 45.3377853,
     "Longitude": 26.1118275,
@@ -1474,8 +1340,7 @@
     "Visits": "weekly"
   },
   {
-    "": 134,
-    "City": "Simeria",
+       "City": "Simeria",
     "County": "Hunedoara",
     "Latitude": 45.8555725,
     "Longitude": 23.0120864,
@@ -1485,8 +1350,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 135,
-    "City": "Rozavlea",
+       "City": "Rozavlea",
     "County": "Maramures",
     "Latitude": 47.7466016,
     "Longitude": 24.2181216,
@@ -1496,8 +1360,7 @@
     "Visits": "weekly"
   },
   {
-    "": 136,
-    "City": "Racosul de Sus",
+       "City": "Racosul de Sus",
     "County": "Covasna",
     "Latitude": 46.0802755,
     "Longitude": 25.547364,
@@ -1507,8 +1370,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 137,
-    "City": "Oituz",
+       "City": "Oituz",
     "County": "Bacau",
     "Latitude": 46.1713004,
     "Longitude": 26.5404114,
@@ -1518,8 +1380,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 138,
-    "City": "Filiasi",
+       "City": "Filiasi",
     "County": "Dolj",
     "Latitude": 44.554523,
     "Longitude": 23.5200088,
@@ -1529,8 +1390,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 139,
-    "City": "Priboieni",
+       "City": "Priboieni",
     "County": "Arges",
     "Latitude": 44.8747392,
     "Longitude": 25.0801048,
@@ -1540,8 +1400,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 140,
-    "City": "Deva",
+       "City": "Deva",
     "County": "Hunedoara",
     "Latitude": 45.8662574,
     "Longitude": 22.9143737,
@@ -1551,8 +1410,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 141,
-    "City": "Suplac",
+       "City": "Suplac",
     "County": "Mures",
     "Latitude": 46.3972736,
     "Longitude": 24.5189235,
@@ -1562,8 +1420,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 142,
-    "City": "Constanta",
+       "City": "Constanta",
     "County": "Constanta",
     "Latitude": 44.1598013,
     "Longitude": 28.6348138,
@@ -1573,8 +1430,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 143,
-    "City": "Sacele",
+       "City": "Sacele",
     "County": "Brasov",
     "Latitude": 45.6179752,
     "Longitude": 25.6942533,
@@ -1584,8 +1440,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 144,
-    "City": "Targu Frumos",
+       "City": "Targu Frumos",
     "County": "Iasi",
     "Latitude": 47.2085397,
     "Longitude": 27.0083561,
@@ -1595,8 +1450,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 145,
-    "City": "Poiana Ilvei",
+       "City": "Poiana Ilvei",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.3558143,
     "Longitude": 24.7451705,
@@ -1606,8 +1460,7 @@
     "Visits": "weekly"
   },
   {
-    "": 146,
-    "City": "Rupea",
+       "City": "Rupea",
     "County": "Brasov",
     "Latitude": 46.0377858,
     "Longitude": 25.2225074,
@@ -1617,8 +1470,7 @@
     "Visits": "weekly"
   },
   {
-    "": 147,
-    "City": "Viseu de Jos",
+       "City": "Viseu de Jos",
     "County": "Maramures",
     "Latitude": 47.7395133,
     "Longitude": 24.3428814,
@@ -1628,8 +1480,7 @@
     "Visits": "weekly"
   },
   {
-    "": 148,
-    "City": "Tarnaveni",
+       "City": "Tarnaveni",
     "County": "Mures",
     "Latitude": 46.3293137,
     "Longitude": 24.2935777,
@@ -1639,8 +1490,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 149,
-    "City": "Pitesti",
+       "City": "Pitesti",
     "County": "Arges",
     "Latitude": 44.8564798,
     "Longitude": 24.8691824,
@@ -1650,8 +1500,7 @@
     "Visits": "weekly"
   },
   {
-    "": 150,
-    "City": "Breaza",
+       "City": "Breaza",
     "County": "Prahova",
     "Latitude": 45.187222,
     "Longitude": 25.662222,
@@ -1661,8 +1510,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 151,
-    "City": "Apata",
+       "City": "Apata",
     "County": "Brasov",
     "Latitude": 45.9495023,
     "Longitude": 25.5306954,
@@ -1672,8 +1520,7 @@
     "Visits": "weekly"
   },
   {
-    "": 152,
-    "City": "Satu Mare",
+       "City": "Satu Mare",
     "County": "Satu Mare",
     "Latitude": 47.8016702,
     "Longitude": 22.8575926,
@@ -1683,8 +1530,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 153,
-    "City": "Oituz",
+       "City": "Oituz",
     "County": "Bacau",
     "Latitude": 46.1713004,
     "Longitude": 26.5404114,
@@ -1694,8 +1540,7 @@
     "Visits": "weekly"
   },
   {
-    "": 154,
-    "City": "Bretcu",
+       "City": "Bretcu",
     "County": "Covasna",
     "Latitude": 46.0529902,
     "Longitude": 26.3571364,
@@ -1705,8 +1550,7 @@
     "Visits": "weekly"
   },
   {
-    "": 155,
-    "City": "Fieni",
+       "City": "Fieni",
     "County": "Dambovita",
     "Latitude": 45.1279095,
     "Longitude": 25.4152063,
@@ -1716,8 +1560,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 156,
-    "City": "Rediu",
+       "City": "Rediu",
     "County": "Galati",
     "Latitude": 45.6473638,
     "Longitude": 27.9011408,
@@ -1727,8 +1570,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 157,
-    "City": "Salistea de Sus",
+       "City": "Salistea de Sus",
     "County": "Maramures",
     "Latitude": 47.6576229,
     "Longitude": 24.3524831,
@@ -1738,8 +1580,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 158,
-    "City": "Horia",
+       "City": "Horia",
     "County": "Neamt",
     "Latitude": 46.90631,
     "Longitude": 26.9200561,
@@ -1749,8 +1590,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 159,
-    "City": "Tautii-Magheraus",
+       "City": "Tautii-Magheraus",
     "County": "Maramures",
     "Latitude": 47.6656888,
     "Longitude": 23.4596529,
@@ -1760,8 +1600,7 @@
     "Visits": "weekly"
   },
   {
-    "": 160,
-    "City": "Stanesti",
+       "City": "Stanesti",
     "County": "Arges",
     "Latitude": 45.2391935,
     "Longitude": 24.8262465,
@@ -1771,8 +1610,7 @@
     "Visits": "weekly"
   },
   {
-    "": 161,
-    "City": "Horezu",
+       "City": "Horezu",
     "County": "Valcea",
     "Latitude": 45.1495389,
     "Longitude": 23.9816333,
@@ -1782,8 +1620,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 162,
-    "City": "Varghis",
+       "City": "Varghis",
     "County": "Covasna",
     "Latitude": 46.1437575,
     "Longitude": 25.5215551,
@@ -1793,8 +1630,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 163,
-    "City": "Filipestii de Targ",
+       "City": "Filipestii de Targ",
     "County": "Prahova",
     "Latitude": 44.9686362,
     "Longitude": 25.7940462,
@@ -1804,8 +1640,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 164,
-    "City": "Horezu",
+       "City": "Horezu",
     "County": "Valcea",
     "Latitude": 45.1495389,
     "Longitude": 23.9816333,
@@ -1815,8 +1650,7 @@
     "Visits": "weekly"
   },
   {
-    "": 165,
-    "City": "Stroiesti",
+       "City": "Stroiesti",
     "County": "Suceava",
     "Latitude": 47.6155605,
     "Longitude": 26.1242892,
@@ -1826,8 +1660,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 166,
-    "City": "Sant",
+       "City": "Sant",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.4406116,
     "Longitude": 24.891578,
@@ -1837,8 +1670,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 167,
-    "City": "Caracal",
+       "City": "Caracal",
     "County": "Olt",
     "Latitude": 44.1157446,
     "Longitude": 24.3424754,
@@ -1848,8 +1680,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 168,
-    "City": "Turceni",
+       "City": "Turceni",
     "County": "Gorj",
     "Latitude": 44.674076,
     "Longitude": 23.374199,
@@ -1859,8 +1690,7 @@
     "Visits": "weekly"
   },
   {
-    "": 169,
-    "City": "Mastacan (Borlesti)",
+       "City": "Mastacan (Borlesti)",
     "County": "Neamt",
     "Latitude": 46.7968134,
     "Longitude": 26.4954639,
@@ -1870,8 +1700,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 170,
-    "City": "Giulesti",
+       "City": "Giulesti",
     "County": "Maramures",
     "Latitude": 47.8190608,
     "Longitude": 23.9274849,
@@ -1881,8 +1710,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 171,
-    "City": "Racaciuni",
+       "City": "Racaciuni",
     "County": "Bacau",
     "Latitude": 46.3375805,
     "Longitude": 26.9933688,
@@ -1892,8 +1720,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 172,
-    "City": "Darmanesti",
+       "City": "Darmanesti",
     "County": "Suceava",
     "Latitude": 47.7382535,
     "Longitude": 26.1457427,
@@ -1903,8 +1730,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 173,
-    "City": "Drobeta-Turnu Severin",
+       "City": "Drobeta-Turnu Severin",
     "County": "Mehedinti",
     "Latitude": 44.6369227,
     "Longitude": 22.6597342,
@@ -1914,8 +1740,7 @@
     "Visits": "weekly"
   },
   {
-    "": 174,
-    "City": "Batrani",
+       "City": "Batrani",
     "County": "Prahova",
     "Latitude": 45.3377853,
     "Longitude": 26.1118275,
@@ -1925,8 +1750,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 175,
-    "City": "Gherla",
+       "City": "Gherla",
     "County": "Cluj",
     "Latitude": 47.0317645,
     "Longitude": 23.909253,
@@ -1936,8 +1760,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 176,
-    "City": "Valenii de Munte",
+       "City": "Valenii de Munte",
     "County": "Prahova",
     "Latitude": 45.1912847,
     "Longitude": 26.0440169,
@@ -1947,8 +1770,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 177,
-    "City": "Milostea",
+       "City": "Milostea",
     "County": "Valcea",
     "Latitude": 45.1266508,
     "Longitude": 23.8337262,
@@ -1958,8 +1780,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 178,
-    "City": "Tarnaveni",
+       "City": "Tarnaveni",
     "County": "Mures",
     "Latitude": 46.3293137,
     "Longitude": 24.2935777,
@@ -1969,8 +1790,7 @@
     "Visits": "weekly"
   },
   {
-    "": 179,
-    "City": "Toplita",
+       "City": "Toplita",
     "County": "Harghita",
     "Latitude": 46.9260303,
     "Longitude": 25.3534041,
@@ -1980,8 +1800,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 180,
-    "City": "Periam",
+       "City": "Periam",
     "County": "Timis",
     "Latitude": 46.0443663,
     "Longitude": 20.8723729,
@@ -1991,8 +1810,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 181,
-    "City": "Deta",
+       "City": "Deta",
     "County": "Timis",
     "Latitude": 45.3977401,
     "Longitude": 21.2255847,
@@ -2002,8 +1820,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 182,
-    "City": "Alexandria",
+       "City": "Alexandria",
     "County": "Teleorman",
     "Latitude": 43.9750572,
     "Longitude": 25.3282579,
@@ -2013,8 +1830,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 183,
-    "City": "Praid",
+       "City": "Praid",
     "County": "Harghita",
     "Latitude": 46.5553429,
     "Longitude": 25.1272723,
@@ -2024,8 +1840,7 @@
     "Visits": "weekly"
   },
   {
-    "": 184,
-    "City": "Gherla",
+       "City": "Gherla",
     "County": "Cluj",
     "Latitude": 47.0317645,
     "Longitude": 23.909253,
@@ -2035,8 +1850,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 185,
-    "City": "Cluj-Napoca",
+       "City": "Cluj-Napoca",
     "County": "Cluj",
     "Latitude": 46.7712101,
     "Longitude": 23.6236353,
@@ -2046,8 +1860,7 @@
     "Visits": "weekly"
   },
   {
-    "": 186,
-    "City": "Zimnicea",
+       "City": "Zimnicea",
     "County": "Teleorman",
     "Latitude": 43.6578297,
     "Longitude": 25.360575,
@@ -2057,8 +1870,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 187,
-    "City": "Topoloveni",
+       "City": "Topoloveni",
     "County": "Arges",
     "Latitude": 44.8105516,
     "Longitude": 25.0770243,
@@ -2068,8 +1880,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 188,
-    "City": "Balauseri",
+       "City": "Balauseri",
     "County": "Mures",
     "Latitude": 46.4078416,
     "Longitude": 24.6929815,
@@ -2079,8 +1890,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 189,
-    "City": "Rozavlea",
+       "City": "Rozavlea",
     "County": "Maramures",
     "Latitude": 47.7466016,
     "Longitude": 24.2181216,
@@ -2090,8 +1900,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 190,
-    "City": "Tecuci",
+       "City": "Tecuci",
     "County": "Galati",
     "Latitude": 45.8490923,
     "Longitude": 27.4241268,
@@ -2101,8 +1910,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 191,
-    "City": "Voitinel",
+       "City": "Voitinel",
     "County": "Suceava",
     "Latitude": 47.8804611,
     "Longitude": 25.7493649,
@@ -2112,8 +1920,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 192,
-    "City": "Crevedia",
+       "City": "Crevedia",
     "County": "Dambovita",
     "Latitude": 44.6019735,
     "Longitude": 25.9104359,
@@ -2123,8 +1930,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 193,
-    "City": "Doanca",
+       "City": "Doanca",
     "County": "Olt",
     "Latitude": 43.8465727,
     "Longitude": 24.6487677,
@@ -2134,8 +1940,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 194,
-    "City": "Brebu",
+       "City": "Brebu",
     "County": "Prahova",
     "Latitude": 45.183333,
     "Longitude": 25.766667,
@@ -2145,8 +1950,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 195,
-    "City": "Sfantu Gheorghe",
+       "City": "Sfantu Gheorghe",
     "County": "Covasna",
     "Latitude": 45.8609375,
     "Longitude": 25.7885796,
@@ -2156,8 +1960,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 196,
-    "City": "Dragasani",
+       "City": "Dragasani",
     "County": "Valcea",
     "Latitude": 44.6631799,
     "Longitude": 24.2608711,
@@ -2167,8 +1970,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 197,
-    "City": "Tarnaveni",
+       "City": "Tarnaveni",
     "County": "Mures",
     "Latitude": 46.3293137,
     "Longitude": 24.2935777,
@@ -2178,8 +1980,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 198,
-    "City": "Periam",
+       "City": "Periam",
     "County": "Timis",
     "Latitude": 46.0443663,
     "Longitude": 20.8723729,
@@ -2189,8 +1990,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 199,
-    "City": "Poienita",
+       "City": "Poienita",
     "County": "Arges",
     "Latitude": 45.1127612,
     "Longitude": 24.9234846,
@@ -2200,8 +2000,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 200,
-    "City": "Petrosani",
+       "City": "Petrosani",
     "County": "Hunedoara",
     "Latitude": 45.4088946,
     "Longitude": 23.3754021,
@@ -2211,8 +2010,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 201,
-    "City": "Roman",
+       "City": "Roman",
     "County": "Neamt",
     "Latitude": 46.9333781,
     "Longitude": 26.9265451,
@@ -2222,8 +2020,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 202,
-    "City": "Petrila",
+       "City": "Petrila",
     "County": "Hunedoara",
     "Latitude": 45.4437689,
     "Longitude": 23.4093784,
@@ -2233,8 +2030,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 203,
-    "City": "Marghita",
+       "City": "Marghita",
     "County": "Bihor",
     "Latitude": 47.3479194,
     "Longitude": 22.3397566,
@@ -2244,8 +2040,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 204,
-    "City": "Golaiesti",
+       "City": "Golaiesti",
     "County": "Iasi",
     "Latitude": 47.2648157,
     "Longitude": 27.6787658,
@@ -2255,8 +2050,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 205,
-    "City": "Ganesti",
+       "City": "Ganesti",
     "County": "Mures",
     "Latitude": 46.3336531,
     "Longitude": 24.3588403,
@@ -2266,8 +2060,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 206,
-    "City": "Dobreni",
+       "City": "Dobreni",
     "County": "Giurgiu",
     "Latitude": 44.253387,
     "Longitude": 26.2082339,
@@ -2277,8 +2070,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 207,
-    "City": "Cavnic",
+       "City": "Cavnic",
     "County": "Maramures",
     "Latitude": 47.656596,
     "Longitude": 23.8297783,
@@ -2288,8 +2080,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 208,
-    "City": "Mangalia",
+       "City": "Mangalia",
     "County": "Constanta",
     "Latitude": 43.8152436,
     "Longitude": 28.5741496,
@@ -2299,8 +2090,7 @@
     "Visits": "weekly"
   },
   {
-    "": 209,
-    "City": "Pechea",
+       "City": "Pechea",
     "County": "Galati",
     "Latitude": 45.6473849,
     "Longitude": 27.7849169,
@@ -2310,8 +2100,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 210,
-    "City": "Cluj-Napoca",
+       "City": "Cluj-Napoca",
     "County": "Cluj",
     "Latitude": 46.7712101,
     "Longitude": 23.6236353,
@@ -2321,8 +2110,7 @@
     "Visits": "weekly"
   },
   {
-    "": 211,
-    "City": "Bibesti",
+       "City": "Bibesti",
     "County": "Gorj",
     "Latitude": 44.7815366,
     "Longitude": 23.4907078,
@@ -2332,8 +2120,7 @@
     "Visits": "weekly"
   },
   {
-    "": 212,
-    "City": "Braila",
+       "City": "Braila",
     "County": "Braila",
     "Latitude": 45.2652463,
     "Longitude": 27.9594714,
@@ -2343,8 +2130,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 213,
-    "City": "Odorheiu Secuiesc",
+       "City": "Odorheiu Secuiesc",
     "County": "Harghita",
     "Latitude": 46.3049996,
     "Longitude": 25.2926479,
@@ -2354,8 +2140,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 214,
-    "City": "Bascov",
+       "City": "Bascov",
     "County": "Arges",
     "Latitude": 44.8906952,
     "Longitude": 24.7853667,
@@ -2365,8 +2150,7 @@
     "Visits": "weekly"
   },
   {
-    "": 215,
-    "City": "Onesti",
+       "City": "Onesti",
     "County": "Bacau",
     "Latitude": 46.2647012,
     "Longitude": 26.782587,
@@ -2376,8 +2160,7 @@
     "Visits": "weekly"
   },
   {
-    "": 216,
-    "City": "Cajvana",
+       "City": "Cajvana",
     "County": "Suceava",
     "Latitude": 47.7019688,
     "Longitude": 25.9641186,
@@ -2387,8 +2170,7 @@
     "Visits": "weekly"
   },
   {
-    "": 217,
-    "City": "Berveni",
+       "City": "Berveni",
     "County": "Satu Mare",
     "Latitude": 47.7546831,
     "Longitude": 22.4714395,
@@ -2398,8 +2180,7 @@
     "Visits": "weekly"
   },
   {
-    "": 218,
-    "City": "Intorsura Buzaului",
+       "City": "Intorsura Buzaului",
     "County": "Covasna",
     "Latitude": 45.6640966,
     "Longitude": 26.0149491,
@@ -2409,8 +2190,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 219,
-    "City": "Valea lui Mihai",
+       "City": "Valea lui Mihai",
     "County": "Bihor",
     "Latitude": 47.5226462,
     "Longitude": 22.1264628,
@@ -2420,8 +2200,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 220,
-    "City": "Turda",
+       "City": "Turda",
     "County": "Cluj",
     "Latitude": 46.564676,
     "Longitude": 23.7971063,
@@ -2431,8 +2210,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 221,
-    "City": "Huedin",
+       "City": "Huedin",
     "County": "Cluj",
     "Latitude": 46.8623427,
     "Longitude": 23.0218215,
@@ -2442,8 +2220,7 @@
     "Visits": "weekly"
   },
   {
-    "": 222,
-    "City": "Voivozi (Popesti)",
+       "City": "Voivozi (Popesti)",
     "County": "Bihor",
     "Latitude": 47.2194325,
     "Longitude": 22.3902124,
@@ -2453,8 +2230,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 223,
-    "City": "Simeria",
+       "City": "Simeria",
     "County": "Hunedoara",
     "Latitude": 45.8555725,
     "Longitude": 23.0120864,
@@ -2464,8 +2240,7 @@
     "Visits": "weekly"
   },
   {
-    "": 224,
-    "City": "Deva",
+       "City": "Deva",
     "County": "Hunedoara",
     "Latitude": 45.8662574,
     "Longitude": 22.9143737,
@@ -2475,8 +2250,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 225,
-    "City": "Racosul de Sus",
+       "City": "Racosul de Sus",
     "County": "Covasna",
     "Latitude": 46.0802755,
     "Longitude": 25.547364,
@@ -2486,8 +2260,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 226,
-    "City": "Rancaciov",
+       "City": "Rancaciov",
     "County": "Dambovita",
     "Latitude": 44.8855684,
     "Longitude": 25.3627472,
@@ -2497,8 +2270,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 227,
-    "City": "Topa de Jos",
+       "City": "Topa de Jos",
     "County": "Bihor",
     "Latitude": 46.8434194,
     "Longitude": 22.2332655,
@@ -2508,8 +2280,7 @@
     "Visits": "weekly"
   },
   {
-    "": 228,
-    "City": "Caransebes",
+       "City": "Caransebes",
     "County": "Caras-Severin",
     "Latitude": 45.413619,
     "Longitude": 22.2218641,
@@ -2519,8 +2290,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 229,
-    "City": "Suplac",
+       "City": "Suplac",
     "County": "Mures",
     "Latitude": 46.3972736,
     "Longitude": 24.5189235,
@@ -2530,8 +2300,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 230,
-    "City": "Satu Mare",
+       "City": "Satu Mare",
     "County": "Satu Mare",
     "Latitude": 47.8016702,
     "Longitude": 22.8575926,
@@ -2541,8 +2310,7 @@
     "Visits": "weekly"
   },
   {
-    "": 231,
-    "City": "Arad",
+       "City": "Arad",
     "County": "Arad",
     "Latitude": 46.1865606,
     "Longitude": 21.3122677,
@@ -2552,8 +2320,7 @@
     "Visits": "weekly"
   },
   {
-    "": 232,
-    "City": "Dobreni",
+       "City": "Dobreni",
     "County": "Giurgiu",
     "Latitude": 44.253387,
     "Longitude": 26.2082339,
@@ -2563,8 +2330,7 @@
     "Visits": "weekly"
   },
   {
-    "": 233,
-    "City": "Oituz",
+       "City": "Oituz",
     "County": "Bacau",
     "Latitude": 46.1713004,
     "Longitude": 26.5404114,
@@ -2574,8 +2340,7 @@
     "Visits": "weekly"
   },
   {
-    "": 234,
-    "City": "Satu Nou (Ocland)",
+       "City": "Satu Nou (Ocland)",
     "County": "Harghita",
     "Latitude": 46.1454108,
     "Longitude": 25.4155428,
@@ -2585,8 +2350,7 @@
     "Visits": "weekly"
   },
   {
-    "": 235,
-    "City": "Corod",
+       "City": "Corod",
     "County": "Galati",
     "Latitude": 45.8991197,
     "Longitude": 27.6257026,
@@ -2596,8 +2360,7 @@
     "Visits": "weekly"
   },
   {
-    "": 236,
-    "City": "Mosnita Noua",
+       "City": "Mosnita Noua",
     "County": "Timis",
     "Latitude": 45.7206388,
     "Longitude": 21.3156456,
@@ -2607,8 +2370,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 237,
-    "City": "Novaci",
+       "City": "Novaci",
     "County": "Gorj",
     "Latitude": 45.1782926,
     "Longitude": 23.6720859,
@@ -2618,8 +2380,7 @@
     "Visits": "weekly"
   },
   {
-    "": 238,
-    "City": "Filiasi",
+       "City": "Filiasi",
     "County": "Dolj",
     "Latitude": 44.554523,
     "Longitude": 23.5200088,
@@ -2629,8 +2390,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 239,
-    "City": "Poiana Ilvei",
+       "City": "Poiana Ilvei",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.3558143,
     "Longitude": 24.7451705,
@@ -2640,8 +2400,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 240,
-    "City": "Teregova",
+       "City": "Teregova",
     "County": "Caras-Severin",
     "Latitude": 45.1504322,
     "Longitude": 22.2864464,
@@ -2651,8 +2410,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 241,
-    "City": "Sovata",
+       "City": "Sovata",
     "County": "Mures",
     "Latitude": 46.5990794,
     "Longitude": 25.0774363,
@@ -2662,8 +2420,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 242,
-    "City": "Bascov",
+       "City": "Bascov",
     "County": "Arges",
     "Latitude": 44.8906952,
     "Longitude": 24.7853667,
@@ -2673,8 +2430,7 @@
     "Visits": "weekly"
   },
   {
-    "": 243,
-    "City": "Hunedoara",
+       "City": "Hunedoara",
     "County": "Hunedoara",
     "Latitude": 45.7678128,
     "Longitude": 22.9072331,
@@ -2684,8 +2440,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 244,
-    "City": "Sinaia",
+       "City": "Sinaia",
     "County": "Prahova",
     "Latitude": 45.3310429,
     "Longitude": 25.5623504,
@@ -2695,8 +2450,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 245,
-    "City": "Domnesti",
+       "City": "Domnesti",
     "County": "Arges",
     "Latitude": 45.203321,
     "Longitude": 24.8386752,
@@ -2706,8 +2460,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 246,
-    "City": "Vulcan",
+       "City": "Vulcan",
     "County": "Brasov",
     "Latitude": 45.6348088,
     "Longitude": 25.4181031,
@@ -2717,8 +2470,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 247,
-    "City": "Bumbesti-Jiu",
+       "City": "Bumbesti-Jiu",
     "County": "Gorj",
     "Latitude": 45.1776245,
     "Longitude": 23.3856157,
@@ -2728,8 +2480,7 @@
     "Visits": "weekly"
   },
   {
-    "": 248,
-    "City": "Falciu",
+       "City": "Falciu",
     "County": "Vaslui",
     "Latitude": 46.2930548,
     "Longitude": 28.1415999,
@@ -2739,8 +2490,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 249,
-    "City": "Seini",
+       "City": "Seini",
     "County": "Maramures",
     "Latitude": 47.7475078,
     "Longitude": 23.2849196,
@@ -2750,8 +2500,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 250,
-    "City": "Onesti",
+       "City": "Onesti",
     "County": "Bacau",
     "Latitude": 46.2647012,
     "Longitude": 26.782587,
@@ -2761,8 +2510,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 251,
-    "City": "Brebu",
+       "City": "Brebu",
     "County": "Prahova",
     "Latitude": 45.183333,
     "Longitude": 25.766667,
@@ -2772,8 +2520,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 252,
-    "City": "Vulturu",
+       "City": "Vulturu",
     "County": "Vrancea",
     "Latitude": 45.6179023,
     "Longitude": 27.4194359,
@@ -2783,8 +2530,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 253,
-    "City": "Satu Nou (Ocland)",
+       "City": "Satu Nou (Ocland)",
     "County": "Harghita",
     "Latitude": 46.1454108,
     "Longitude": 25.4155428,
@@ -2794,8 +2540,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 254,
-    "City": "Pericei",
+       "City": "Pericei",
     "County": "Salaj",
     "Latitude": 47.2279331,
     "Longitude": 22.8684111,
@@ -2805,8 +2550,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 255,
-    "City": "Sona",
+       "City": "Sona",
     "County": "Alba",
     "Latitude": 46.2172769,
     "Longitude": 24.0147622,
@@ -2816,8 +2560,7 @@
     "Visits": "weekly"
   },
   {
-    "": 256,
-    "City": "Baia Mare",
+       "City": "Baia Mare",
     "County": "Maramures",
     "Latitude": 47.6567387,
     "Longitude": 23.5849881,
@@ -2827,8 +2570,7 @@
     "Visits": "weekly"
   },
   {
-    "": 257,
-    "City": "Ieud",
+       "City": "Ieud",
     "County": "Maramures",
     "Latitude": 47.6632407,
     "Longitude": 24.2286926,
@@ -2838,8 +2580,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 258,
-    "City": "Victoria",
+       "City": "Victoria",
     "County": "Brasov",
     "Latitude": 45.7306587,
     "Longitude": 24.7009227,
@@ -2849,8 +2590,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 259,
-    "City": "Cotenesti",
+       "City": "Cotenesti",
     "County": "Arges",
     "Latitude": 45.23358,
     "Longitude": 25.1844379,
@@ -2860,8 +2600,7 @@
     "Visits": "weekly"
   },
   {
-    "": 260,
-    "City": "Buzau",
+       "City": "Buzau",
     "County": "Buzau",
     "Latitude": 45.1371109,
     "Longitude": 26.8171122,
@@ -2871,8 +2610,7 @@
     "Visits": "weekly"
   },
   {
-    "": 261,
-    "City": "Fagaras",
+       "City": "Fagaras",
     "County": "Brasov",
     "Latitude": 45.8416403,
     "Longitude": 24.9730954,
@@ -2882,8 +2620,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 262,
-    "City": "Ovidiu",
+       "City": "Ovidiu",
     "County": "Constanta",
     "Latitude": 44.2576259,
     "Longitude": 28.558611,
@@ -2893,8 +2630,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 263,
-    "City": "Bacau",
+       "City": "Bacau",
     "County": "Bacau",
     "Latitude": 46.5670437,
     "Longitude": 26.9145748,
@@ -2904,8 +2640,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 264,
-    "City": "Homocea",
+       "City": "Homocea",
     "County": "Vrancea",
     "Latitude": 46.1346892,
     "Longitude": 27.2425619,
@@ -2915,8 +2650,7 @@
     "Visits": "weekly"
   },
   {
-    "": 265,
-    "City": "Lupeni",
+       "City": "Lupeni",
     "County": "Hunedoara",
     "Latitude": 45.3569989,
     "Longitude": 23.2132218,
@@ -2926,8 +2660,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 266,
-    "City": "Husi",
+       "City": "Husi",
     "County": "Vaslui",
     "Latitude": 46.6758644,
     "Longitude": 28.05899,
@@ -2937,8 +2670,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 267,
-    "City": "Cotenesti",
+       "City": "Cotenesti",
     "County": "Arges",
     "Latitude": 45.23358,
     "Longitude": 25.1844379,
@@ -2948,8 +2680,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 268,
-    "City": "Huedin",
+       "City": "Huedin",
     "County": "Cluj",
     "Latitude": 46.8623427,
     "Longitude": 23.0218215,
@@ -2959,8 +2690,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 269,
-    "City": "Gugesti",
+       "City": "Gugesti",
     "County": "Vrancea",
     "Latitude": 45.5698771,
     "Longitude": 27.1319694,
@@ -2970,8 +2700,7 @@
     "Visits": "weekly"
   },
   {
-    "": 270,
-    "City": "Priboieni",
+       "City": "Priboieni",
     "County": "Arges",
     "Latitude": 44.8747392,
     "Longitude": 25.0801048,
@@ -2981,8 +2710,7 @@
     "Visits": "weekly"
   },
   {
-    "": 271,
-    "City": "Bozovici",
+       "City": "Bozovici",
     "County": "Caras-Severin",
     "Latitude": 45.0012349,
     "Longitude": 21.9535783,
@@ -2992,8 +2720,7 @@
     "Visits": "weekly"
   },
   {
-    "": 272,
-    "City": "Turda",
+       "City": "Turda",
     "County": "Cluj",
     "Latitude": 46.564676,
     "Longitude": 23.7971063,
@@ -3003,8 +2730,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 273,
-    "City": "Mangalia",
+       "City": "Mangalia",
     "County": "Constanta",
     "Latitude": 43.8152436,
     "Longitude": 28.5741496,
@@ -3014,8 +2740,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 274,
-    "City": "Rabagani",
+       "City": "Rabagani",
     "County": "Bihor",
     "Latitude": 46.74629,
     "Longitude": 22.2452338,
@@ -3025,8 +2750,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 275,
-    "City": "Tautii-Magheraus",
+       "City": "Tautii-Magheraus",
     "County": "Maramures",
     "Latitude": 47.6656888,
     "Longitude": 23.4596529,
@@ -3036,8 +2760,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 276,
-    "City": "Intorsura Buzaului",
+       "City": "Intorsura Buzaului",
     "County": "Covasna",
     "Latitude": 45.6640966,
     "Longitude": 26.0149491,
@@ -3047,8 +2770,7 @@
     "Visits": "weekly"
   },
   {
-    "": 277,
-    "City": "Floresti",
+       "City": "Floresti",
     "County": "Cluj",
     "Latitude": 46.7312657,
     "Longitude": 23.4783294,
@@ -3058,8 +2780,7 @@
     "Visits": "weekly"
   },
   {
-    "": 278,
-    "City": "Busag",
+       "City": "Busag",
     "County": "Maramures",
     "Latitude": 47.659141,
     "Longitude": 23.4237293,
@@ -3069,8 +2790,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 279,
-    "City": "Iernut",
+       "City": "Iernut",
     "County": "Mures",
     "Latitude": 46.4507604,
     "Longitude": 24.2290151,
@@ -3080,8 +2800,7 @@
     "Visits": "weekly"
   },
   {
-    "": 280,
-    "City": "Viseu de Sus",
+       "City": "Viseu de Sus",
     "County": "Maramures",
     "Latitude": 47.7150521,
     "Longitude": 24.4396734,
@@ -3091,8 +2810,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 281,
-    "City": "Poiana Marului",
+       "City": "Poiana Marului",
     "County": "Brasov",
     "Latitude": 45.6049511,
     "Longitude": 25.3075907,
@@ -3102,8 +2820,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 282,
-    "City": "Reghin",
+       "City": "Reghin",
     "County": "Mures",
     "Latitude": 46.7710931,
     "Longitude": 24.700762,
@@ -3113,8 +2830,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 283,
-    "City": "Praid",
+       "City": "Praid",
     "County": "Harghita",
     "Latitude": 46.5553429,
     "Longitude": 25.1272723,
@@ -3124,8 +2840,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 284,
-    "City": "Caracal",
+       "City": "Caracal",
     "County": "Olt",
     "Latitude": 44.1157446,
     "Longitude": 24.3424754,
@@ -3135,8 +2850,7 @@
     "Visits": "weekly"
   },
   {
-    "": 285,
-    "City": "Rogoz",
+       "City": "Rogoz",
     "County": "Maramures",
     "Latitude": 47.4688357,
     "Longitude": 23.9322483,
@@ -3146,8 +2860,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 286,
-    "City": "Intorsura Buzaului",
+       "City": "Intorsura Buzaului",
     "County": "Covasna",
     "Latitude": 45.6640966,
     "Longitude": 26.0149491,
@@ -3157,8 +2870,7 @@
     "Visits": "weekly"
   },
   {
-    "": 287,
-    "City": "Peretu",
+       "City": "Peretu",
     "County": "Teleorman",
     "Latitude": 44.0441616,
     "Longitude": 25.0860775,
@@ -3168,8 +2880,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 288,
-    "City": "Breaza",
+       "City": "Breaza",
     "County": "Prahova",
     "Latitude": 45.187222,
     "Longitude": 25.662222,
@@ -3179,8 +2890,7 @@
     "Visits": "weekly"
   },
   {
-    "": 289,
-    "City": "Sovata",
+       "City": "Sovata",
     "County": "Mures",
     "Latitude": 46.5990794,
     "Longitude": 25.0774363,
@@ -3190,8 +2900,7 @@
     "Visits": "weekly"
   },
   {
-    "": 290,
-    "City": "Horodnic de Sus",
+       "City": "Horodnic de Sus",
     "County": "Suceava",
     "Latitude": 47.8475154,
     "Longitude": 25.7765467,
@@ -3201,8 +2910,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 291,
-    "City": "Campulung",
+       "City": "Campulung",
     "County": "Arges",
     "Latitude": 45.270605,
     "Longitude": 25.0531038,
@@ -3212,8 +2920,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 292,
-    "City": "Resita",
+       "City": "Resita",
     "County": "Caras-Severin",
     "Latitude": 45.3049703,
     "Longitude": 21.8821033,
@@ -3223,8 +2930,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 293,
-    "City": "Pipirig",
+       "City": "Pipirig",
     "County": "Neamt",
     "Latitude": 47.2396133,
     "Longitude": 26.0678092,
@@ -3234,8 +2940,7 @@
     "Visits": "weekly"
   },
   {
-    "": 294,
-    "City": "Ivesti",
+       "City": "Ivesti",
     "County": "Galati",
     "Latitude": 45.6897612,
     "Longitude": 27.5354375,
@@ -3245,8 +2950,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 295,
-    "City": "Arinis",
+       "City": "Arinis",
     "County": "Maramures",
     "Latitude": 47.5022794,
     "Longitude": 23.2237172,
@@ -3256,8 +2960,7 @@
     "Visits": "weekly"
   },
   {
-    "": 296,
-    "City": "Batanii Mari",
+       "City": "Batanii Mari",
     "County": "Covasna",
     "Latitude": 46.0900927,
     "Longitude": 25.6977467,
@@ -3267,8 +2970,7 @@
     "Visits": "weekly"
   },
   {
-    "": 297,
-    "City": "Bucuresti",
+       "City": "Bucuresti",
     "County": "Bucuresti",
     "Latitude": 44.4267674,
     "Longitude": 26.1025384,
@@ -3278,8 +2980,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 298,
-    "City": "Petrova",
+       "City": "Petrova",
     "County": "Maramures",
     "Latitude": 47.8278652,
     "Longitude": 24.2116255,
@@ -3289,8 +2990,7 @@
     "Visits": "weekly"
   },
   {
-    "": 299,
-    "City": "Victoria",
+       "City": "Victoria",
     "County": "Brasov",
     "Latitude": 45.7306587,
     "Longitude": 24.7009227,
@@ -3300,8 +3000,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 300,
-    "City": "Beclean",
+       "City": "Beclean",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.1800681,
     "Longitude": 24.1704031,
@@ -3311,8 +3010,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 301,
-    "City": "Focsani",
+       "City": "Focsani",
     "County": "Vrancea",
     "Latitude": 45.6964745,
     "Longitude": 27.184043,
@@ -3322,8 +3020,7 @@
     "Visits": "weekly"
   },
   {
-    "": 302,
-    "City": "Calimanesti",
+       "City": "Calimanesti",
     "County": "Valcea",
     "Latitude": 45.239101,
     "Longitude": 24.3398608,
@@ -3333,8 +3030,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 303,
-    "City": "Dobreni",
+       "City": "Dobreni",
     "County": "Giurgiu",
     "Latitude": 44.253387,
     "Longitude": 26.2082339,
@@ -3344,8 +3040,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 304,
-    "City": "Dragodana",
+       "City": "Dragodana",
     "County": "Dambovita",
     "Latitude": 44.7482909,
     "Longitude": 25.3936632,
@@ -3355,8 +3050,7 @@
     "Visits": "weekly"
   },
   {
-    "": 305,
-    "City": "Baia Mare",
+       "City": "Baia Mare",
     "County": "Maramures",
     "Latitude": 47.6567387,
     "Longitude": 23.5849881,
@@ -3366,8 +3060,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 306,
-    "City": "Paclisa",
+       "City": "Paclisa",
     "County": "Hunedoara",
     "Latitude": 45.5630744,
     "Longitude": 22.8801602,
@@ -3377,8 +3070,7 @@
     "Visits": "weekly"
   },
   {
-    "": 307,
-    "City": "Giroc",
+       "City": "Giroc",
     "County": "Timis",
     "Latitude": 45.701755,
     "Longitude": 21.2346449,
@@ -3388,8 +3080,7 @@
     "Visits": "weekly"
   },
   {
-    "": 308,
-    "City": "Recas",
+       "City": "Recas",
     "County": "Timis",
     "Latitude": 45.8011607,
     "Longitude": 21.5119138,
@@ -3399,8 +3090,7 @@
     "Visits": "weekly"
   },
   {
-    "": 309,
-    "City": "Oradea",
+       "City": "Oradea",
     "County": "Bihor",
     "Latitude": 47.0465005,
     "Longitude": 21.9189438,
@@ -3410,8 +3100,7 @@
     "Visits": "weekly"
   },
   {
-    "": 310,
-    "City": "Roman",
+       "City": "Roman",
     "County": "Neamt",
     "Latitude": 46.9333781,
     "Longitude": 26.9265451,
@@ -3421,8 +3110,7 @@
     "Visits": "weekly"
   },
   {
-    "": 311,
-    "City": "Calinesti",
+       "City": "Calinesti",
     "County": "Maramures",
     "Latitude": 47.7836678,
     "Longitude": 23.9693546,
@@ -3432,8 +3120,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 312,
-    "City": "Simeria",
+       "City": "Simeria",
     "County": "Hunedoara",
     "Latitude": 45.8555725,
     "Longitude": 23.0120864,
@@ -3443,8 +3130,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 313,
-    "City": "Topoloveni",
+       "City": "Topoloveni",
     "County": "Arges",
     "Latitude": 44.8105516,
     "Longitude": 25.0770243,
@@ -3454,8 +3140,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 314,
-    "City": "Vulcan",
+       "City": "Vulcan",
     "County": "Brasov",
     "Latitude": 45.6348088,
     "Longitude": 25.4181031,
@@ -3465,8 +3150,7 @@
     "Visits": "weekly"
   },
   {
-    "": 315,
-    "City": "Dridu",
+       "City": "Dridu",
     "County": "Ialomita",
     "Latitude": 44.6869604,
     "Longitude": 26.4611572,
@@ -3476,8 +3160,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 316,
-    "City": "Poiana Ilvei",
+       "City": "Poiana Ilvei",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.3558143,
     "Longitude": 24.7451705,
@@ -3487,8 +3170,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 317,
-    "City": "Simleu Silvaniei",
+       "City": "Simleu Silvaniei",
     "County": "Salaj",
     "Latitude": 47.2260727,
     "Longitude": 22.8037864,
@@ -3498,8 +3180,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 318,
-    "City": "Borsa",
+       "City": "Borsa",
     "County": "Maramures",
     "Latitude": 47.6537683,
     "Longitude": 24.6631517,
@@ -3509,8 +3190,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 319,
-    "City": "Izbiceni",
+       "City": "Izbiceni",
     "County": "Olt",
     "Latitude": 43.8229185,
     "Longitude": 24.6625464,
@@ -3520,8 +3200,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 320,
-    "City": "Sighisoara",
+       "City": "Sighisoara",
     "County": "Mures",
     "Latitude": 46.2197025,
     "Longitude": 24.7963878,
@@ -3531,8 +3210,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 321,
-    "City": "Rabagani",
+       "City": "Rabagani",
     "County": "Bihor",
     "Latitude": 46.74629,
     "Longitude": 22.2452338,
@@ -3542,8 +3220,7 @@
     "Visits": "weekly"
   },
   {
-    "": 322,
-    "City": "Sarata-Monteoru",
+       "City": "Sarata-Monteoru",
     "County": "Buzau",
     "Latitude": 45.1475653,
     "Longitude": 26.6409383,
@@ -3553,8 +3230,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 323,
-    "City": "Vintu de Jos",
+       "City": "Vintu de Jos",
     "County": "Alba",
     "Latitude": 45.9920306,
     "Longitude": 23.4864679,
@@ -3564,8 +3240,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 324,
-    "City": "Toplita",
+       "City": "Toplita",
     "County": "Harghita",
     "Latitude": 46.9260303,
     "Longitude": 25.3534041,
@@ -3575,8 +3250,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 325,
-    "City": "Targoviste",
+       "City": "Targoviste",
     "County": "Dambovita",
     "Latitude": 44.9118218,
     "Longitude": 25.4558274,
@@ -3586,8 +3260,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 326,
-    "City": "Dumbravioara",
+       "City": "Dumbravioara",
     "County": "Mures",
     "Latitude": 46.6381523,
     "Longitude": 24.6367203,
@@ -3597,8 +3270,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 327,
-    "City": "Fieni",
+       "City": "Fieni",
     "County": "Dambovita",
     "Latitude": 45.1279095,
     "Longitude": 25.4152063,
@@ -3608,8 +3280,7 @@
     "Visits": "weekly"
   },
   {
-    "": 328,
-    "City": "Odorheiu Secuiesc",
+       "City": "Odorheiu Secuiesc",
     "County": "Harghita",
     "Latitude": 46.3049996,
     "Longitude": 25.2926479,
@@ -3619,8 +3290,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 329,
-    "City": "Turnu Magurele",
+       "City": "Turnu Magurele",
     "County": "Teleorman",
     "Latitude": 43.7517061,
     "Longitude": 24.8773935,
@@ -3630,8 +3300,7 @@
     "Visits": "weekly"
   },
   {
-    "": 330,
-    "City": "Sarmasu",
+       "City": "Sarmasu",
     "County": "Mures",
     "Latitude": 46.7512385,
     "Longitude": 24.165584,
@@ -3641,8 +3310,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 331,
-    "City": "Cheresig",
+       "City": "Cheresig",
     "County": "Bihor",
     "Latitude": 47.0326903,
     "Longitude": 21.6750289,
@@ -3652,8 +3320,7 @@
     "Visits": "weekly"
   },
   {
-    "": 332,
-    "City": "Filiasi",
+       "City": "Filiasi",
     "County": "Dolj",
     "Latitude": 44.554523,
     "Longitude": 23.5200088,
@@ -3663,8 +3330,7 @@
     "Visits": "weekly"
   },
   {
-    "": 333,
-    "City": "Bozovici",
+       "City": "Bozovici",
     "County": "Caras-Severin",
     "Latitude": 45.0012349,
     "Longitude": 21.9535783,
@@ -3674,8 +3340,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 334,
-    "City": "Busag",
+       "City": "Busag",
     "County": "Maramures",
     "Latitude": 47.659141,
     "Longitude": 23.4237293,
@@ -3685,8 +3350,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 335,
-    "City": "Dridu",
+       "City": "Dridu",
     "County": "Ialomita",
     "Latitude": 44.6869604,
     "Longitude": 26.4611572,
@@ -3696,8 +3360,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 336,
-    "City": "Dorohoi",
+       "City": "Dorohoi",
     "County": "Botosani",
     "Latitude": 47.9549207,
     "Longitude": 26.4012087,
@@ -3707,8 +3370,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 337,
-    "City": "Brazii de Jos",
+       "City": "Brazii de Jos",
     "County": "Prahova",
     "Latitude": 44.8507992,
     "Longitude": 26.0333732,
@@ -3718,8 +3380,7 @@
     "Visits": "weekly"
   },
   {
-    "": 338,
-    "City": "Alesd",
+       "City": "Alesd",
     "County": "Bihor",
     "Latitude": 47.0590191,
     "Longitude": 22.3980649,
@@ -3729,8 +3390,7 @@
     "Visits": "weekly"
   },
   {
-    "": 339,
-    "City": "Simian",
+       "City": "Simian",
     "County": "Mehedinti",
     "Latitude": 44.6323199,
     "Longitude": 22.7515121,
@@ -3740,8 +3400,7 @@
     "Visits": "weekly"
   },
   {
-    "": 340,
-    "City": "Curtea de Arges",
+       "City": "Curtea de Arges",
     "County": "Arges",
     "Latitude": 45.1405966,
     "Longitude": 24.6685182,
@@ -3751,8 +3410,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 341,
-    "City": "Brazii de Jos",
+       "City": "Brazii de Jos",
     "County": "Prahova",
     "Latitude": 44.8507992,
     "Longitude": 26.0333732,
@@ -3762,8 +3420,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 342,
-    "City": "Sfantu Gheorghe",
+       "City": "Sfantu Gheorghe",
     "County": "Covasna",
     "Latitude": 45.8609375,
     "Longitude": 25.7885796,
@@ -3773,8 +3430,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 343,
-    "City": "Targu Jiu",
+       "City": "Targu Jiu",
     "County": "Gorj",
     "Latitude": 45.0314279,
     "Longitude": 23.2689393,
@@ -3784,8 +3440,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 344,
-    "City": "Stefanesti",
+       "City": "Stefanesti",
     "County": "Arges",
     "Latitude": 44.733333,
     "Longitude": 24.6500001,
@@ -3795,8 +3450,7 @@
     "Visits": "weekly"
   },
   {
-    "": 345,
-    "City": "Ciolpani",
+       "City": "Ciolpani",
     "County": "Ilfov",
     "Latitude": 44.72724,
     "Longitude": 26.10957,
@@ -3806,8 +3460,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 346,
-    "City": "Viseu de Sus",
+       "City": "Viseu de Sus",
     "County": "Maramures",
     "Latitude": 47.7150521,
     "Longitude": 24.4396734,
@@ -3817,8 +3470,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 347,
-    "City": "Bals",
+       "City": "Bals",
     "County": "Olt",
     "Latitude": 44.3533537,
     "Longitude": 24.0956725,
@@ -3828,8 +3480,7 @@
     "Visits": "weekly"
   },
   {
-    "": 348,
-    "City": "Beius",
+       "City": "Beius",
     "County": "Bihor",
     "Latitude": 46.6674534,
     "Longitude": 22.3575717,
@@ -3839,8 +3490,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 349,
-    "City": "Hanu Conachi",
+       "City": "Hanu Conachi",
     "County": "Galati",
     "Latitude": 45.5803451,
     "Longitude": 27.6028377,
@@ -3850,8 +3500,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 350,
-    "City": "Azuga",
+       "City": "Azuga",
     "County": "Prahova",
     "Latitude": 45.4450965,
     "Longitude": 25.5700368,
@@ -3861,8 +3510,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 351,
-    "City": "Busteni",
+       "City": "Busteni",
     "County": "Prahova",
     "Latitude": 45.4097148,
     "Longitude": 25.5342236,
@@ -3872,8 +3520,7 @@
     "Visits": "weekly"
   },
   {
-    "": 352,
-    "City": "Mastacan (Borlesti)",
+       "City": "Mastacan (Borlesti)",
     "County": "Neamt",
     "Latitude": 46.7968134,
     "Longitude": 26.4954639,
@@ -3883,8 +3530,7 @@
     "Visits": "weekly"
   },
   {
-    "": 353,
-    "City": "Bradet",
+       "City": "Bradet",
     "County": "Covasna",
     "Latitude": 45.6546838,
     "Longitude": 25.9887106,
@@ -3894,8 +3540,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 354,
-    "City": "Targu Neamt",
+       "City": "Targu Neamt",
     "County": "Neamt",
     "Latitude": 47.2097877,
     "Longitude": 26.3757306,
@@ -3905,8 +3550,7 @@
     "Visits": "weekly"
   },
   {
-    "": 355,
-    "City": "Catetu",
+       "City": "Catetu",
     "County": "Valcea",
     "Latitude": 44.8365671,
     "Longitude": 23.9550864,
@@ -3916,8 +3560,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 356,
-    "City": "Martinis",
+       "City": "Martinis",
     "County": "Harghita",
     "Latitude": 46.2821667,
     "Longitude": 25.4117826,
@@ -3927,8 +3570,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 357,
-    "City": "Sascut",
+       "City": "Sascut",
     "County": "Bacau",
     "Latitude": 46.1960057,
     "Longitude": 27.093757,
@@ -3938,8 +3580,7 @@
     "Visits": "weekly"
   },
   {
-    "": 358,
-    "City": "Unguras",
+       "City": "Unguras",
     "County": "Cluj",
     "Latitude": 47.1081,
     "Longitude": 24.0571,
@@ -3949,8 +3590,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 359,
-    "City": "Topoloveni",
+       "City": "Topoloveni",
     "County": "Arges",
     "Latitude": 44.8105516,
     "Longitude": 25.0770243,
@@ -3960,8 +3600,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 360,
-    "City": "Tulcea",
+       "City": "Tulcea",
     "County": "Tulcea",
     "Latitude": 45.1716165,
     "Longitude": 28.7914439,
@@ -3971,8 +3610,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 361,
-    "City": "Sona",
+       "City": "Sona",
     "County": "Alba",
     "Latitude": 46.2172769,
     "Longitude": 24.0147622,
@@ -3982,8 +3620,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 362,
-    "City": "Gataia",
+       "City": "Gataia",
     "County": "Timis",
     "Latitude": 45.4265209,
     "Longitude": 21.4309592,
@@ -3993,8 +3630,7 @@
     "Visits": "weekly"
   },
   {
-    "": 363,
-    "City": "Cernat",
+       "City": "Cernat",
     "County": "Covasna",
     "Latitude": 45.9570931,
     "Longitude": 26.0311933,
@@ -4004,8 +3640,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 364,
-    "City": "Husi",
+       "City": "Husi",
     "County": "Vaslui",
     "Latitude": 46.6758644,
     "Longitude": 28.05899,
@@ -4015,8 +3650,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 365,
-    "City": "Bozovici",
+       "City": "Bozovici",
     "County": "Caras-Severin",
     "Latitude": 45.0012349,
     "Longitude": 21.9535783,
@@ -4026,8 +3660,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 366,
-    "City": "Marghita",
+       "City": "Marghita",
     "County": "Bihor",
     "Latitude": 47.3479194,
     "Longitude": 22.3397566,
@@ -4037,8 +3670,7 @@
     "Visits": "weekly"
   },
   {
-    "": 367,
-    "City": "Drobeta-Turnu Severin",
+       "City": "Drobeta-Turnu Severin",
     "County": "Mehedinti",
     "Latitude": 44.6369227,
     "Longitude": 22.6597342,
@@ -4048,8 +3680,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 368,
-    "City": "Carta",
+       "City": "Carta",
     "County": "Harghita",
     "Latitude": 46.5305691,
     "Longitude": 25.7615353,
@@ -4059,8 +3690,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 369,
-    "City": "Calinesti",
+       "City": "Calinesti",
     "County": "Maramures",
     "Latitude": 47.7836678,
     "Longitude": 23.9693546,
@@ -4070,8 +3700,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 370,
-    "City": "Berevoesti",
+       "City": "Berevoesti",
     "County": "Arges",
     "Latitude": 45.2267717,
     "Longitude": 24.9362258,
@@ -4081,8 +3710,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 371,
-    "City": "Geamana",
+       "City": "Geamana",
     "County": "Arges",
     "Latitude": 44.828632,
     "Longitude": 24.8934015,
@@ -4092,8 +3720,7 @@
     "Visits": "weekly"
   },
   {
-    "": 372,
-    "City": "Motru",
+       "City": "Motru",
     "County": "Gorj",
     "Latitude": 44.8027376,
     "Longitude": 22.9728558,
@@ -4103,8 +3730,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 373,
-    "City": "Galati",
+       "City": "Galati",
     "County": "Galati",
     "Latitude": 45.4353208,
     "Longitude": 28.0079945,
@@ -4114,8 +3740,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 374,
-    "City": "Filiasi",
+       "City": "Filiasi",
     "County": "Dolj",
     "Latitude": 44.554523,
     "Longitude": 23.5200088,
@@ -4125,8 +3750,7 @@
     "Visits": "weekly"
   },
   {
-    "": 375,
-    "City": "Sascut",
+       "City": "Sascut",
     "County": "Bacau",
     "Latitude": 46.1960057,
     "Longitude": 27.093757,
@@ -4136,8 +3760,7 @@
     "Visits": "weekly"
   },
   {
-    "": 376,
-    "City": "Rus",
+       "City": "Rus",
     "County": "Maramures",
     "Latitude": 47.6127272,
     "Longitude": 23.673581,
@@ -4147,8 +3770,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 377,
-    "City": "Roman",
+       "City": "Roman",
     "County": "Neamt",
     "Latitude": 46.9333781,
     "Longitude": 26.9265451,
@@ -4158,8 +3780,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 378,
-    "City": "Beclean",
+       "City": "Beclean",
     "County": "Bistrita-Nasaud",
     "Latitude": 47.1800681,
     "Longitude": 24.1704031,
@@ -4169,8 +3790,7 @@
     "Visits": "weekly"
   },
   {
-    "": 379,
-    "City": "Cotenesti",
+       "City": "Cotenesti",
     "County": "Arges",
     "Latitude": 45.23358,
     "Longitude": 25.1844379,
@@ -4180,8 +3800,7 @@
     "Visits": "weekly"
   },
   {
-    "": 380,
-    "City": "Cisnadie",
+       "City": "Cisnadie",
     "County": "Sibiu",
     "Latitude": 45.7139464,
     "Longitude": 24.1548523,
@@ -4191,8 +3810,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 381,
-    "City": "Ineu",
+       "City": "Ineu",
     "County": "Arad",
     "Latitude": 46.4310262,
     "Longitude": 21.840539,
@@ -4202,8 +3820,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 382,
-    "City": "Targu Jiu",
+       "City": "Targu Jiu",
     "County": "Gorj",
     "Latitude": 45.0314279,
     "Longitude": 23.2689393,
@@ -4213,8 +3830,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 383,
-    "City": "Rovinari",
+       "City": "Rovinari",
     "County": "Gorj",
     "Latitude": 44.9000027,
     "Longitude": 23.1543463,
@@ -4224,8 +3840,7 @@
     "Visits": "weekly"
   },
   {
-    "": 384,
-    "City": "Roman",
+       "City": "Roman",
     "County": "Neamt",
     "Latitude": 46.9333781,
     "Longitude": 26.9265451,
@@ -4235,8 +3850,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 385,
-    "City": "Bixad",
+       "City": "Bixad",
     "County": "Satu Mare",
     "Latitude": 47.9497957,
     "Longitude": 23.3875848,
@@ -4246,8 +3860,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 386,
-    "City": "Doanca",
+       "City": "Doanca",
     "County": "Olt",
     "Latitude": 43.8465727,
     "Longitude": 24.6487677,
@@ -4257,8 +3870,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 387,
-    "City": "Daia Romana",
+       "City": "Daia Romana",
     "County": "Alba",
     "Latitude": 46.006639,
     "Longitude": 23.6675773,
@@ -4268,8 +3880,7 @@
     "Visits": "weekly"
   },
   {
-    "": 388,
-    "City": "Calaparu",
+       "City": "Calaparu",
     "County": "Gorj",
     "Latitude": 44.6828706,
     "Longitude": 23.324964,
@@ -4279,8 +3890,7 @@
     "Visits": "weekly"
   },
   {
-    "": 389,
-    "City": "Fieni",
+       "City": "Fieni",
     "County": "Dambovita",
     "Latitude": 45.1279095,
     "Longitude": 25.4152063,
@@ -4290,8 +3900,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 390,
-    "City": "Selimbar",
+       "City": "Selimbar",
     "County": "Sibiu",
     "Latitude": 45.7684434,
     "Longitude": 24.1804581,
@@ -4301,8 +3910,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 391,
-    "City": "Slatina",
+       "City": "Slatina",
     "County": "Olt",
     "Latitude": 44.4301677,
     "Longitude": 24.3716904,
@@ -4312,8 +3920,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 392,
-    "City": "Sannicolau Mare",
+       "City": "Sannicolau Mare",
     "County": "Timis",
     "Latitude": 46.0593374,
     "Longitude": 20.622454,
@@ -4323,8 +3930,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 393,
-    "City": "Racari",
+       "City": "Racari",
     "County": "Dambovita",
     "Latitude": 44.6240121,
     "Longitude": 25.7428095,
@@ -4334,8 +3940,7 @@
     "Visits": "weekly"
   },
   {
-    "": 394,
-    "City": "Campia Turzii",
+       "City": "Campia Turzii",
     "County": "Cluj",
     "Latitude": 46.5586485,
     "Longitude": 23.8706676,
@@ -4345,8 +3950,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 395,
-    "City": "Seica Mare",
+       "City": "Seica Mare",
     "County": "Sibiu",
     "Latitude": 46.0239949,
     "Longitude": 24.1582482,
@@ -4356,8 +3960,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 396,
-    "City": "Targoviste",
+       "City": "Targoviste",
     "County": "Dambovita",
     "Latitude": 44.9118218,
     "Longitude": 25.4558274,
@@ -4367,8 +3970,7 @@
     "Visits": "twice-a-week"
   },
   {
-    "": 397,
-    "City": "Simleu Silvaniei",
+       "City": "Simleu Silvaniei",
     "County": "Salaj",
     "Latitude": 47.2260727,
     "Longitude": 22.8037864,
@@ -4378,8 +3980,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 398,
-    "City": "Bibesti",
+       "City": "Bibesti",
     "County": "Gorj",
     "Latitude": 44.7815366,
     "Longitude": 23.4907078,
@@ -4389,8 +3990,7 @@
     "Visits": "bi-weekly"
   },
   {
-    "": 399,
-    "City": "Horia",
+       "City": "Horia",
     "County": "Neamt",
     "Latitude": 46.90631,
     "Longitude": 26.9200561,
