@@ -28,43 +28,32 @@ export default function Map({ currentLocation, locations=[] }: Props ) {
   // const map = useMap();
   const [markers, setMarkers] = useState<MarkerType[]>([currentLocation]);
   const [routes, setRoutes] = useState<[[number, number]][]>([]);
-  const mapRef = useRef<L.Map>(null);
 
   useEffect(() => {
     setMarkers([...markers, currentLocation]);
     setRoutes([...routes, [currentLocation.latitude, currentLocation.longitude]]);
   }, [currentLocation]);
   
-  useEffect(() => {
-    if (mapRef.current && routes.length > 1) {
-      (window as any).L.Routing.control({
-        waypoints: routes.map((route) => (window as any).L.latLng(route[0], route[1])),
-        routeWhileDragging: true,
-      }).addTo(mapRef.current!);
-    }
-  }, [routes]);
-
-  const addMarker = useCallback(
-    (event: L.LeafletMouseEvent) => {
-      const { lat, lng } = event.latlng;
-      const newMarker: MarkerType = {
-        latitude: lat,
-        longitude: lng,
-        display_name: `Custom Marker (${lat.toFixed(2)}, ${lng.toFixed(2)})`,
-      };
-      setMarkers([...markers, newMarker]);
-    },
-    [markers]
-  );
 
   function MapComponent({markers}: {markers: MarkerType[]}) {
     const map = useMap();
     
     // Fly to the current location when the map is ready
+
+    if (markers.length > 1) {
+
     map.flyTo(
-      [currentLocation.latitude, currentLocation.longitude],
+      // [currentLocation.latitude, currentLocation.longitude],
+
+      [markers[markers.length - 1].latitude, markers[markers.length - 1].longitude],
       10
     );
+    } else {
+      map.flyTo(
+        [currentLocation.latitude, currentLocation.longitude],
+        10
+      );
+    }
 
     // console.log(map.latLngToLayerPoint([46.771210, 23.623634]))
     if (markers.length === 0) {
@@ -115,10 +104,11 @@ export default function Map({ currentLocation, locations=[] }: Props ) {
         <Popup>{currentLocation.display_name}</Popup>
       </Marker>
       {
-        locations.map((marker: MarkerType)=>{
+        locations.map((marker: MarkerType, index:number)=>{
           console.log({marker})
           return (
-            <Marker position={[marker.latitude, marker.longitude]}>
+
+            <Marker key={`${marker.display_name}-${index}`} position={[marker.latitude, marker.longitude]}>
               <Popup>{marker.display_name}</Popup>
             </Marker>
           );

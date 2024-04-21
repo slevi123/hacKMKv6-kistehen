@@ -1,7 +1,7 @@
 import { Box, Grid, useMediaQuery } from "@mui/material";
 import { RouteList } from "../layout/RoutesList";
 import { Sidebar } from "../layout/Sidebar";
-import { CSSProperties, useEffect, useMemo, useState } from "react";
+import { CSSProperties, useCallback, useEffect, useMemo, useState } from "react";
 import { useCurrentLocation } from "../hooks/localton";
 import Map, { MarkerType } from "../components/Map";
 import { centerStyle } from '../layout/layout';
@@ -53,40 +53,7 @@ export function AgentSchedulePlanner() {
     const matches = useMediaQuery('(min-width:800px)');
     const [selectedLocations, setSelectedLocations] = useState<MarkerType[]>([]);
 
-    // useEffect(() => {
-
-
-    //     // from selectedLocations order to mini the distance between stops
-    //     // const distanceMatrix = Array(selectedLocations.length).fill(0).map(() => Array(selectedLocations.length).fill(0));
-    //     // const priorityQueue = new PriorityQueue<QueueElement>({
-    //     //     comparator: (a, b) => a.distance - b.distance,
-    //     // });
-        
-    //     // for (let i = 0; i < selectedLocations.length; i++) {
-    //     //     for (let j = 0; j < selectedLocations.length; j++) {
-    //     //         if (i === j) {
-    //     //             distanceMatrix[i][j] = 0;
-    //     //             continue;
-    //     //         }
-    //     //         const {latitude: lat1, longitude: lon1} = selectedLocations[i];
-    //     //         const {latitude: lat2, longitude: lon2} = selectedLocations[j];
-    //     //         const distance = Math.sqrt((lat1 - lat2) ** 2 + (lon1 - lon2) ** 2);
-    //     //         distanceMatrix[i][j] = distance;
-                
-    //     //         priorityQueue.queue({distance, i: selectedLocations[i], j: selectedLocations[j]});
-    //     //     }
-    //     // }
-    //     const shortestPath = shortestPathWithOrder(selectedLocations);
-
-    //     console.log("Shortest Path", shortestPath);
-        
-    //     // to array
-    //     // return priorityQueue.toArray().map((element) => {
-
-        
-        
-
-    // }, []);
+  
 
     const clienst = getClients();
     // console.log("Clients", clienst);
