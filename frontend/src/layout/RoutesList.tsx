@@ -53,6 +53,10 @@ export function RouteList() {
         {
             label: "Client Detail",
             route: "/clientDetails/:id"
+        },
+        {
+            label: "All Clients",
+            route: "/clients"
         }
     ]);
 

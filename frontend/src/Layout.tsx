@@ -8,6 +8,7 @@ import { Footer } from "./layout/Footer";
 import ClientDetail  from "./pages/ClientDetail";
 import { SideBarContext, SideBarContextType } from "./context/context.sidebar";
 import { AgentSchedulePlanner } from "./pages/Agent.Schadule-Planner";
+import AllClients from "./pages/AllClients";
 
 const panelStyle: CSSProperties = {
     // backgroundColor: "blue",
@@ -110,6 +111,7 @@ export function Layout() {
                                     <Route path="/agent/:id/schedulePlanner" element={<AgentSchedulePlanner />} />
                                     <Route path="/about" element={<About/>} />
                                     <Route path="/clientDetails/:id" element={<ClientDetail/>}/>
+                                    <Route path="/clients" element={<AllClients />}/>
                                 </Routes>
                             </HashRouter>
                             </Box>
