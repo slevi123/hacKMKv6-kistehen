@@ -12,6 +12,8 @@ import { Animation } from "../layout/Animation";
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 import { getClients } from "../api/clients.api";
 import { shortestPathWithOrder } from "../components/path.algorithm";
+import { AssignModal } from "../components/AssignModal";
+import { time } from "console";
 
 //  -----------------------
 
@@ -31,10 +33,6 @@ const bodyStyle:CSSProperties = {
     height: "100%",
     minHeight: "500px",
     borderRadius: "0.2em",
-    // width: "calc(100% - 4em)",
-    // width: "100%",
-    // boxShadow: "0 0 0.2em rgba(0,0,0,0.5)",
-    // add blur effect
     backdropFilter: "blur(10px)",
     backgroundColor: "rgba(255,255,255,0.6)",
     // backgroundColor: "red",
@@ -47,21 +45,29 @@ const bodyStyle:CSSProperties = {
     // make it pop
 }
 
+interface DatePickerModalType {
+    date: Date;
+    startTime: Date;
+    endTime: Date;
+}
+
 export function AgentSchedulePlanner() {
 
     const currentLocation = useCurrentLocation();
     const matches = useMediaQuery('(min-width:800px)');
     const [selectedLocations, setSelectedLocations] = useState<MarkerType[]>([]);
 
-  
+    const [savedDates, setSavedDates] = useState<DatePickerModalType[]>([]);
+    
+    const addToSaved = useCallback((date: Date, startTime: Date, endTime: Date) => {
+        setSavedDates([...savedDates, {date, startTime, endTime}]);
+    }, [savedDates]);
 
     const clienst = getClients();
-    // console.log("Clients", clienst);
     
     const mobileStyle = useMemo(() => {
         if (matches) {
             return 6;
-
         }
         else {
             return 12;
@@ -129,20 +135,32 @@ export function AgentSchedulePlanner() {
                 <Grid item xs={mobileStyle} sx={{...centerStyle, width: "100%"}}>
                         <Calendar
                         localizer={localizer}
+                        // events={
+                        //     [
+                        //         {
+                        //             title: 'All Day Event very long title',
+                        //             allDay: true,
+                        //             start: new Date(2024, 4, 21),
+                        //             end: new Date(2021, 4, 22),
+                        //         },
+                        //         {
+                        //             title: 'Long Event',
+                        //             start: new Date(2024, 4, 7),
+                        //             end: new Date(2021, 4, 10),
+                        //         }
+                        //     ]
+                        // }
                         events={
-                            [
-                                {
-                                    title: 'All Day Event very long title',
-                                    allDay: true,
-                                    start: new Date(2024, 4, 21),
-                                    end: new Date(2021, 4, 22),
-                                },
-                                {
-                                    title: 'Long Event',
-                                    start: new Date(2024, 4, 7),
-                                    end: new Date(2021, 4, 10),
+                            savedDates.map((date, index) => {
+                                return {
+                                    title: `Visit ${index + 1}`,
+                                    start: date.startTime,
+                                    end: date.endTime,
+                                    AllDay: true
+
+
                                 }
-                            ]
+                            })
                         }
                         startAccessor="start"
                         endAccessor="end"
@@ -153,7 +171,11 @@ export function AgentSchedulePlanner() {
                 <Grid item xs={mobileStyle}>
                     <Map currentLocation={currentLocation} locations={selectedLocations}/>
                 </Grid>
-
+                
+                <Grid item xs={12} sx={centerStyle}>
+                    
+                        <AssignModal locations={undefined} setDate={addToSaved} />
+                </Grid>
 
                 <Grid item xs={12} style={{...centerStyle,width: "80%"}}>
 

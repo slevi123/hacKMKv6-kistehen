@@ -59,22 +59,12 @@ export default function Map({ currentLocation, locations=[] }: Props ) {
     if (markers.length === 0) {
       return null;
     }
+    
     console.log({markers});
     
-    // map delete all controls
-    // map.eachLayer((layer) => {
-    //   if (!layer._url) {
-    //     map.removeLayer(layer);
-    //   }
-    // });
 
     let control = L.Routing.control({
-      // waypoints: [
-      //     L.latLng(46.0732725, 23.5804886),
-      //     L.latLng(43.6578297, 25.360575)
-      // ],
       waypoints: markers.map((marker: MarkerType) => L.latLng(marker.latitude, marker.longitude)),
-      // waypoints: routes.map((route: [number, number]) => L.latLng(route[0], route[1])),
       show: false
       
   }).addTo(map);

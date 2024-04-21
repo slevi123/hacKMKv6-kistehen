@@ -122,11 +122,6 @@ export function Layout() {
                 </Grid>
             </Grid>
 
-            <Grid item xs={12}>
-                <Box sx={footterStyle}>
-                    <Footer/>
-                </Box>
-            </Grid>
 
         </Grid>
         </SideBarContext.Provider>
