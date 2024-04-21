@@ -30,3 +30,7 @@
     border: none;
 
 }
+
+.leaflet-routing-alt {
+    display: none;
+}

@@ -13,16 +13,17 @@ type currentLocation = {
 
 type Props = {
     currentLocation: currentLocation;
+    locations?: MarkerType[];
 };
 
 
-interface MarkerType {
+export interface MarkerType {
   latitude: number;
   longitude: number;
   display_name: string;
 }
 
-export default function Map({ currentLocation }: Props ) {
+export default function Map({ currentLocation, locations=[] }: Props ) {
 
   // const map = useMap();
   const [markers, setMarkers] = useState<MarkerType[]>([currentLocation]);
@@ -56,7 +57,7 @@ export default function Map({ currentLocation }: Props ) {
     [markers]
   );
 
-  function MapComponent() {
+  function MapComponent({markers}: {markers: MarkerType[]}) {
     const map = useMap();
     
     // Fly to the current location when the map is ready
@@ -65,18 +66,30 @@ export default function Map({ currentLocation }: Props ) {
       10
     );
 
-    console.log(map.latLngToLayerPoint([46.771210, 23.623634]))
+    // console.log(map.latLngToLayerPoint([46.771210, 23.623634]))
+    if (markers.length === 0) {
+      return null;
+    }
+    console.log({markers});
+    
+    // map delete all controls
+    // map.eachLayer((layer) => {
+    //   if (!layer._url) {
+    //     map.removeLayer(layer);
+    //   }
+    // });
 
     let control = L.Routing.control({
-      waypoints: [
-          L.latLng(57.74, 11.94),
-          L.latLng(57.6792, 11.949)
-      ],
+      // waypoints: [
+      //     L.latLng(46.0732725, 23.5804886),
+      //     L.latLng(43.6578297, 25.360575)
+      // ],
+      waypoints: markers.map((marker: MarkerType) => L.latLng(marker.latitude, marker.longitude)),
+      // waypoints: routes.map((route: [number, number]) => L.latLng(route[0], route[1])),
       show: false
+      
   }).addTo(map);
-
-    control.options.instructionsControl = false;
-
+    
     return null; // Render nothing within the MapComponent
   }
 
@@ -85,12 +98,15 @@ export default function Map({ currentLocation }: Props ) {
       center={[currentLocation?.latitude, currentLocation?.longitude]}   
       zoom={150}
       scrollWheelZoom={true}
-      style={{ width: "30vw", height: "60vh", borderRadius: "0.2em", zIndex: 1}}
+      style={{ width: "100%", height: "60vh", borderRadius: "0.2em", zIndex: 1}}
       // whenReady={(mapInstance) => {
       //   mapRef.current = mapInstance;
       // }}
+      whenReady={()=>{
+        
+      }}
     >
-      <MapComponent />
+      <MapComponent markers={locations} />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -99,7 +115,7 @@ export default function Map({ currentLocation }: Props ) {
         <Popup>{currentLocation.display_name}</Popup>
       </Marker>
       {
-        markers.map((marker: MarkerType)=>{
+        locations.map((marker: MarkerType)=>{
           console.log({marker})
           return (
             <Marker position={[marker.latitude, marker.longitude]}>
@@ -108,7 +124,7 @@ export default function Map({ currentLocation }: Props ) {
           );
         })
       }
-      <Polyline pathOptions={{ color: 'blue' }} positions={routes} />
+      {/* <Polyline pathOptions={{ color: 'blue' }} positions={routes} /> */}
     </MapContainer>
   );
 }
