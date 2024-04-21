@@ -29,9 +29,18 @@ export function Home() {
                 <RouteList />
             </Sidebar>
 
-            <h1>Home</h1>
+            {/* <h1>Home</h1>
             <Map currentLocation={currentLocation}/>
-            <Link to="/about">About</Link>
+            <Link to="/about">About</Link> */}
+
+            <Box sx={{
+                width: '100%',
+                height: '100%',
+                backdropFilter: "blur(100px)",
+                }} component={'img'} src='/hero.jpeg'>
+
+            </Box>
+
         </Box>
        
     );

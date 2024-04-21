@@ -65,11 +65,11 @@ export function Navbar() {
         </Grid>
 
         <Grid item xs={8} sx={centerStyle} >
-            <h1>Navbar</h1>
+            <h1>BEEZZ</h1>
         </Grid>
 
         <Grid item xs={2} sx={centerStyle} onClick={toggleRightSidebar} >
-            <Box sx={navbarItemStyle} component={'img'} src="/option_lines.png" />
+            <Box sx={{...navbarItemStyle, borderRadius: "50%"}} component={'img'} src="/profile.png" />
         </Grid>
 
         </Grid>
