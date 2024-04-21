@@ -50,7 +50,7 @@ public class ClientController {
 
     @DeleteMapping("/{clientId}")
     public boolean deleteClient(@PathVariable("clientId") String id) {
-        return true;
+        return false;
     }
 
     @PutMapping("/{clientId}")

@@ -28,10 +28,10 @@ public class Client extends BaseEntity {
     private String county;
 
     @Column(nullable = false)
-    private Double latitude;
+    private String latitude;
 
     @Column(nullable = false)
-    private Double longitude;
+    private String longitude;
 
     @Column(nullable = false)
     private Integer sold;

@@ -9,4 +9,7 @@ public class ClientShortDto {
     private String email;
     private String city;
     private String county;
+    private String longitude;
+    private String latitude;
+
 }

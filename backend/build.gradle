@@ -38,4 +38,10 @@ dependencies {
 
     implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.3.Final'
     annotationProcessor group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.3.Final'
+
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.9'
+
+    // https://mvnrepository.com/artifact/org.kohsuke/wordnet-random-name
+    implementation group: 'org.kohsuke', name: 'wordnet-random-name', version: '1.5'
+
 }
