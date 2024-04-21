@@ -12,7 +12,7 @@ public class Feedback extends BaseEntity {
     @Column(nullable = false)
     private String feedback;
 
-    @ManyToOne(optional = false)
+    @ManyToOne
     @JoinColumn(name = "agent_clients_id")
     private AgentClient agentClient;
 }
