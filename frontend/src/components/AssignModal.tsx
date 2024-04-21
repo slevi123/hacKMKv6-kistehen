@@ -22,11 +22,13 @@ const floatingStyle:CSSProperties = {
 };
 
 interface AssignModalProps {
-    setDate: (date: Date, startTime: Date, endTime: Date) => void;
+
+    setFinalDate: (startDate: Date, endDate: Date) => void;
+   
 }
 
 
-export function AssignModal({locations, setDate}) {
+export function AssignModal({setFinalDate}:AssignModalProps) {
 
     const [open, setOpen] = useState(false);
     const [selectedDate, setSelectedDate] = useState(dayjs());
@@ -38,12 +40,20 @@ export function AssignModal({locations, setDate}) {
     }, [open]);
 
     const saveAndExit = useCallback(() => {
-        setDate(selectedDate.toDate(), startTime.toDate(), endTime.toDate());
+        // setDate(selectedDate.toDate(), startTime.toDate(), endTime.toDate());
         console.log("Save and exit", selectedDate.toDate(), startTime.toDate(), endTime.toDate());
         
+        const newSelectedDate = selectedDate;
+        newSelectedDate.hour(startTime.hour());
+        newSelectedDate.minute(startTime.minute());
+
+        const newEndTime = selectedDate;
+        newEndTime.hour(endTime.hour());
+        newEndTime.minute(endTime.minute());
+        setFinalDate(newSelectedDate.toDate(), newEndTime.toDate());
         setOpen(false);
         
-    }, [setDate, selectedDate, startTime, endTime]);
+    }, [setFinalDate, selectedDate, startTime, endTime]);
 
 
     if (!open) {
@@ -83,7 +93,6 @@ export function AssignModal({locations, setDate}) {
                         value={selectedDate}
                         onChange={(date) => {
                             setSelectedDate(date);
-                            setDate(date);
                         }}
                      defaultValue={null}
                      />

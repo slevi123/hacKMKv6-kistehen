@@ -46,7 +46,6 @@ const bodyStyle:CSSProperties = {
 }
 
 interface DatePickerModalType {
-    date: Date;
     startTime: Date;
     endTime: Date;
 }
@@ -59,8 +58,8 @@ export function AgentSchedulePlanner() {
 
     const [savedDates, setSavedDates] = useState<DatePickerModalType[]>([]);
     
-    const addToSaved = useCallback((date: Date, startTime: Date, endTime: Date) => {
-        setSavedDates([...savedDates, {date, startTime, endTime}]);
+    const addToSaved = useCallback((startTime: Date, endTime: Date) => {
+        setSavedDates([...savedDates, {startTime, endTime}]);
     }, [savedDates]);
 
     const clienst = getClients();
@@ -156,9 +155,7 @@ export function AgentSchedulePlanner() {
                                     title: `Visit ${index + 1}`,
                                     start: date.startTime,
                                     end: date.endTime,
-                                    AllDay: true
-
-
+                                    AllDay: false
                                 }
                             })
                         }
@@ -174,7 +171,7 @@ export function AgentSchedulePlanner() {
                 
                 <Grid item xs={12} sx={centerStyle}>
                     
-                        <AssignModal locations={undefined} setDate={addToSaved} />
+                        <AssignModal setFinalDate={addToSaved} />
                 </Grid>
 
                 <Grid item xs={12} style={{...centerStyle,width: "80%"}}>
