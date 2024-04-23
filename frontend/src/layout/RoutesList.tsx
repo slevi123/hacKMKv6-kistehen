@@ -42,10 +42,10 @@ export function RouteList() {
       label: "Agent Schedule planner",
       route: "/agent/1/schedulePlanner",
     },
-    {
-      label: "Client Detail",
-      route: "/clientDetails/:id",
-    },
+    // {
+    //   label: "Client Detail",
+    //   route: "/clientDetails/:id",
+    // },
     {
       label: "All Clients",
       route: "/clients",
